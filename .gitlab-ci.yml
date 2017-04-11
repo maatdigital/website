@@ -1,0 +1,85 @@
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/middleman
+image: ruby:2.3
+
+variables:
+  S3_BUCKET_NAME: "website-maat-digital"
+  URL_REVIEW: "sunkissed.gitlab.io/maat-digital"
+  URL_STAGING: "sunkissed.gitlab.io/maat-digital"
+  URL_PRODUCTION: "maat-digital.sites.grp.one"
+  
+stages:
+  - test
+  - build
+  - deploy
+  
+cache:
+  paths:
+  - vendor
+  - public
+  
+test:
+  stage: test
+  script:
+  - apt-get update -yqqq
+  - apt-get install -y nodejs
+  - bundle install --path vendor
+  - bundle exec middleman build --build-dir=public
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - public
+  except:
+    - master
+    
+build:
+  stage: build
+  script:
+  - apt-get update -yqqq
+  - apt-get install -y nodejs
+  - bundle install --path vendor
+  - bundle exec middleman build --build-dir=public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+  
+# review:
+#   stage: deploy
+#   script:
+#     - echo "Deploy a review app"
+#   environment:
+#     name: review/$CI_BUILD_REF_NAME
+#     url: "https://$URL_REVIEW"
+#   only:
+#     - branches
+#   except:
+#     - master
+
+pages:
+  stage: deploy
+  script:
+    - echo "Deploy to staging server"
+  artifacts:
+    paths:
+    - public
+  environment:
+    name: staging
+    url: "https://$URL_STAGING"
+    
+production:
+  stage: deploy
+  image: python:latest
+  script:
+  - apt-get update -yqqq
+  - pip install awscli
+  - echo $AWS_DEFAULT_REGION
+  - aws s3 sync public s3://$S3_BUCKET_NAME/ --acl public-read
+  environment:
+    name: production
+    url: "https://$URL_PRODUCTION"
+  when: manual
+  only:
+  - master
+  
