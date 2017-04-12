@@ -1,16 +1,28 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
-  </head>
-  <body>
-    <%= yield %>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <%= tag :meta, :name => "description",
+    :content => current_page.data.abstract || data.site.meta.description %>
+  <%= tag :meta, :name => "keywords",
+    :content => current_page.data.keywords ? current_page.data.keywords.join(', ') : data.site.meta.keywords %>
+  <%= tag :meta, :name => "author",
+    :content => data.site.meta.author %>
+
+  <%= content_tag :title, current_page.data.title || data.site.title %>
+
+  <%= stylesheet_link_tag :site %>
+</head>
+
+<body>
+  <%= partial "includes/header" %>
+  <%= yield %>
+  <%= partial "includes/footer" %>
+
+  <%= javascript_include_tag :site %>
+</body>
 </html>
