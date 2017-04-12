@@ -1,0 +1,16 @@
+{
+  "title": "MAAT - pure digital is the new analog",
+  "meta": {
+    "author": "MAAT digital",
+    "description": "MAAT - pure digital is the new analog",
+    "keywords": "MAAT, digital, audio, mastering, professionals, music"
+  },
+  "api": {
+    "avangate": {
+      "merchant_code": "MAATINCM",
+      "secret_key": "lbW8npTfnH4="
+    },
+    "google": "",
+    "analytics": ""
+  }
+}
