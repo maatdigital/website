@@ -24,5 +24,14 @@
   <%= partial "includes/footer" %>
 
   <%= javascript_include_tag :site %>
+  <script>
+    // When DOM is ready, initialize app
+    $(document).ready(function(){
+      App.init({
+        "VENDOR_CODE": "<%= data.site.api.avangate.merchant_code %>",
+        "SECRET_KEY": "<%= data.site.api.avangate.secret_key %>" // this looks like a bad idea!
+      });
+    });
+  </script>
 </body>
 </html>
