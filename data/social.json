@@ -1,0 +1,27 @@
+{
+  "facebook": {
+    "url": "https://www.facebook.com/<my_account>",
+    "icon": "fa-facebook",
+    "title": "Facebook"
+  },
+  "google-plus": {
+    "url": "https://plus.google.com/<my_account>",
+    "icon": "fa-google-plus",
+    "title": "Google Plus"
+  },
+  "youtube": {
+    "url": "http://youtube.com/<my_account>",
+    "icon": "fa-linkedin",
+    "title": "Youtube"
+  },
+  "vimeo": {
+    "url": "https://vimeo.com/<my_account>",
+    "icon": "fa-vimeo-square",
+    "title": "Vimeo"
+  },
+  "twitter": {
+    "url": "https://twitter.com/<my_account>",
+    "icon": "fa-twitter",
+    "title": "Twitter"
+  }
+}
