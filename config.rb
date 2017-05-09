@@ -16,12 +16,16 @@ end
 # https://middlemanapp.com/basics/layouts/
 
 # Per-page layout changes
-page '/*.xml', layout: false, :directory_index => false
-page '/*.json', layout: false, :directory_index => false
-page '/*.txt', layout: false, :directory_index => false
+page '/*.xml', layout: false, directory_index: false
+page '/*.json', layout: false, directory_index: false
+page '/*.txt', layout: false, directory_index: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
+
+# Custom pages
+page '/404', directory_index: false
+page '/login', directory_index: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -36,8 +40,8 @@ page '/*.txt', layout: false, :directory_index => false
 
 # General configuration
 # config[:url_root] = '//maat-digital.sites.grp.one'
-config[:js_dir] = 'assets/javascript'
-config[:css_dir] = 'assets/styles'
+config[:js_dir] = 'assets/js'
+config[:css_dir] = 'assets/css'
 config[:fonts_dir] = 'assets/fonts'
 config[:images_dir] = 'assets/images'
 config[:layouts_dir] = 'layouts'
