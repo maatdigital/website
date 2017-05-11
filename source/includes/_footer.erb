@@ -44,12 +44,12 @@
         </ul> -->
 
         <h4>Subscribe to newsletter</h4>
-        <form class="signup-form navbar-form margin-b-20" action="//digital.us15.list-manage.com/subscribe/post?u=be12874ac5a63f13fd4db62cf&amp;id=a3494c99a0" target="_blank" method="POST" novalidate>
+        <form class="signup-form navbar-form margin-b-20" action="<%= data.newsletter.url %>" target="_blank" method="POST" novalidate>
           <div class="form-group">
             <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
           </div>
           <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_be12874ac5a63f13fd4db62cf_a3494c99a0" tabindex="-1" value="">
+            <input type="text" name="<%= data.newsletter.hidden %>" tabindex="-1" value="">
           </div>
           <button type="submit" class="btn btn-cta btn-primary btn-lg">Subscribe</button>
         </form>
