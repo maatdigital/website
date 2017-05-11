@@ -101,5 +101,44 @@ $(function () {
             }
         });
     });
+
+    $("form#maat-contact button").click(function(event){
+
+        // Fetch data from input fields.
+        var js_name = $("#name").val();
+        var js_email = $("#email").val();
+        var js_phone = $("#phone").val();
+        var js_message = $("#message").val();
+
+        event.preventDefault();
+
+        var data = {
+          'name': js_name,
+          'email': js_email,
+          'phone': js_phone,
+          'message': js_message,
+          'identity': <%= "'#{data.contact.identity}'" %>,
+          'recipient': <%= "'#{data.contact.recipient}'" %>,
+        };
+
+        jQuery.ajax({
+          type: 'POST',
+          url: <%= "'#{data.contact.url}'" %>,
+          dataType: 'json',
+          contentType: 'application/json',
+          data: JSON.stringify(data),
+          success: function (response) {
+            // clear form and show a success message
+            window.location.href = "../";
+          },
+          error: function (xhr, ajaxOptions, thrownError) {
+            // show an error message
+            alert(thrownError);
+          }
+        });
+
+        return false;
+
+    });
 });
 
