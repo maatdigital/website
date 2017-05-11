@@ -9,22 +9,26 @@ image: "bg2.jpg"
     <div class="col-lg-6 col-md-7 margin-b-40">
       <h3 class="margin-b-30">Feel free to contact us!</h3>
 
-      <form method="post" action="#" class="saas-contact">
+      <form id="maat-contact" method="POST" class="saas-contact">
         <div class="row">
           <div class="col-sm-12">
             <div class="row">
               <div class="col-sm-12 margin-b-20">
-                <input type="text" name="name" class="form-control"
+                <input type="text" id="name" class="form-control"
                     placeholder="Full Name...." />
               </div>
               <div class="col-sm-12 margin-b-20">
-                <input type="text" name="email" class="form-control"
+                <input type="text" id="email" class="form-control"
                     placeholder="Email Address...." />
+              </div>
+              <div class="col-sm-12 margin-b-20">
+                <input type="text" id="phone" class="form-control"
+                    placeholder="Phone Number...." />
               </div>
             </div>
           </div>
           <div class="col-sm-12 margin-b-20">
-            <textarea name="message" class="form-control" rows="5"
+            <textarea id="message" class="form-control" rows="5"
                 placeholder="Message...."></textarea>
           </div>
         </div>
@@ -35,7 +39,7 @@ image: "bg2.jpg"
         </div>
         <div class="row">
           <div class="col-sm-12 text-right">
-            <button type="submit" name="submit"
+            <button type="button"
                 class="btn btn-primary btn-rounded">send message</button>
           </div>
         </div>
