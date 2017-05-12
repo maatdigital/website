@@ -43,6 +43,8 @@ build:
   artifacts:
     paths:
     - public
+  dependencies:
+    - test
   only:
   - master
   
@@ -65,6 +67,8 @@ pages:
   artifacts:
     paths:
     - public
+  dependencies:
+    - build
   environment:
     name: staging
     url: "https://$URL_STAGING"
@@ -77,6 +81,8 @@ production:
   - pip install awscli
   - echo $AWS_DEFAULT_REGION
   - aws s3 sync public s3://$S3_BUCKET_NAME/ --acl public-read
+  dependencies:
+    - build
   environment:
     name: production
     url: "https://$URL_PRODUCTION"
