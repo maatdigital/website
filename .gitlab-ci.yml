@@ -65,11 +65,10 @@ pages:
   artifacts:
     paths:
     - public
-  dependencies:
-    - test
   environment:
     name: staging
     url: "https://$URL_STAGING"
+  when: manual
     
 production:
   stage: deploy
