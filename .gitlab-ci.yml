@@ -29,7 +29,6 @@ test:
     expire_in: 1 week
     paths:
     - public
-  when: manual
   except:
     - master
     
@@ -68,8 +67,7 @@ pages:
   environment:
     name: staging
     url: "https://$URL_STAGING"
-  when: manual
-    
+
 production:
   stage: deploy
   image: python:latest
