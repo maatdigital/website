@@ -435,7 +435,7 @@ Buttons
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  text-transform: uppercase;
+  text-transform: none;
   border: 0px;
   font-size: 13px;
   font-weight: 500;
@@ -540,9 +540,9 @@ Buttons
     padding-left: 0.9rem; } }
 
 .navbar-nav > li > a {
-  text-transform: uppercase;
+  text-transform: none 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0px;
   font-family: "Roboto", sans-serif; }
   .navbar-nav > li > a.btn-primary {
