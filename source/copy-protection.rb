@@ -1,0 +1,61 @@
+---
+title: "Copy Protection"
+image: "bg2.jpg"
+---
+
+<div class="container">
+  <div class="space-90"></div>
+  <div class="center-title">
+    <h2>Copy Protection</h2>
+    <p>subtitel idea?</p>
+  </div>
+
+  <div class="container">
+    <div class="space-10"></div>
+
+    <p class="lead mb0">
+      Yes, we all know that copy protection is a pain in the butt for everyone, for both you and us as well. 
+      </br>Before we made a final decision on our copy protection system, we have carefully researched the 
+      market to offer you the most convenient and flexible solution. We found that in Wibu-Systems.
+    </p>
+    <p>
+      For all of our products under a certain price threshold, you have the option to choose either host–based 
+      soft licensing via a resident license file, or dongle–based licensing. Both options give you the freedom 
+      to carry the tools with you, to an outside gig or to your home.
+    
+    <p>
+    While dongles are portable and easy to use, our soft licensing option also provides portability. You simply 
+    need to retain your purchase ticket, and can “give back” the license to the license depot in order to “park it” 
+    there. You must do that from the host system where your products are installed, by using the link in conjunction 
+    with the ticket which were both supplied in your purchase confirmation. Afterwards, you can license our products 
+    temporarily or long term on any other host computer system.
+      <p>
+
+    <h3>Floating server licenses:</h3>
+    <p>
+    If you have a bigger studio complex and your DAWs are connected through a server, we can offer floating server licenses on
+     request. If you have e.g. 10 studios but you need not more than 5 licenses at any given time, you can have all of our tools 
+     on all systems and the server would monitor the used instances. Please ask sales@maat.digital for details.
+   <p>
+
+    <h3>Why copy protection is important for you:</h3>
+    <p>
+    Good copy protection gives you two major advantageous:
+   <p>
+
+    <ol class="margin-b-40">
+      <li><strong>Your investment is protected.</strong> Soon we will be offering high performance, high value products with extraordinary
+       audio quality based on decades of research. By investing in these products, you acquire an advantage that your competitor doesn’t
+        possess. Having weak copy protection empowers pirates to undermine your competitive advantage. For this reason, we make sure that
+         just our customers have access to our tools.
+      </li>
+      <li><strong>Your investment is maintained.</strong>  In order to maintain a high quality DSP company, we need to pay high end, world 
+      leading DSP specialists. Pretty quickly, this leads to a six-figure burn rate! Our personnel are not only the backbone of our company, 
+      they’re the financial backbone of their families. Fraud kills jobs and communities in the creative digital world, and by using the best available 
+      copy protection, we’ll have the capacity to maintain your investment so it will continue to pay back your investment for decades to come.
+      </li>
+    </ol>
+  </div>
+</div>
+
+
