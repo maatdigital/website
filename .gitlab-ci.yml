@@ -21,6 +21,7 @@ cache:
 test:
   stage: test
   script:
+  - rm -Rf public
   - apt-get update -yqqq
   - apt-get install -y nodejs
   - bundle install --path vendor
@@ -35,6 +36,7 @@ test:
 build:
   stage: build
   script:
+  - rm -Rf public
   - apt-get update -yqqq
   - apt-get install -y nodejs
   - bundle install --path vendor
