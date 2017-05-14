@@ -540,14 +540,15 @@ Buttons
     padding-left: 0.9rem; } }
 
 .navbar-nav > li > a {
-  text-transform: none 
+  text-transform: none;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0px;
   font-family: "Roboto", sans-serif; }
-  .navbar-nav > li > a.btn-primary {
-    padding: 5px 20px;
-    margin-top: 4px; }
+
+.navbar-nav > li > a.btn-primary {
+  padding: 5px 20px;
+  margin-top: 4px; }
 
 .navbar-light.navbar-transparent .navbar-nav .nav-link:focus, .navbar-light.navbar-transparent .navbar-nav .nav-link:hover {
   color: white; }
