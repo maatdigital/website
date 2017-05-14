@@ -1308,3 +1308,20 @@ Features tabs style
 @media (max-width: 576px) {
   .navbar-toggleable-md > .container {
     width: 100%; } }
+
+.icon-box {
+  /*background-color: #fff;*/
+  border-radius: 5px;
+  /*border-top: 5px solid rgba(0, 0, 0, 0.1);*/
+  padding: 25px 50px 25px 50px;
+  margin-bottom: 20px;
+}
+.icon-box i.feature-sign {
+  font-size: 260px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #4aa3df;
+  /* opacity: 0.1; */
+  text-align: center;
+}
