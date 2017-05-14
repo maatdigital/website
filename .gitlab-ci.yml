@@ -13,10 +13,10 @@ stages:
   - build
   - deploy
 
-# cache:
-#   paths:
-#   - vendor
-#   - public
+cache:
+  paths:
+  - vendor
+  - public
 
 test:
   stage: test
@@ -24,7 +24,7 @@ test:
   - apt-get update -yqqq
   - apt-get install -y nodejs
   - bundle install --path vendor
-  - bundle exec middleman build --build-dir=public
+  - bundle exec middleman build --build-dir=public --clean
   artifacts:
     expire_in: 1 week
     paths:
@@ -38,7 +38,7 @@ build:
   - apt-get update -yqqq
   - apt-get install -y nodejs
   - bundle install --path vendor
-  - bundle exec middleman build --build-dir=public
+  - bundle exec middleman build --build-dir=public --clean
   artifacts:
     paths:
     - public
