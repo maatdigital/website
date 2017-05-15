@@ -38,19 +38,19 @@
         <ul class="list-inline social">
           <li class="list-inline-item"><a href="https://www.facebook.com/maatdigital/"><i class="ion-social-facebook"></i></a></li>
           <li class="list-inline-item"><a href="https://twitter.com/maat_digital"><i class="ion-social-twitter"></i></a></li>
-          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus"></i></a></li> -->
-          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-linkedin"></i></a></li> -->
-          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-rss"></i></a></li> -->
-          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-youtube"></i></a></li> -->
-        </ul> 
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus"></i></a></li>-->
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-linkedin"></i></a></li>-->
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-rss"></i></a></li>-->
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-youtube"></i></a></li>-->
+        </ul>
 
         <h4>Subscribe to newsletter</h4>
-        <form class="signup-form navbar-form margin-b-20" action="<%= data.newsletter.url %>" target="_blank" method="POST" novalidate>
+        <form class="signup-form navbar-form margin-b-20" action="<%= data.newsletter.general.url %>" target="_blank" method="POST" novalidate>
           <div class="form-group">
             <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
           </div>
           <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="<%= data.newsletter.hidden %>" tabindex="-1" value="">
+            <input type="text" name="<%= data.newsletter.general.hidden %>" tabindex="-1" value="">
           </div>
           <button type="submit" class="btn btn-cta btn-primary btn-lg">Subscribe</button>
         </form>
