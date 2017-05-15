@@ -138,7 +138,16 @@ $(function () {
     });
 
     return false;
+  });
 
+  $("form#free2bc-signup button").on("click", function(event) {
+
+    event.preventDefault();
+
+    $('form#free2bc-signup input[name=HASH]', this).val("MY_HASH");
+    $('form#free2bc-signup input[name=TIMESTAMP]', this).val(Date.now());
+
+    $("form#free2bc-signup").submit();
   });
 
   //auto close navbar-collapse on click a
