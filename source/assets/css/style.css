@@ -476,7 +476,7 @@ Buttons
     color: #333; }
 
 .btn-dark-border {
-  background: transparent;
+  background: rgba(200,200,200,0.5);
   color: #333;
   border: 2px solid #333; }
   .btn-dark-border:focus {
@@ -847,7 +847,7 @@ Cta and quotes css
   background-size: cover;
   padding: 40px 15px; }
   .cta-bg h3 {
-    color: #fff; }
+    color: #333; }
 
 /*
 Pricing tables
@@ -995,23 +995,23 @@ Features and service icon boxes
   padding-top: 90px;
   padding-bottom: 50px; }
   .features-bg .center-title h2, .features-bg .center-title p {
-    color: #fff; }
+    color: #333; }
   .features-bg .center-title:after {
-    background: #fff; }
+    background: #333; }
 
 .feature-icon-left {
   margin-bottom: 40px; }
   .feature-icon-left .icon {
     float: left;
     margin-right: 20px;
-    color: #fff;
+    color: #333;
     width: 60px;
     text-align: center;
     font-size: 50px; }
   .feature-icon-left .content {
     overflow: hidden; }
     .feature-icon-left .content h4, .feature-icon-left .content p {
-      color: #fff; }
+      color: #333; }
     .feature-icon-left .content h4 {
       font-weight: 400;
       text-transform: capitalize; }
@@ -1142,14 +1142,15 @@ Features tabs style
       vertical-align: middle; }
       .hero-parallax .hero-inner .hero-content h1 {
         font-weight: 300;
-        color: #fff;
+        color: #333;
         font-size: 55px;
         line-height: 70px;
         text-transform: capitalize;
         letter-spacing: 0px;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+        text-shadow: 0 1px 1px rgba(256, 256, 256, 0.5); }
       .hero-parallax .hero-inner .hero-content p {
-        color: #fff; }
+        font-weight: 500;
+        color: #333; }
 
 .buttons a {
   margin: 5px; }
