@@ -1,0 +1,30 @@
+<section class="testimonials skin-bg" id="feedback">
+  <div class="space-90"></div>
+  <div class="container">
+    <div class="center-title">
+      <h2>True words from our customers.</h2>
+      <p>Over 500,000 Customers worldwide</p>
+    </div>
+
+    <div class="row">
+      <% ["howkins","miller","doe"].each do |member| %>
+      <div class="col-md-4 margin-b-30">
+        <div class="feedback-box">
+          <p>" <%= data.testimonials[member].text %> "</p>
+        </div>
+        <div class="testi-info">
+          <%= image_tag data.testimonials[member].image, alt: data.testimonials[member].title,
+                class: "rounded-circle", width: "60" %>
+          <div class="content">
+            <h4><%= data.testimonials[member].title %></h4>
+            <em><%= data.testimonials[member].role %></em>
+          </div>
+        </div>
+      </div>
+      <% end %>
+
+    </div>
+  </div>
+  <div class="space-60"></div>
+</section>
+<!--end testimonials section-->
