@@ -1,0 +1,146 @@
+---
+title: "About Us"
+image: "bg2.jpg"
+---
+
+<div class="container">
+  <div class="space-90"></div>
+
+  <div class="row align-items-center margin-b-50">
+    <div class="col-md-7">
+      <h3>Our Story</h3>
+      <p>
+        Once upon a time, a well respected mastering engineer had some sensible but unorthodox notions, and colleagues crazy enough
+        to throw in with him… Thus was born the Pleasurize Music Foundation. Later in his career, that same guy decided to
+        lift up the music community further by establishing the Mastering Academy… Those two enterprises formed the roots
+        of MAAT; a dedication to quality and a desire to provide better sounding, easier to use tools and simpler workflows.
+      </p>
+      <p>
+        Our street cred is moderately huge already, and we have a broad range of digital audio products in the works, with new approaches
+        to metering, EQ and dynamics plus specialized utilities. We even have plans for some stuff you haven’t thought of
+        yet! As a multi–national group of grizzled Yodas and kick ass Young Lions who share a need for fidelity, our goal
+        is to make your studio a better workplace.
+      </p>
+    </div>
+
+    <div class="col-md-5">
+      <%= image_tag "fassade2.jpg", alt: "", class: "img-fluid center-img" %>
+
+      <!--div>
+        <div class="master-slider ms-skin-default" id="masterslider">
+          <div class="ms-slide">
+            <img src="<%= url_for 'assets/images/blank.gif' %>"
+                data-src="<%= url_for 'assets/images/fassade2.jpg' %>" alt="" />
+          </div>
+          <div class="ms-slide">
+            <img src="<%= url_for 'assets/images/blank.gif' %>"
+                data-src="<%= url_for 'assets/images/img2.jpg' %>" alt="" />
+          </div>
+          <div class="ms-slide">
+            <img src="<%= url_for 'assets/images/blank.gif' %>"
+                data-src="<%= url_for 'assets/images/img3.jpg' %>" alt="" />
+          </div>
+        </div>
+      </div-->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="margin-b-20">Our Mission</h3>
+      <p class="margin-b-20">MAAT aims to reshape and reinvent audio mastering.
+        Please join us, we think you’ll enjoy the ride!</p>
+    </div>
+
+    <div class="col-md-6">
+      <h3 class="margin-b-20">Our Promise</h3>
+      <ul class="list">
+        <li><i class="ion-ionic"></i> Setting a new standard in sonic quality</li>
+        <li><i class="ion-ionic"></i> Defining a new benchmark in usability </li>
+        <li><i class="ion-ionic"></i> Offering a solution for hitherto unsolved problems</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="space-90"></div>
+</div>
+
+<div class="cta-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h3>Who Are These Guys?</h3>
+      </div>
+      <div class="col-md-4">
+        <a href="#team" class="btn btn-rounded btn-dark-border">Meet our Team</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="space-90"></div>
+
+  <div id="team" class="row">
+    <div class="col-sm-12">
+      <div class="center-title">
+        <h2>MAAT Team Members</h2>
+      </div>
+    </div>
+
+    <% ["tischmeyer","leeb","jong","nichol","masciarotte","lorenzo"].each do |member| %>
+      <div class="col-lg-4 col-md-6 margin-b-30">
+        <div class="feedback-box">
+          <div class="margin-b-30 text-center">
+            <%= image_tag data.team[member].image, alt: data.team[member].title,
+                class: "rounded-circle margin-b-20" %>
+              <h4 class="margin-b-5"><%= data.team[member].title %></h4>
+              <p class="text-muted"><%= data.team[member].role %></p>
+          </div>
+          <p><%= data.team[member].text %></p>
+        </div>
+
+      </div>
+    <% end %>
+  </div>
+
+  <div id="board" class="row">
+    <div class="col-sm-12">
+      <div class="center-title">
+        <h2>Advisory Board</h2>
+        <!--p>Advisory Board</p-->
+      </div>
+    </div>
+
+    <% ["musialik","kessler","schult"].each do |member| %>
+      <div class="col-lg-4 col-md-6 margin-b-30">
+        <div class="feedback-box">
+          <div class="margin-b-30 text-center">
+            <%= image_tag data.team[member].image, alt: data.team[member].title,
+                class: "rounded-circle margin-b-20" %>
+              <h4 class="margin-b-5"><%= data.team[member].title %></h4>
+              <p class="text-muted"><%= data.team[member].role %></p>
+          </div>
+          <p><%= data.team[member].text %></p>
+        </div>
+
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var slider = new MasterSlider();
+
+  slider.control('arrows');
+  slider.control('bullets', {autohide: false, align: 'bottom', margin: 10});
+  slider.control('scrollbar', {dir: 'h', color: '#333'});
+
+  slider.setup('masterslider', {
+      width: 600,
+      height: 400,
+      space: 0,
+      view: 'normal',
+      loop: true
+  });
+</script>

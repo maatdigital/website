@@ -435,7 +435,7 @@ Buttons
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  text-transform: uppercase;
+  text-transform: none;
   border: 0px;
   font-size: 13px;
   font-weight: 500;
@@ -476,7 +476,7 @@ Buttons
     color: #333; }
 
 .btn-dark-border {
-  background: transparent;
+  background: rgba(200,200,200,0.5);
   color: #333;
   border: 2px solid #333; }
   .btn-dark-border:focus {
@@ -540,14 +540,15 @@ Buttons
     padding-left: 0.9rem; } }
 
 .navbar-nav > li > a {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0px;
   font-family: "Roboto", sans-serif; }
-  .navbar-nav > li > a.btn-primary {
-    padding: 5px 20px;
-    margin-top: 4px; }
+
+.navbar-nav > li > a.btn-primary {
+  padding: 5px 20px;
+  margin-top: 4px; }
 
 .navbar-light.navbar-transparent .navbar-nav .nav-link:focus, .navbar-light.navbar-transparent .navbar-nav .nav-link:hover {
   color: white; }
@@ -846,7 +847,7 @@ Cta and quotes css
   background-size: cover;
   padding: 40px 15px; }
   .cta-bg h3 {
-    color: #fff; }
+    color: #333; }
 
 /*
 Pricing tables
@@ -994,23 +995,23 @@ Features and service icon boxes
   padding-top: 90px;
   padding-bottom: 50px; }
   .features-bg .center-title h2, .features-bg .center-title p {
-    color: #fff; }
+    color: #333; }
   .features-bg .center-title:after {
-    background: #fff; }
+    background: #333; }
 
 .feature-icon-left {
   margin-bottom: 40px; }
   .feature-icon-left .icon {
     float: left;
     margin-right: 20px;
-    color: #fff;
+    color: #333;
     width: 60px;
     text-align: center;
     font-size: 50px; }
   .feature-icon-left .content {
     overflow: hidden; }
     .feature-icon-left .content h4, .feature-icon-left .content p {
-      color: #fff; }
+      color: #333; }
     .feature-icon-left .content h4 {
       font-weight: 400;
       text-transform: capitalize; }
@@ -1141,14 +1142,15 @@ Features tabs style
       vertical-align: middle; }
       .hero-parallax .hero-inner .hero-content h1 {
         font-weight: 300;
-        color: #fff;
+        color: #333;
         font-size: 55px;
         line-height: 70px;
         text-transform: capitalize;
         letter-spacing: 0px;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+        text-shadow: 0 1px 1px rgba(256, 256, 256, 0.5); }
       .hero-parallax .hero-inner .hero-content p {
-        color: #fff; }
+        font-weight: 500;
+        color: #333; }
 
 .buttons a {
   margin: 5px; }
@@ -1307,3 +1309,30 @@ Features tabs style
 @media (max-width: 576px) {
   .navbar-toggleable-md > .container {
     width: 100%; } }
+
+.icon-box {
+  /*background-color: #fff;*/
+  border-radius: 5px;
+  /*border-top: 5px solid rgba(0, 0, 0, 0.1);*/
+  padding: 25px 50px 25px 50px;
+  margin-bottom: 20px;
+}
+.icon-box i.feature-sign {
+  font-size: 260px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #4aa3df;
+  /* opacity: 0.1; */
+  text-align: center;
+}
+
+.parallax-text h1 {
+    font-weight: 300;
+    color: #333;
+    font-size: 55px;
+    line-height: 70px;
+    /*text-transform: capitalize;*/
+    letter-spacing: 0px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,20 @@
+{
+  "miller": {
+    "title": "Nikita Miller",
+    "image": "avatar.jpg",
+    "role": "MAAT Customer",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor. Fusce et turpis posuere, imperdiet orci et, tempus ex. Nunc vitae pellentesque ipsum. Quisque id magna a nisl vestibulum ullamcorper."
+  },
+  "doe": {
+    "title": "John Doe",
+    "image": "avatar.jpg",
+    "role": "MAAT Customer",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor. Fusce et turpis posuere, imperdiet orci et, tempus ex. Nunc vitae pellentesque ipsum. Quisque id magna a nisl vestibulum ullamcorper."
+  },
+  "howkins": {
+    "title": "Emily Howkins",
+    "image": "avatar.jpg",
+    "role": "MAAT Customer",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor. Fusce et turpis posuere, imperdiet orci et, tempus ex. Nunc vitae pellentesque ipsum. Quisque id magna a nisl vestibulum ullamcorper."
+  }
+}
