@@ -7,44 +7,46 @@ variables:
   URL_REVIEW: "sunkissed.gitlab.io/maat-digital"
   URL_STAGING: "sunkissed.gitlab.io/maat-digital"
   URL_PRODUCTION: "maat-digital.sites.grp.one"
-  
+
 stages:
   - test
   - build
   - deploy
-  
+
 cache:
   paths:
   - vendor
   - public
-  
+
 test:
   stage: test
   script:
+  - rm -Rf public
   - apt-get update -yqqq
   - apt-get install -y nodejs
   - bundle install --path vendor
-  - bundle exec middleman build --build-dir=public
+  - bundle exec middleman build --build-dir=public --clean
   artifacts:
     expire_in: 1 week
     paths:
     - public
   except:
     - master
-    
+
 build:
   stage: build
   script:
+  - rm -Rf public
   - apt-get update -yqqq
   - apt-get install -y nodejs
   - bundle install --path vendor
-  - bundle exec middleman build --build-dir=public
+  - bundle exec middleman build --build-dir=public --clean
   artifacts:
     paths:
     - public
   only:
   - master
-  
+
 # review:
 #   stage: deploy
 #   script:
@@ -67,7 +69,7 @@ pages:
   environment:
     name: staging
     url: "https://$URL_STAGING"
-    
+
 production:
   stage: deploy
   image: python:latest
@@ -82,4 +84,3 @@ production:
   when: manual
   only:
   - master
-  

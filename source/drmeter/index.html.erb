@@ -1,0 +1,49 @@
+---
+title: "MAAT Dynamic Range Meter"
+layout: "data-spy"
+avangate:
+  buy: "https://secure.avangate.com/order/checkout.php?PRODS=4710515&QTY=1&CART=1&CARD=1"
+  trial: "https://secure.avangate.com/order/checkout.php?PRODS=4710519&QTY=1&CART=1&CARD=1"
+---
+
+<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
+    style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
+
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>"
+      style="width: 100%; height: 130%; background-image: url()">
+    <div class="hero-parallax">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="container text-left">
+            <div class="row">
+              <div class="col-md-8 offset-md-1 align-self-center">
+                <div class="hero-static">
+                  <h1>DRMeter</h1>
+                  <p class="lead">
+                    Get your newly updated, one and only DR (Dynamic Range) metering plug-in! </p>
+                  <div class="buttons">
+                    <a href="<%= current_page.data.avangate.buy %>"
+                      class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
+                    <a href="<%= current_page.data.avangate.trial %>"
+                      class="btn btn-xl btn-dark-border">Try It Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <%= image_tag "product-drm.png", alt: "DRMeter", class: "img-fluid center-img" %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= partial "./details" %>
+<%#= partial "./highlights" %>
+<%#= partial "./testimonials" %>
+<%#= partial "./features" %>
+<%= partial "./specifications" %>
+<%#= partial "./video" %>
+<%= partial "./buytrial" %>

@@ -4,55 +4,69 @@
   <div class="container">
     <div class="row vertical-align-child">
 
-      <div class="col-md-3 margin-b-30">
+      <div class="col-md-4">
         <div class="margin-b-20">
           <a href="#">
             <%= image_tag 'logo-light.png', alt: data.site.title %>
           </a>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          pellentesque efficitur turpis, vitae dictum dolor tristique in.
-        </p>
+        <p>MAAT Incorporated, a manufacturer of exceptional fidelity professional audio
+          solutions, redefines production tools for professionals worldwide.</p>
       </div>
 
-      <div class="col-md-2 margin-b-30">
+      <div class="col-md-2">
         <ul class="list-unstyled">
-          <!--<li><%#= link_to 'FAQ', '#' %></li>-->
-          <li><%= link_to 'Supported DAWs', '../support' %></li>
-          <li><%= link_to 'Terms', '../terms' %></li>
+        <li><%= link_to 'Support', '../support' %></li>
+        <li><%= link_to 'Contact', '../contact' %></li>
+        <li><%= link_to 'Privacy', '../privacy' %></li>
+        <li><%= link_to 'Terms', '../terms' %></li>
         </ul>
       </div>
 
-      <div class="col-md-2 margin-b-30">
+      <div class="col-md-2">
         <ul class="list-unstyled">
           <!--<li><%#= link_to 'Blog', '#' %></li>-->
-          <!--<li><%#= link_to 'Press Kit', '#' %></li>-->
-          <li><%= link_to 'Privacy', '../privacy' %></li>
-          <li><%= link_to 'Contact', '../contact' %></li>
+        <li><%= link_to 'Guarantee', '../money-back' %></li>
+        <li><%= link_to 'Copy Protection', '../copy-protection' %></li>
+        <li><%= link_to 'Investor Relations', '../investor-relations' %></li>
+        <li><%= link_to 'PMF', 'http://www.pleasurizemusic.com/', target: "_blank" %></li>
         </ul>
       </div>
 
-      <div class="col-md-5 margin-b-30">
-        <!--<ul class="list-inline social">
-          <li class="list-inline-item"><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="ion-social-linkedin"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="ion-social-rss"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="ion-social-youtube"></i></a></li>
-        </ul> -->
-
-        <h4>Subscribe to newsletter</h4>
-        <form class="signup-form navbar-form margin-b-20">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Enter your email address">
+      <div class="col-md-4 text-right">
+        <h4>Subscribe to our Newsletter</h4>
+        <form id="newsletter-signup" class="signup-form navbar-form margin-b-20 float-right"
+            action="<%= data.newsletter.general.url %>" target="_blank" method="POST" novalidate>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="<%= data.newsletter.general.hidden %>" tabindex="-1" value="">
+            <input type="hidden" name="HASH" value="sample_hash">
+            <input type="hidden" name="TIMESTAMP" value="sample_time">
           </div>
-          <button type="submit" class="btn btn-cta btn-primary btn-lg">Subscribe</button>
+          <div class="form-group">
+            <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
         </form>
-        <span>All rights reserved. © 2017 MAAT Inc. </span>
       </div>
 
+    </div>
+
+    <div class="row vertical-align-child">
+      <div class="col-md-8 margin-b-30">
+        <ul class="list-inline social">
+          <li class="list-inline-item"><h4>Please share the love on social! </h4> </li>
+          <li class="list-inline-item"><a href="https://www.facebook.com/maatdigital/" target="_blank"><i class="ion-social-facebook-outline"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/maat_digital" target="_blank"><i class="ion-social-twitter-outline"></i></a></li>
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus"></i></a></li>-->
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-linkedin"></i></a></li>-->
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-rss"></i></a></li>-->
+          <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-youtube"></i></a></li>-->
+        </ul>
+      </div>
+
+      <div class="col-md-4 margin-b-30 text-right">
+        <span>All rights reserved. © 2017 MAAT Inc. </span>
+      </div>
     </div>
   </div>
 
