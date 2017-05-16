@@ -1,6 +1,9 @@
 ---
 title: "MAAT Dynamic Range Meter"
 layout: "data-spy"
+avangate:
+  buy: "https://secure.avangate.com/order/checkout.php?PRODS=4710515&QTY=1&CART=1&CARD=1"
+  trial: "https://secure.avangate.com/order/checkout.php?PRODS=4710519&QTY=1&CART=1&CARD=1"
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
@@ -20,9 +23,9 @@ layout: "data-spy"
                   <p class="lead">
                     Get your newly updated, one and only DR (Dynamic Range) metering plug-in! </p>
                   <div class="buttons">
-                    <a href="https://secure.avangate.com/order/checkout.php?PRODS=4710515&QTY=1&CART=1&CARD=1"
-                      class="btn btn-xl btn-primary video-popup"> Buy Now <i class="ion-play"></i></a>
-                    <a href="https://secure.avangate.com/order/checkout.php?PRODS=4710519&QTY=1&CART=1&CARD=1"
+                    <a href="<%= current_page.data.avangate.buy %>"
+                      class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
+                    <a href="<%= current_page.data.avangate.trial %>"
                       class="btn btn-xl btn-dark-border">Try It Now</a>
                   </div>
                 </div>
