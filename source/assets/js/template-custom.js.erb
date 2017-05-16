@@ -144,10 +144,11 @@ $(function () {
 
     event.preventDefault();
 
-    $('form#free2bc-signup input[name=HASH]', this).val("MY_HASH");
-    $('form#free2bc-signup input[name=TIMESTAMP]', this).val(Date.now());
+    $('form#free2bc-signup input[name=HASH]').val("MY_HASH");
+    $('form#free2bc-signup input[name=TIMESTAMP]').val(Date.now());
 
     $("form#free2bc-signup").submit();
+    $("form#free2bc-signup")[0].reset();
   });
 
   //auto close navbar-collapse on click a
