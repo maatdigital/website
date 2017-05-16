@@ -4,17 +4,17 @@
   <div class="container">
     <div class="row vertical-align-child">
 
-      <div class="col-md-4 margin-b-30">
+      <div class="col-md-4">
         <div class="margin-b-20">
           <a href="#">
             <%= image_tag 'logo-light.png', alt: data.site.title %>
           </a>
         </div>
-        <p>MAAT Incorporated, a manufacturer of exceptional fidelity professional audio solutions, redefines production tools for professionals worldwide.
-        </p>
+        <p>MAAT Incorporated, a manufacturer of exceptional fidelity professional audio
+          solutions, redefines production tools for professionals worldwide.</p>
       </div>
 
-      <div class="col-md-2 margin-b-30">
+      <div class="col-md-2">
         <ul class="list-unstyled">
         <li><%= link_to 'Support', '../support' %></li>
         <li><%= link_to 'Contact', '../contact' %></li>
@@ -23,7 +23,7 @@
         </ul>
       </div>
 
-      <div class="col-md-2 margin-b-30">
+      <div class="col-md-2">
         <ul class="list-unstyled">
           <!--<li><%#= link_to 'Blog', '#' %></li>-->
         <li><%= link_to 'Guarantee', '../money-back' %></li>
@@ -33,9 +33,28 @@
         </ul>
       </div>
 
-      <div class="col-md-4 margin-b-30 text-right">
-        <p> Please share the love on social!</p>
+      <div class="col-md-4 text-right">
+        <h4>Subscribe to our Newsletter</h4>
+        <form id="newsletter-signup" class="signup-form navbar-form margin-b-20 float-right"
+            action="<%= data.newsletter.general.url %>" target="_blank" method="POST" novalidate>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="<%= data.newsletter.general.hidden %>" tabindex="-1" value="">
+            <input type="hidden" name="HASH" value="sample_hash">
+            <input type="hidden" name="TIMESTAMP" value="sample_time">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="row vertical-align-child">
+      <div class="col-md-8 margin-b-30">
         <ul class="list-inline social">
+          <li class="list-inline-item"><h4>Please share the love on social! </h4> </li>
           <li class="list-inline-item"><a href="https://www.facebook.com/maatdigital/" target="_blank"><i class="ion-social-facebook-outline"></i></a></li>
           <li class="list-inline-item"><a href="https://twitter.com/maat_digital" target="_blank"><i class="ion-social-twitter-outline"></i></a></li>
           <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus"></i></a></li>-->
@@ -43,23 +62,11 @@
           <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-rss"></i></a></li>-->
           <!-- <li class="list-inline-item"><a href="#"><i class="ion-social-youtube"></i></a></li>-->
         </ul>
-
-        <h4>Subscribe to newsletter</h4>
-        <form id="newsletter-signup" class="signup-form navbar-form margin-b-20 form-inline float-right"
-            action="<%= data.newsletter.general.url %>" target="_blank" method="POST" novalidate>
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="<%= data.newsletter.general.hidden %>" tabindex="-1" value="">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control col-7" name="EMAIL" placeholder="Enter your email address">
-            <input type="hidden" name="HASH" value="sample_hash">
-            <input type="hidden" name="TIMESTAMP" value="sample_time">
-            <button type="submit" class="btn btn-primary btn-lg col-4">Subscribe</button>
-          </div>
-        </form>
-        <span>All rights reserved. © 2017 MAAT Inc. </span>
       </div>
 
+      <div class="col-md-4 margin-b-30 text-right">
+        <span>All rights reserved. © 2017 MAAT Inc. </span>
+      </div>
     </div>
   </div>
 
