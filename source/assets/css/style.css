@@ -1326,3 +1326,13 @@ Features tabs style
   /* opacity: 0.1; */
   text-align: center;
 }
+
+.parallax-text h1 {
+    font-weight: 300;
+    color: #333;
+    font-size: 55px;
+    line-height: 70px;
+    /*text-transform: capitalize;*/
+    letter-spacing: 0px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
