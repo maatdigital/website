@@ -7,17 +7,16 @@ avangate:
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
-    style="position: relative; height: 800px; background-image: url(<%= url_for 'assets/images/bg1.jpg' %>)"
-    data-options='{  mode_scroll: "normal" }'>
+    style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
 
-  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/drm.png' %>"
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>"
       style="width: 100%; height: 130%; background-image: url()">
     <div class="hero-parallax">
       <div class="hero-inner">
         <div class="hero-content">
           <div class="container text-left">
             <div class="row">
-              <div class="col-md-10 offset-md-1">
+              <div class="col-md-8 offset-md-1 align-self-center">
                 <div class="hero-static">
                   <h1>DRMeter</h1>
                   <p class="lead">
@@ -29,6 +28,9 @@ avangate:
                       class="btn btn-xl btn-dark-border">Try It Now</a>
                   </div>
                 </div>
+              </div>
+              <div class="col-md-3">
+                <%= image_tag "product-drm.png", alt: "DRMeter", class: "img-fluid center-img" %>
               </div>
             </div>
           </div>
