@@ -81,105 +81,13 @@
           meters. Likewise, the plug-in is "light weight" demanding a minimum of
           CPU resources so it won´t slow down your host.
         </p>
+
+        <%= partial "./accordeon" %>
       </div>
     </div>
   </div>
   <div class="space-30"></div>
 </section>
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 offset-md-2">
-            <div id="accordion" class="card-accrodions" role="tablist" aria-multiselectable="true">
-                <div class="card">
-                        <div class="card-header" role="tab" id="headingOne">
-                                <h5 class="mb-0">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    Built To Perform 
-                                    </a>
-                                </h5>
-                        </div>
-                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="card-block">
-                            The MAAT DRMeter is a worthy companion for daily mixing and mastering
-                              tasks, enabling fast, accurate and easy mix and mastering decisions.
-                              For fine tuning peak excursions, and properly setting your limiter
-                              with the fast and responsive peak meter bar, DRMeter is unmatched. An
-                              “Overs” alert warns you to tweak your limiter in order to prevent
-                              unwanted distortion on playback. The adjacent RMS loudness bar graphs
-                              have more relaxed or damped ballistics, so you get a good sense of the
-                              perceptual loudness. This conveys a sense of proper level staging
-                              without overly hectic meter movement. The green -18 dBRMS tick mark
-                              indicates 0 LU, a widely agreed upon amplitude for hitting your
-                              outboard gear’s sweet spot. It also helps to manage gain staging for
-                              ITB or In–The–Box workflows. The legendary DR bar graph can be
-                              operated as independent channels, or coupled for a summed left/right
-                              response. Our DR bar graph visually informs the user through a
-                              familiar “traffic light” green/yellow/red color coding scheme. The
-                              blue -∞ indicator informs you when your DAW is delivering “digital
-                              black” or null AES data. If you’ve inserted some noise generating
-                              plug-in or outboard within a project, you’ll instantly see that.
-                              Complementing the new BS.1770 metering standards, including Loudness
-                              Range (LRA) which was designed to reflect the macro dynamics of
-                              broadband audio with a focus on broadcasting, the importance and
-                              spirit of the DR measurement system for music is unbroken. LRA was
-                              designed for controlling the perceived loudness range of motion
-                              picture soundtracks and television programs. Whereas the DRMeter’s
-                              algorithm looks at the loudest 20% of the instantaneous signal, LRA
-                              purposefully ignores the top 5% of a track’s dynamic deviation, making
-                              it unsuitable for the evaluation of the dynamics of music.
-                                </div>
-                                </div>
-                </div>
-                       
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        The Backstory
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="card-block">
-                                   The DR algorithm, akin to PLR (Peak–to–Loudness Ratio) or “crest factor,” specifically measures the dynamic 
-                                   density or lack of dynamics caused by overly aggressive dynamic compression and limiting. When the loudest 
-                                   spots of a song are measured, it gives the user an estimate for the "official" DR Value, measured with the 
-                                   companion DROffline. Seeing a meaningful and easy to understand indication of dynamic range inspires users to
-                                    back away from hyper compression. The complete DR metering system, composed of the realtime DRMeter plus the
-                                     DROffline batch processor, was created by Friedemann Tischmeyer to address the need to generate a repeatable, easy
-                                      to understand numeric value. In response to the broadly publicized “Loudness Wars,” the PMF worked to raise awareness 
-                                      that oppressively compressed dynamics in pop music are not only counterproductive, but sound often like crap! Now legendary,
-                                       the PMF’s TT DR Meter and its offline companion was created to provide a deterministic benchmark, and was used by thousands 
-                                       of engineers and consumers to measure and log the dynamic range of popular music releases around the world. Alas, as with
-                                        all things digital, the TT DR Meter grew old. An update was needed…
-                                 </div>
-                            </div>
-                        </div>
-                       
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                       DRMeter is Only Half the Story
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="card-block">
-                            The DRMeter is a plug–in that generates approximate DR values when applied to the loudest passages in a track. Due to realtime operation, it cannot measure official DR values, which are cumulative over the entire length of a song. Only the companion DROffline batch measuring utility can scrub through an entire song or track, resulting in an official DR number. To download your copy of the DROffline utility, head over to...
-                                   <a href="#" class="btn btn-lg btn-primary btn-rounded">DRoffline.</a>
-                                   </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      </div>
-
-
 
 <section class="showcase-section">
   <div class='space-90'></div>
@@ -188,9 +96,9 @@
       <div class="col-md-8 margin-b-30">
         <h3>Buy It & Help</h3>
         <p>
-          As an introduction to everyone in the audio community, we’re offering this rather useful plug–in at a very reasonable price. 
-          Your purchase includes a US$5 donation to the PMF so they can continue working toward a more dynamically exciting world of music. 
-          Thanks for visiting, and stay tuned for the DROffline batch measuring utility, the only software that generates official DR readings. 
+          As an introduction to everyone in the audio community, we’re offering this rather useful plug–in at a very reasonable price.
+          Your purchase includes a US$5 donation to the PMF so they can continue working toward a more dynamically exciting world of music.
+          Thanks for visiting, and stay tuned for the DROffline batch measuring utility, the only software that generates official DR readings.
           We hope to be working with you more in the future, drop by often to see what’s new!
         </p>
       </div>
