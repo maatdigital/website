@@ -151,6 +151,17 @@ $(function () {
     $("form#free2bc-signup")[0].reset();
   });
 
+  $("form#newsletter-signup button").on("click", function(event) {
+
+    event.preventDefault();
+
+    $('form#newsletter-signup input[name=HASH]').val("MY_HASH");
+    $('form#newsletter-signup input[name=TIMESTAMP]').val(Date.now());
+
+    $("form#newsletter-signup").submit();
+    $("form#newsletter-signup")[0].reset();
+  });
+
   //auto close navbar-collapse on click a
   $('a.nav-link').on('click', function () {
     $('.navbar-toggler:visible').click();
