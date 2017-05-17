@@ -32,14 +32,14 @@
   "nichol": {
     "title": "Tad Nicol",
     "image": "team/tad.jpg",
-    "role": "Plug–in Development",
+    "role": "plug-in Development",
     "text": "An audio software architect working on everything from DSP to GUIs to IPC to automated QA and beyond, Tad keeps the code repository well oiled, and helps it grow smoothly, designing sustainable & modular frameworks to help integrate all the pieces needed to create robust artistic tools. He grew up listening to lots of tunes while traveling across mountains and deserts, and is always seeking ways to manifest his love of music."
   },
   "jong": {
     "title": "Jochem De Jong",
     "image": "team/jong.jpg",
-    "role": "Plug–in Development",
-    "text": "When author, musician, and programmer de Jong isn’t writing articles on audio technology, he’s creating new products and new art together with like minded folks that inspire him. Comfortable guiding co–conspirators on music or publishing–related projects, he’s currently on a quest to refine his C++ and audio plug–in programming chops. De Jong has developed over thirty audio plug–ins for companies around the world, and has released his own mastering DSP suite. His compositions can be heard in over 50 commercials and short films, and he’s written over 6 hours of stock music. De Jong brings a wealth of interdisciplinary knowledge to MAAT’s neural collective."
+    "role": "plug-in Development",
+    "text": "When author, musician, and programmer de Jong isn’t writing articles on audio technology, he’s creating new products and new art together with like minded folks that inspire him. Comfortable guiding co–conspirators on music or publishing–related projects, he’s currently on a quest to refine his C++ and audio plug-in programming chops. De Jong has developed over thirty audio plug-ins for companies around the world, and has released his own mastering DSP suite. His compositions can be heard in over 50 commercials and short films, and he’s written over 6 hours of stock music. De Jong brings a wealth of interdisciplinary knowledge to MAAT’s neural collective."
   },
   "lorenzo": {
     "title": "Nathan Lorenzo",
