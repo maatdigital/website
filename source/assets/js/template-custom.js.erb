@@ -140,20 +140,46 @@ $(function () {
     return false;
   });
 
+  var shortenURLs = function (callback) {
+    var url = {
+      osx: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/MAAT_2BusControl_Installer-1.0.2-OSX.zip",
+      win: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/MAAT_2BusControl_Installer-1.0.2-WIN.zip"
+    };
+
+    $.when(
+      $.ajax({
+        type        : 'POST',
+        url         : 'https://download.maat.digital/prod/',
+        data        : JSON.stringify({ 'url_long' : url.osx, 'cdn_prefix': 'download.maat.digital' }),
+        contentType : 'application/json; charset=utf-8',
+        dataType    : 'json',
+        encode      : true
+      }),
+      $.ajax({
+        type        : 'POST',
+        url         : 'https://download.maat.digital/prod/',
+        data        : JSON.stringify({ 'url_long' : url.win, 'cdn_prefix': 'download.maat.digital' }),
+        contentType : 'application/json; charset=utf-8',
+        dataType    : 'json',
+        encode      : true
+      })
+    ).done(function(osx,win){
+      return callback({
+        "osx": osx[0].url_short,
+        "win": win[0].url_short
+      });
+    });
+  };
+
   $("form#free2bc-signup button").on("click", function(event) {
 
     event.preventDefault();
 
-    $.getJSON("https://69cijv48a0.execute-api.eu-west-1.amazonaws.com/live/sign",{
-      "bucket": "website-maat-digital-downloads",
-      "key": "MAAT_2BusControl_Installer-1.0.1-OSX.zip,MAAT_2BusControl_Installer-1.0.1-WIN.zip",
-      "expires": 60
-    }, function (data) {
-      $('form#free2bc-signup input[name=OSX]').val(data[0]);
-      $('form#free2bc-signup input[name=WIN]').val(data[1]);
-      console.log($('form#free2bc-signup input[name=OSX]').val());
-      // $("form#free2bc-signup").submit();
-      // $("form#free2bc-signup")[0].reset();
+    shortenURLs(function(data){
+      $('form#free2bc-signup input[name=OSX]').val(data.osx);
+      $('form#free2bc-signup input[name=WIN]').val(data.win);
+      $("form#free2bc-signup").submit();
+      $("form#free2bc-signup")[0].reset();
     });
   });
 
@@ -161,13 +187,9 @@ $(function () {
 
     event.preventDefault();
 
-    $.getJSON("https://69cijv48a0.execute-api.eu-west-1.amazonaws.com/live/sign",{
-      "bucket": "website-maat-digital-downloads",
-      "key": "MAAT_2BusControl_Installer-1.0.1-OSX.zip,MAAT_2BusControl_Installer-1.0.1-WIN.zip",
-      "expires": 60
-    }, function (data) {
-      $('form#newsletter-signup input[name=OSX]').val(data[0]);
-      $('form#newsletter-signup input[name=WIN]').val(data[1]);
+    shortenURLs(function(data){
+      $('form#newsletter-signup input[name=OSX]').val(data.osx);
+      $('form#newsletter-signup input[name=WIN]').val(data.win);
       $("form#newsletter-signup").submit();
       $("form#newsletter-signup")[0].reset();
     });
