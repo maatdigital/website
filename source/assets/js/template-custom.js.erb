@@ -144,22 +144,33 @@ $(function () {
 
     event.preventDefault();
 
-    $('form#free2bc-signup input[name=HASH]').val("MY_HASH");
-    $('form#free2bc-signup input[name=TIMESTAMP]').val(Date.now());
-
-    $("form#free2bc-signup").submit();
-    $("form#free2bc-signup")[0].reset();
+    $.getJSON("https://69cijv48a0.execute-api.eu-west-1.amazonaws.com/live/sign",{
+      "bucket": "website-maat-digital-downloads",
+      "key": "MAAT_2BusControl_Installer-1.0.1-OSX.zip,MAAT_2BusControl_Installer-1.0.1-WIN.zip",
+      "expires": 60
+    }, function (data) {
+      $('form#free2bc-signup input[name=OSX]').val(data[0]);
+      $('form#free2bc-signup input[name=WIN]').val(data[1]);
+      console.log($('form#free2bc-signup input[name=OSX]').val());
+      // $("form#free2bc-signup").submit();
+      // $("form#free2bc-signup")[0].reset();
+    });
   });
 
   $("form#newsletter-signup button").on("click", function(event) {
 
     event.preventDefault();
 
-    $('form#newsletter-signup input[name=HASH]').val("MY_HASH");
-    $('form#newsletter-signup input[name=TIMESTAMP]').val(Date.now());
-
-    $("form#newsletter-signup").submit();
-    $("form#newsletter-signup")[0].reset();
+    $.getJSON("https://69cijv48a0.execute-api.eu-west-1.amazonaws.com/live/sign",{
+      "bucket": "website-maat-digital-downloads",
+      "key": "MAAT_2BusControl_Installer-1.0.1-OSX.zip,MAAT_2BusControl_Installer-1.0.1-WIN.zip",
+      "expires": 60
+    }, function (data) {
+      $('form#newsletter-signup input[name=OSX]').val(data[0]);
+      $('form#newsletter-signup input[name=WIN]').val(data[1]);
+      $("form#newsletter-signup").submit();
+      $("form#newsletter-signup")[0].reset();
+    });
   });
 
   //auto close navbar-collapse on click a
