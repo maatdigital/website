@@ -195,6 +195,19 @@ $(function () {
     });
   });
 
+  $("form#modal-signup button").on("click", function(event) {
+
+    event.preventDefault();
+
+    shortenURLs(function(data){
+      $('form#modal-signup input[name=OSX]').val(data.osx);
+      $('form#modal-signup input[name=WIN]').val(data.win);
+      $("form#modal-signup").submit();
+      // $("form#modal-signup")[0].reset();
+      $('#newsletterModal').modal('hide')
+    });
+  });
+
   //auto close navbar-collapse on click a
   $('a.nav-link').on('click', function () {
     $('.navbar-toggler:visible').click();
