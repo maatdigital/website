@@ -36,12 +36,30 @@
           <div class="card-header" role="tab" id="headingTwo">
             <h5 class="mb-0">
               <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                  aria-expanded="false" aria-controls="collapseTwo">The Backstory</a>
+                  aria-expanded="false" aria-controls="collapseTwo">DRMeter is Only Half the Story</a>
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="card-block">
-              The DR algorithm, akin to PLR (Peak–to–Loudness Ratio) or “crest factor,” specifically measures the dynamic density or lack
+              The DRMeter is a plug–in that generates approximate DR values when applied to the loudest passages in a track. Due to realtime
+              operation, it cannot measure official DR values, which are cumulative over the entire length of a song. Only
+              the companion DROffline batch measuring utility can scrub through an entire song or track, resulting in an
+              official DR number. To download your copy of the DROffline utility, head over to...
+              <%= link_to 'DROffline', '../droffline', class: 'btn btn-lg btn-primary btn-rounded' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">The Backstory</a>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="card-block">
+            The DR algorithm, akin to PLR (Peak–to–Loudness Ratio) or “crest factor,” specifically measures the dynamic density or lack
               of dynamics caused by overly aggressive dynamic compression and limiting. When the loudest spots of a song
               are measured, it gives the user an estimate for the "official" DR Value, measured with the companion DROffline.
               Seeing a meaningful and easy to understand indication of dynamic range inspires users to back away from hyper
@@ -52,25 +70,7 @@
               the PMF’s TT DR Meter and its offline companion was created to provide a deterministic benchmark, and was used
               by thousands of engineers and consumers to measure and log the dynamic range of popular music releases around
               the world. Alas, as with all things digital, the TT DR Meter grew old. An update was needed…
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" role="tab" id="headingThree">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
-                  aria-expanded="false" aria-controls="collapseThree">DRMeter is Only Half the Story</a>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-            <div class="card-block">
-              The DRMeter is a plug–in that generates approximate DR values when applied to the loudest passages in a track. Due to realtime
-              operation, it cannot measure official DR values, which are cumulative over the entire length of a song. Only
-              the companion DROffline batch measuring utility can scrub through an entire song or track, resulting in an
-              official DR number. To download your copy of the DROffline utility, head over to...
-              <%= link_to 'DROffline', '../droffline', class: 'btn btn-lg btn-primary btn-rounded' %>
-            </div>
+                        </div>
           </div>
         </div>
       </div>

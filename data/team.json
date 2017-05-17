@@ -3,7 +3,7 @@
     "title": "Dr. Christoph Musialik",
     "image": "team/musialik.jpg",
     "role": "DSP Genius",
-    "text": "Dr. Musialik is highly respected as one of the very top DSP or Digital Signal Processing specialists in the world. His algorithms are embedded in tools from SSL through Waves to Cadac. In 2008, Christoph Musialik was presented with the AES Fellowship Award for outstanding contributions in the development of advanced digital signal processing tools used in the restoration and filtering of audio signals. He is current Chair of the AES DSP board. The benchmark algorithms he created for Algorithmix will by licensed by MAAT to be transformed into modern, state of the art, cross–platform audio tools. Dr. Musialik actively advises the MAAT team in all areas of DSP optimization, so that both the licensed Algorithmix code and proprietary MAAT coding will fulfill our customer’s highest expectations and standards."
+    "text": "Dr. Musialik is highly respected as one of the very top DSP or Digital Signal Processing specialists in the world. His algorithms are embedded in tools from SSL through Waves to Cadac. In 2008, Christoph Musialik was presented with the AES Fellowship Award for outstanding contributions in the development of advanced digital signal processing tools used in the restoration and filtering of audio signals. He is current Chair of the AES DSP board. The benchmark algorithms he created for Algorithmix will be licensed by MAAT to be transformed into modern, state of the art, cross–platform audio tools. Dr. Musialik actively advises the MAAT team in all areas of DSP optimization, so that both the licensed Algorithmix code and proprietary MAAT coding will fulfill our customer’s highest expectations and standards."
   },
   "kessler": {
     "title": "Ralph Kessler",
@@ -30,7 +30,7 @@
     "text": "Leeb, a visionary and portfolio entrepreneur with C-Level (CIO) experience for a global high tech enterprise, combines that background with 12 years of early stage endeavors. He is founder of 42Angelitos–The Startup Catapult in Palo Alto, California. In this capacity, Leeb joins our team as co-founder and sparring partner to fine tune MAAT´s marketing, social media and business strategies."
   },
   "nichol": {
-    "title": "Tad Nichol",
+    "title": "Tad Nicol",
     "image": "team/tad.jpg",
     "role": "Plug–in Development",
     "text": "An audio software architect working on everything from DSP to GUIs to IPC to automated QA and beyond, Tad keeps the code repository well oiled, and helps it grow smoothly, designing sustainable & modular frameworks to help integrate all the pieces needed to create robust artistic tools. He grew up listening to lots of tunes while traveling across mountains and deserts, and is always seeking ways to manifest his love of music."

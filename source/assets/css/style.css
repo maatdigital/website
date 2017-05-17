@@ -568,7 +568,9 @@ Buttons
   .navbar-light.navbar-transparent .search-nav a {
     color: #fff; }
   .navbar-light.navbar-transparent .navbar-nav > li > a {
-    color: #fff; }
+    color: #fff;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    font-weight: 400; }
     .navbar-light.navbar-transparent .navbar-nav > li > a.btn-primary {
       color: #fff; }
       .navbar-light.navbar-transparent .navbar-nav > li > a.btn-primary:hover {
@@ -590,7 +592,7 @@ Buttons
     .navbar-light.navbar-transparent.shrink .search-nav a {
       color: #333; }
     .navbar-light.navbar-transparent.shrink .navbar-nav > li > a {
-      color: #333; }
+      color: #333; text-shadow: none; }
       .navbar-light.navbar-transparent.shrink .navbar-nav > li > a.btn-primary {
         color: #fff; }
         .navbar-light.navbar-transparent.shrink .navbar-nav > li > a.btn-primary:hover {
