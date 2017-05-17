@@ -1,0 +1,28 @@
+<div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content grey-bg">
+      <div class="modal-header">
+        <h3 class="modal-title" id="newsletterModalLabel">Subscribe to our Newsletter</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="modal-signup" action="<%= data.newsletter.general.url %>" target="_blank"
+            method="POST" novalidate>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="<%= data.newsletter.general.hidden %>" tabindex="-1" value="">
+            <input type="hidden" name="WIN" value="">
+            <input type="hidden" name="OSX" value="">
+          </div>
+          <p class="mb0 text-muted">We’re preping our first paid products, with a release very shortly. Please sign up so we
+            can let you know when they arrive…</p>
+          <div class="form-group">
+            <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
