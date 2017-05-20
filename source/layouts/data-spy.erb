@@ -14,6 +14,7 @@
     :content => data.site.meta.author %>
 
   <%= content_tag :title, current_page.data.title || data.site.title %>
+  <%= favicon_tag 'favicon.ico' %>
 
   <%= stylesheet_link_tag "plugins/bundle.css", "style.css" %>
 

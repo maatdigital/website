@@ -3,13 +3,10 @@
 image: ruby:2.3
 
 variables:
-  S3_BUCKET_NAME: "website-maat-digital"
-  URL_REVIEW: "sunkissed.gitlab.io/maat-digital"
-  URL_STAGING: "sunkissed.gitlab.io/maat-digital"
-  URL_PRODUCTION: "maat-digital.sites.grp.one"
+  S3_BUCKET_STAGING: "website-maat-digital-staging"
+  S3_BUCKET_PRODUCTION: "website-maat-digital"
 
 stages:
-  - test
   - build
   - deploy
 
@@ -17,21 +14,6 @@ cache:
   paths:
   - vendor
   - public
-
-test:
-  stage: test
-  script:
-  - rm -Rf public
-  - apt-get update -yqqq
-  - apt-get install -y nodejs
-  - bundle install --path vendor
-  - bundle exec middleman build --build-dir=public --clean
-  artifacts:
-    expire_in: 1 week
-    paths:
-    - public
-  except:
-    - master
 
 build:
   stage: build
@@ -41,34 +23,18 @@ build:
   - apt-get install -y nodejs
   - bundle install --path vendor
   - bundle exec middleman build --build-dir=public --clean
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
 
-# review:
-#   stage: deploy
-#   script:
-#     - echo "Deploy a review app"
-#   environment:
-#     name: review/$CI_BUILD_REF_NAME
-#     url: "https://$URL_REVIEW"
-#   only:
-#     - branches
-#   except:
-#     - master
-
-pages:
+staging:
   stage: deploy
+  image: python:latest
   script:
-    - echo "Deploy to staging server"
-  artifacts:
-    paths:
-    - public
+  - apt-get update -yqqq
+  - pip install awscli
+  - aws s3 sync public s3://$S3_BUCKET_STAGING/ --acl public-read
   environment:
     name: staging
-    url: "https://$URL_STAGING"
+  only:
+  - develop
 
 production:
   stage: deploy
@@ -76,11 +42,9 @@ production:
   script:
   - apt-get update -yqqq
   - pip install awscli
-  - echo $AWS_DEFAULT_REGION
-  - aws s3 sync public s3://$S3_BUCKET_NAME/ --acl public-read
+  - aws s3 sync public s3://$S3_BUCKET_PRODUCTION/ --acl public-read
   environment:
     name: production
-    url: "https://$URL_PRODUCTION"
-  when: manual
   only:
   - master
+  when: manual
