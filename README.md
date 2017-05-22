@@ -17,6 +17,9 @@ The following describes the use of `rbenv`:
 # Install dependencies as root
 sudo apt install -y git build-essential libssl-dev libreadline-dev zlib1g-dev
 
+# For Ubuntu Bash users you need additionally
+sudo apt install nodejs
+
 # Install rbenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
