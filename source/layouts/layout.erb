@@ -32,6 +32,7 @@
   <![endif]-->
 
   <%= javascript_include_tag "plugins/plugins.js", "masterslider.min.js", "template-custom.js" %>
+  <%= partial "includes/analytics" %>
 </head>
 
 <body>
@@ -40,6 +41,5 @@
   <%= yield %>
   <%= partial "includes/footer" %>
   <%= partial "includes/modals" %>
-  <%= partial "includes/analytics" %>
 </body>
 </html>
