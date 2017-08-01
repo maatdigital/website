@@ -475,6 +475,18 @@ Buttons
     background: #fff;
     color: #333; }
 
+.btn-white-omas-special-style-border {
+  background: #fff;
+  color: #333;
+  border: 2px solid #fff; }
+  .btn-white-omas-special-style-border:focus {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff; }
+  .btn-white-omas-special-style-border:hover {
+    background: transparent;
+    color: #fff; }
+
 .btn-dark-border {
   background: rgba(200,200,200,0.5);
   color: #333;

@@ -32,13 +32,13 @@
   "nichol": {
     "title": "Tad Nicol",
     "image": "team/tad.jpg",
-    "role": "plug-in Development",
+    "role": "Co-Founder & Plug–in Development",
     "text": "An audio software architect working on everything from DSP to GUIs to IPC to automated QA and beyond, Tad keeps the code repository well oiled, and helps it grow smoothly, designing sustainable & modular frameworks to help integrate all the pieces needed to create robust artistic tools. He grew up listening to lots of tunes while traveling across mountains and deserts, and is always seeking ways to manifest his love of music."
   },
   "jong": {
     "title": "Jochem De Jong",
     "image": "team/jong.jpg",
-    "role": "plug-in Development",
+    "role": "Plug-in Development",
     "text": "When author, musician, and programmer de Jong isn’t writing articles on audio technology, he’s creating new products and new art together with like minded folks that inspire him. Comfortable guiding co–conspirators on music or publishing–related projects, he’s currently on a quest to refine his C++ and audio plug-in programming chops. De Jong has developed over thirty audio plug-ins for companies around the world, and has released his own mastering DSP suite. His compositions can be heard in over 50 commercials and short films, and he’s written over 6 hours of stock music. De Jong brings a wealth of interdisciplinary knowledge to MAAT’s neural collective."
   },
   "lorenzo": {
@@ -50,7 +50,7 @@
   "masciarotte": {
     "title": "Oliver Masciarotte",
     "image": "team/masciarotte.jpg",
-    "role": "Marcom & Product Management",
+    "role": "Co-Founder, Marcom & Product Management",
     "text": "At the age of 12, OMas received a mono, open reel tape recorder. Since then, his world has never been the same. Over the years, he has worked for many pro and CE audio manufacturers, including dbx, Lexicon, Sony, Sonic Solutions, and Minnetonka Audio, and watched as digital techniques moved from their infancy to today’s broad adoption. Masciarotte is an active member of the AES, SMPTE and DCS, and is the author of well over 100 articles and To Serve & Groove, a how–to book on file–based HRA for audiophiles. In his copious free time, he juggles his love of family with his insatiable curiosity and need for exceptional audio."
   }
 }
