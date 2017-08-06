@@ -39,7 +39,7 @@ gem install bundler
 ```
 
 After the development environment is setup, install
-[Middleman](https://middlemanapp.com/):
+[Middleman](https://middlemanapp.com):
 
 ```
 gem install middleman
