@@ -22,7 +22,7 @@
   <%= favicon_tag "favicons/safari-pinned-tab.svg", rel: "mask-icon", color: "#5bbad5" %>
   <meta name="theme-color" content="#ffffff">
 
-  <%= stylesheet_link_tag "plugins/bundle", "masterslider/style/masterslider", "masterslider/skins/default/style", "style" %>
+  <%= stylesheet_link_tag "plugins/bundle.css", "masterslider/style/masterslider.css", "masterslider/skins/default/style.css", "style.css" %>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +31,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <%= javascript_include_tag "plugins/plugins", "template-custom", "masterslider.min" %>
+  <%= javascript_include_tag "plugins/plugins.js", "masterslider.min.js", "template-custom.js" %>
   <%= partial "includes/analytics" %>
 </head>
 
