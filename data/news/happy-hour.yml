@@ -1,12 +1,15 @@
-title: "Happy Hour"
-date: "2017/09/01"
+title: "2BusControl Released, MAAT Goes Live"
+date: "2017/06/08"
 published: true
 author: "tischmeyer"
 image: "/assets/images/img1.jpg"
 abstract: >
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  MAAT Incorporated opens for business, releasing their first product. The cross-platform 2BusControl plug–in is the 1st in a series…
 content: >
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <h1>This is H1</h1>
+    <h2>This is H1</h2>
+      <h3>This is H1</h3>
+  <p>MAAT Incorporated opens for business, releasing their first product. The cross-platform 2BusControl plug–in is the 1st in a series of software products for audio pros from MAAT.</p>
 
   <p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 
