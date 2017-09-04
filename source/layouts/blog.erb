@@ -13,7 +13,7 @@
   <%= tag :meta, :name => "author",
     :content => data.site.meta.author %>
 
-  <%= content_tag :title, current_page.data.title || data.site.title %>
+  <%= content_tag :title, "MAAT News - " + article.title || current_page.data.title || data.site.title %>
 
   <%= favicon_tag "favicons/apple-touch-icon.png", rel: "apple-touch-icon", sizes: "180x180" %>
   <%= favicon_tag "favicons/favicon-32x32.png", rel: "icon", type: "image/png", sizes: "32x32" %>
@@ -40,7 +40,7 @@
 
   <div class="dzsparallaxer auto-init" data-options='{direction: "reverse"}' style="height: 450px;">
     <div class="divimage dzsparallaxer--target "
-        style="width: 101%; height: 600px; background-image: url(/assets/images/<%= current_page.data.image %>)"></div>
+        style="width: 101%; height: 600px; background-image: url(<%= article.image || "/assets/images/" + current_page.data.image %>)"></div>
   </div>
 
   <%= yield %>

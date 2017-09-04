@@ -38,6 +38,11 @@ page '/login', directory_index: false
 #   },
 # )
 
+# News Proxy
+data.news.each.each do |id, article|
+  proxy "/news/#{id}", "/news/template.html", :locals => { :article => article }
+end
+
 # General configuration
 # config[:url_root] = '//maat-digital.sites.grp.one'
 config[:js_dir] = 'assets/js'
