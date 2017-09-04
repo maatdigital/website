@@ -7,8 +7,8 @@ abstract: >
   MAAT Incorporated opens for business, releasing their first product. The cross-platform 2BusControl plug–in is the 1st in a series…
 content: >
   <h1>This is H1</h1>
-    <h2>This is H1</h2>
-      <h3>This is H1</h3>
+    <h2>This is H2</h2>
+      <h3>This is H3</h3>
   <p>MAAT Incorporated opens for business, releasing their first product. The cross-platform 2BusControl plug–in is the 1st in a series of software products for audio pros from MAAT.</p>
 
   <p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
