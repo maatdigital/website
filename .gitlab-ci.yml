@@ -30,7 +30,7 @@ staging:
   script:
   - apt-get update -yqqq
   - pip install awscli
-  - aws s3 sync public s3://$S3_BUCKET_STAGING/ --acl public-read
+  - aws s3 sync --sse --delete public s3://$S3_BUCKET_STAGING/ --acl public-read
   environment:
     name: staging
   only:
@@ -42,7 +42,9 @@ production:
   script:
   - apt-get update -yqqq
   - pip install awscli
-  - aws s3 sync public s3://$S3_BUCKET_PRODUCTION/ --acl public-read
+  - aws s3 sync --sse --delete public s3://$S3_BUCKET_PRODUCTION/ --acl public-read
+  - aws configure set preview.cloudfront true
+  - aws cloudfront create-invalidation --distribution-id E2SROA59G3YQZ5 --paths '/*'
   environment:
     name: production
   only:
