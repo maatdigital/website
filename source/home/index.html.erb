@@ -4,7 +4,7 @@ layout: "masterslider"
 ---
 
 <div class="ms-fullscreen-template" id="slider1-wrapper">
-  <div class="master-slider ms-skin-default" id="masterslider">
+  <div class="master-slider ms-skin-metro" id="masterslider">
     <div class="ms-slide slide-1">
       <div class="slide-pattern"></div>
       <!--h3 class="ms-layer text-center full-width slider-title" data-type="text" data-effect="top(45)" data-duration="7500" data-ease="easeOutExpo">
@@ -50,9 +50,12 @@ layout: "masterslider"
 <script type="text/javascript">
   var slider = new MasterSlider();
   slider.control({insertTo: '#masterslider'});
+  slider.control('arrows', {
+    autohide: false
+  });
   slider.control('bullets');
   slider.setup('masterslider', {
-    width: 1024,
+    width: 1800,
     height: 768,
     space: 0,
     view: 'fade',
