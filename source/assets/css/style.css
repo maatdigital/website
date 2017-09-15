@@ -1407,3 +1407,7 @@ Features tabs style
   padding: 0px 15px; }
   .partners-list > li > a:hover img {
     opacity: 1; }
+
+.callout .card-title {
+  white-space: nowrap;
+}
