@@ -1,0 +1,19 @@
+title: "DRMeter Released"
+date: "2017/06/20"
+published: true
+author: "masciarotte"
+image: "/assets/images/img3.jpg"
+abstract: >
+  Company announces the release of a contemporary recreation of the classic TT DR dynamic range metering plug–in.
+content: >
+  <h3>MAAT Reincarnates TT DR Meter</h3>
+  <p class="lead">Company announces release of a contemporary recreation of the DR dynamic range metering plug–in
+  </p>
+  <p>MAAT Incorporated today announced the release of DRMeter version 1.0, a universal metering plug–in for stereo bus masters. DRMeter, a faithful recreation of the legendary TT DR Meter for modern production environments, addresses an unfulfilled need for all engineers concerned with dynamic range issues.
+  </p>
+  <p>Available for all major plug–in formats, including VST2/VST3 and AAX for macOS and Windows plus AU (Audio Units) for macOS, DRMeter offers two essential options for metering plus specialized measurement for DR dynamic range.</p>
+  <p>For a complete PDF version, click <a href="https://download.maat.digital/public/PR/003MAAT_Reincarnates_TTDR_Meter.pdf" target="_blank">here</a>.
+tags: ["news","drmeter","meter","metering","dynamic range","plugin","plug-in","AAX", "VST3"]
+products: ["drmeter"]
+links:
+  - "https://www.maat.digital/drmeter/"

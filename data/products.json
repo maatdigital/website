@@ -1,0 +1,22 @@
+{
+  "2buscontrol": {
+    "page": "2buscontrol",
+    "name": "2BusControl",
+    "image": ""
+  },
+  "drmeter": {
+    "page": "drmeter",
+    "name": "DRMeter",
+    "image": ""
+  },
+  "droffline": {
+    "page": "droffline",
+    "name": "DROffline",
+    "image": ""
+  },
+  "rsphaseshifter": {
+    "page": "rsphaseshifter",
+    "name": "RSPhaseShifter",
+    "image": ""
+  }
+}
