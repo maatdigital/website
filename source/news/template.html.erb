@@ -8,9 +8,7 @@ layout: "blog"
     <div class="col-md-8">
       <div class="post">
         <div class="blog-desc">
-          <div class="post-meta margin-b-10">
-            <span><%= article.date %></span>
-          </div>
+          <div class="text-muted margin-b-10"><%= article.date %></div>
           <h2><%= article.title %></h2>
 
           <% article.tags.each do |tag| %>
@@ -23,8 +21,8 @@ layout: "blog"
           <div class="about-author clearfix">
             <%= image_tag author.image, alt: author.title, class: "float-left", width: "60" %>
             <div class="overflow-hidden">
-              <h5><%= author.title %></h5>
-              <p><%= author.text %></p>
+              <h5><%= link_to author.title, "/about/#" + article.author %></h5>
+              <p><%= author.role %></p>
             </div>
           </div>
         </div>
