@@ -88,8 +88,8 @@ image: "bg2.jpg"
       </div>
     </div>
 
-    <% ["tischmeyer","nichol","masciarotte"].each do |member| %>
-      <div class="col-lg-4 col-md-6 margin-b-30">
+    <% ["tischmeyer","musialik","nichol","masciarotte"].each do |member| %>
+      <div class="col-lg-6 col-md-6 margin-b-30">
         <div class="feedback-box">
           <div class="margin-b-30 text-center">
             <%= image_tag data.team[member].image, alt: data.team[member].title,
@@ -112,8 +112,8 @@ image: "bg2.jpg"
       </div>
     </div>
 
-    <% ["musialik","kessler","schult"].each do |member| %>
-      <div class="col-lg-4 col-md-6 margin-b-30">
+    <% ["kessler","schult"].each do |member| %>
+      <div class="col-lg-6 col-md-6 margin-b-30">
         <div class="feedback-box">
           <div class="margin-b-30 text-center">
             <%= image_tag data.team[member].image, alt: data.team[member].title,
@@ -123,7 +123,6 @@ image: "bg2.jpg"
           </div>
           <p><%= data.team[member].text %></p>
         </div>
-
       </div>
     <% end %>
   </div>
