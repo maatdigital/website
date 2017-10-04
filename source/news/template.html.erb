@@ -3,7 +3,7 @@ layout: "blog"
 ---
 
 <div class="container">
-  <div class="space-90"></div>
+  <div class="space-60"></div>
   <div class="row">
     <div class="col-md-8">
       <div class="post">
@@ -35,6 +35,15 @@ layout: "blog"
 
     <div class="col-md-3">
       <%= partial "./latest" %>
+
+      <div class="sidebar-widget margin-b-20">
+        <h4>Products</h4>
+        <ul>
+        <% article.products.each do |item| %>
+          <li><%= link_to data.products[item].name, data.products[item].page %></li>
+        <% end %>
+        </ul>
+      </div>
 
       <div class="sidebar-widget margin-b-20">
         <h4>Links</h4>

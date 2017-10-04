@@ -2,7 +2,7 @@
   <h4>Latest Posts</h4>
   <ul class="list-unstyled recent-post">
 
-  <% data.news.first(5).reverse_each do |id, article| %>
+  <% data.news.first(5).each do |id, article| %>
     <li class="clearfix">
       <a href="/news/<%= id %>">
         <img src="<%= article.image %>" alt="" width="70">
