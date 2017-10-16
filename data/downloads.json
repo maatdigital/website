@@ -4,7 +4,7 @@
     "hostname": "download.maat.digital"
   },
   "2buscontrol": [
-    "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/2BusControl/MAAT_2BusControl_Installer-1.0.3-OSX.zip",
-    "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/2BusControl/MAAT_2BusControl_Installer-1.0.3-WIN.zip"
+    "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-macOS.zip",
+    "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
   ]
 }
