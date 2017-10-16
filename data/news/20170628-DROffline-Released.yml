@@ -1,0 +1,19 @@
+title: "DROffline Released"
+date: "2017/06/28"
+published: true
+author: "masciarotte"
+image: "/media/news/004thumb.jpg"
+abstract: >
+  MAAT announces the release of DROffline, a native metering application for stereo tracks and albums. DROffline is a faithful recreation of the legendary TT DR Offline Meter for modern computers.
+content: >
+  <h3>MAAT Modernizes TT DR Offline Meter</h3>
+  <p class="lead">Company announces release of a contemporary recreation of the DR dynamic range stand–alone app
+  </p>
+  <p>MAAT Incorporated, a manufacturer of exceptional performance professional audio solutions, today announced the release of DROffline version 1.0, a native metering application for stereo tracks and albums. DROffline, a faithful recreation of the legendary TT DR Offline Meter for modern computers addresses an unfulfilled need for all engineers and audiophiles concerned with dynamic range issues.
+  </p>
+  <p>Available for both macOS and Windows, DROffline offers two essential modes for evaluating DR dynamic range. Individual tracks or files can be measured, or entire directories representing an album’s worth of tracks.</p>
+  <p>For a complete PDF version, click <a href="https://website-maat-digital-downloads.s3.amazonaws.com/public/PR/004MAAT_Modernizes_TT_DR_Offline.pdf" target="_blank">here</a>.</p>
+tags: ["news","drmeter","meter","metering","dynamic range","droffline","app"]
+products: ["droffline"]
+links:
+  - "https://www.maat.digital/droffline/"
