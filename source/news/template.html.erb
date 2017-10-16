@@ -38,7 +38,7 @@ layout: "blog"
         <h4>Products</h4>
         <ul>
         <% article.products.each do |item| %>
-          <li><%= link_to data.products[item].name, data.products[item].page %></li>
+          <li><a href="/<%= data.products[item].page %>"><%= data.products[item].name %></a></li>
         <% end %>
         </ul>
       </div>
