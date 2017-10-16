@@ -2,7 +2,7 @@ title: "2BusControl Released"
 date: "2017/06/07"
 published: true
 author: "masciarotte"
-image: "/media/news/2bc.jpg"
+image: "/media/news/002thumb.jpg"
 abstract: >
   MAAT Incorporated opens for business, releasing their first product. The cross-platform 2BusControl plug–in is the 1st in a series…
 content: >
@@ -10,8 +10,7 @@ content: >
   <p class="lead">Company announces release of new comprehensive stereo master control & metering plug–in
   </p>
   <p>MAAT Incorporated, a manufacturer of exceptional fidelity professional audio solutions, today announced the release of 2BusControl version 1.0.2, a universal monitor control and metering plug–in for stereo bus masters. 2BusControl is the first product delivered by the new company, and addresses an unfulfilled need in every two channel production workflow.</p>
-  <p>For a complete PDF version, click <a href="https://download.maat.digital/public/PR/002MAAT_Unwraps_2BusControl.pdf" target="_blank">here</a>.
-  </p>
+  <p>For a complete PDF version, click <a href="https://download.maat.digital/public/PR/002MAAT_Unwraps_2BusControl.pdf" target="_blank">here</a>.</p>
 tags: ["news","2buscontrol","monitor","monitor controller", "plugin", "plug-in","AAX", "VST3"]
 products: ["2buscontrol"]
 links:
