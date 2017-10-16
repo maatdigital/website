@@ -38,7 +38,7 @@ layout: "blog"
         <h4>Products</h4>
         <ul>
         <% article.products.each do |item| %>
-          <li><a href="/<%= data.products[item].page %>"><%= data.products[item].name %></a></li>
+          <li><a href="/<%= data.products[item].page %>" target="_blank"><%= data.products[item].name %></a></li>
         <% end %>
         </ul>
       </div>
@@ -48,7 +48,7 @@ layout: "blog"
         <h4>Links</h4>
         <ul>
         <% article.links.each do |link| %>
-          <li><%= link_to link, link %></li>
+          <li><%= link_to link, link, :target => "_blank" %></li>
         <% end %>
         </ul>
       </div>
