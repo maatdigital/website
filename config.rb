@@ -39,7 +39,7 @@ page '/login', directory_index: false
 # )
 
 # News Proxy
-data.news.each.each do |id, article|
+data.news.each do |id, article|
   proxy "/news/#{id}/index.html", "/news/template.html", :locals => { :article => article }
 end
 
