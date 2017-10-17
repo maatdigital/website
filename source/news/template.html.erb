@@ -34,6 +34,7 @@ layout: "blog"
     <div class="col-lg-3">
       <%= partial "./latest" %>
 
+      <% if article.products? && article.products.length > 0 %>
       <div class="sidebar-widget margin-b-20">
         <h4>Products</h4>
         <ul>
@@ -42,8 +43,9 @@ layout: "blog"
         <% end %>
         </ul>
       </div>
+      <% end %>
 
-      <% if article.links.length > 0 %>
+      <% if article.links? && article.links.length > 0 %>
       <div class="sidebar-widget margin-b-20">
         <h4>Links</h4>
         <ul>
