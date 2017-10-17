@@ -5,12 +5,10 @@ layout: "blog"
 <div class="container">
   <div class="space-60"></div>
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-8">
       <div class="post">
         <div class="blog-desc">
-          <div class="post-meta margin-b-10">
-            <span><%= article.date %></span>
-          </div>
+          <div class="text-muted margin-b-10"><%= article.date %></div>
           <h2><%= article.title %></h2>
 
           <% article.tags.each do |tag| %>
@@ -23,8 +21,8 @@ layout: "blog"
           <div class="about-author clearfix">
             <%= image_tag author.image, alt: author.title, class: "float-left", width: "60" %>
             <div class="overflow-hidden">
-              <h5><%= author.title %></h5>
-              <p><%= author.text %></p>
+              <h5><%= link_to author.title, "/about/#" + article.author %></h5>
+              <!--p><%= author.role %></p-->
             </div>
           </div>
         </div>
@@ -33,26 +31,30 @@ layout: "blog"
       <div class="space-50"></div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-lg-3">
       <%= partial "./latest" %>
 
+      <% if article.products? && article.products.length > 0 %>
       <div class="sidebar-widget margin-b-20">
         <h4>Products</h4>
         <ul>
         <% article.products.each do |item| %>
-          <li><%= link_to data.products[item].name, data.products[item].page %></li>
+          <li><a href="/<%= data.products[item].page %>" target="_blank"><%= data.products[item].name %></a></li>
         <% end %>
         </ul>
       </div>
+      <% end %>
 
+      <% if article.links? && article.links.length > 0 %>
       <div class="sidebar-widget margin-b-20">
         <h4>Links</h4>
         <ul>
         <% article.links.each do |link| %>
-          <li><%= link_to link, link %></li>
+          <li><%= link_to link, link, :target => "_blank" %></li>
         <% end %>
         </ul>
       </div>
+      <% end %>
     </div>
 
   </div>

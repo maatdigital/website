@@ -1411,3 +1411,7 @@ Features tabs style
 .callout .card-title {
   white-space: nowrap;
 }
+
+.navbar-toggler.navbar-toggler-right {
+  right: 0px;
+}
