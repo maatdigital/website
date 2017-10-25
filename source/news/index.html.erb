@@ -8,7 +8,7 @@ image: "bg2.jpg"
 
   <div class="row">
 
-  <% data.news.each do |id, article| %>
+  <% data.news.sort.reverse_each do |id, article| %>
     <div class="col-md-6 col-lg-4 col-xl-3">
       <div class="card my-2">
         <a href="/news/<%= id %>">
