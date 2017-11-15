@@ -50,7 +50,7 @@ layout: "blog"
         <h4>Links</h4>
         <ul>
         <% article.links.each do |link| %>
-          <li><%= link_to link, link, :target => "_blank" %></li>
+          <li><%= link_to truncate(link, :length => 30), link, :target => "_blank" %></li>
         <% end %>
         </ul>
       </div>
