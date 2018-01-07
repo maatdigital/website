@@ -48,7 +48,7 @@ gem install middleman
 Then change into the project directory and install dependencies:
 
 ```
-bundle install
+bundle install --path vendor/bundle
 ```
 
 ### <a name="windows"></a> Installation on Windows
