@@ -39,5 +39,18 @@ image: "bg2.jpg"
     <p>We’ll have answers to your Frequently Asked Questions soon!</p>
   </div>
 
+  <% ["company","product","license","maintenance"].each do |list| %>
+    <h4><%= data.support[list].title %></h4>
+
+    <ul>
+    <% data.support[list].items.each do |item| %>
+      <li>
+        <a href="#"  onclick="return false"><%= item.topic %></a><br>
+        <%= item.reply %>
+      </li>
+    <% end %>
+    </ul>
+  <% end %>
+
   <div class="space-90"></div>
 </div>
