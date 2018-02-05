@@ -23,22 +23,31 @@
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto text-nowrap">
-        <li class="nav-item"><%= link_to '2BusControl', '/2buscontrol', class: 'nav-link' %></li>
-        <li class="nav-item"><%= link_to 'DRMeter', '/drmeter', class: 'nav-link' %></li>
-        <li class="nav-item"><%= link_to 'DROffline', '/droffline', class: 'nav-link' %></li>
-        <li class="nav-item"><%= link_to 'DRMeter MkII', '/mkii', class: 'nav-link' %></li>
         <li class="nav-item"><%= link_to 'RSPhaseShifter', '/rsphaseshifter', class: 'nav-link' %></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="" href="#"
+            id="navbarDropdownDRFamilyLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">DR Family</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownDRFamilyLink">
+            <li><%= link_to 'DRMeter', '/drmeter', class: 'dropdown-item' %></li>
+            <li><%= link_to 'DRMeter MkII', '/mkii', class: 'dropdown-item' %></li>
+            <li><%= link_to 'DROffline', '/droffline', class: 'dropdown-item' %></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><%= link_to '2BusControl', '/2buscontrol', class: 'nav-link' %></li>
 
         <li class="nav-item"><%= link_to 'News', '/news', class: 'nav-link' %></li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="" href="/about"
+          <a class="nav-link dropdown-toggle" role="" href="#"
             id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">About Us</a>
           <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="../about">Our Story</a></li>
-            <li><a class="dropdown-item" href="../about#team">Team Members</a></li>
-            <li><a class="dropdown-item" href="../about#board">Advisory Board</a></li>
+            <li><%= link_to 'Our Story', '../about', class: 'dropdown-item' %></li>
+            <li><%= link_to 'Team Members', '../about#team', class: 'dropdown-item' %></li>
+            <li><%= link_to 'Advisory Board', '../about#board', class: 'dropdown-item' %></li>
           </ul>
         </li>
 
