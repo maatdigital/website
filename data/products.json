@@ -2,26 +2,26 @@
   "2buscontrol": {
     "page": "2buscontrol",
     "name": "2BusControl",
-    "image": ""
+    "slide": "/assets/images/slides/2BC.jpg"
   },
   "drmeter": {
     "page": "drmeter",
     "name": "DRMeter",
-    "image": ""
+    "slide": "/assets/images/slides/DRM.jpg"
   },
   "droffline": {
     "page": "droffline",
     "name": "DROffline",
-    "image": ""
+    "slide": "/assets/images/slides/DRO.jpg"
   },
-  "mkii": {
-    "page": "mkii",
+  "drm2": {
+    "page": "drm2",
     "name": "DRMeter MkII",
-    "image": ""
+    "slide": "/assets/images/slides/DRM2.jpg"
   },
   "rsphaseshifter": {
     "page": "rsphaseshifter",
     "name": "RSPhaseShifter",
-    "image": ""
+    "slide": "/assets/images/slides/RSPS.jpg"
   }
 }
