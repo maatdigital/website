@@ -1,0 +1,74 @@
+---
+title: "Support"
+image: "bg2.jpg"
+---
+
+<div class="container">
+  <div class="space-90"></div>
+  <div class="center-title">
+    <h2>Tested & Approved</h2>
+    <p>The Top DAWs</p>
+  </div>
+
+  <div class="row">
+    <% data.approved.items.each do |item| %>
+      <div class="col-md-4 margin-b-40">
+        <div class="faq-box">
+          <h4><%= item.title %></h4>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="container">
+  <div class="center-title">
+    <h2>Have A Problem?</h2>
+    <p>If you have any problems with our products, please let us know
+    with as much detail as possible. Include your OS type and version, DAW and
+    version, plus basic information about your host computer including CPU type,
+    amount of RAM, and any unusual peripherals or cards installed. Then, describe the problem so that
+    we can attempt to recreate it! Send that to:
+    <%= mail_to 'support@maat.digital' %>
+  </div>
+</div>
+
+<div class="container">
+  <div class="center-title">
+    <h2>FAQs</h2>
+    <p>We’ll have answers to your Frequently Asked Questions soon!</p>
+  </div>
+
+  <!--div class="row">
+  <% ["company","product","license","maintenance"].each do |list| %>
+    <div class="col-md-6 margin-b-20">
+      <h4><%= data.support[list].title %></h4>
+
+      <ul>
+      <% data.support[list].items.each do |item| %>
+        <li class="faq-list">
+          <a href="#"  onclick="return false"><%= item.topic %></a><br>
+          <span class="d-none"><%= item.reply %></span>
+        </li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  </div-->
+
+  <div class="space-60"></div>
+</div>
+
+<script >
+  $(document).ready(function(){
+    $(".faq-list a").on('click', function (evt) {
+      evt.preventDefault();
+      var answer = $(this).parent("li").children("span");
+      if (answer.hasClass("d-none")) {
+        answer.removeClass("d-none")
+      } else {
+        answer.addClass("d-none")
+      }
+    });
+  });
+</script>
