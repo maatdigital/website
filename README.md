@@ -91,7 +91,7 @@ Enable the terminal with `Ctrl+Shift+@` and use it as in Ubuntu.
 For development, change into the project directory and run:
 
 ```
-middleman server
+bundle exec middleman server
 ```
 
 Then check the website in your browser: http://localhost:4567 It will refresh
@@ -100,7 +100,7 @@ the website automatically, when changes are made and saved.
 To build the static files run:
 
 ```
-middleman build
+bundle exec middleman build
 ```
 
 The generated files can be found in the `build` directory.
