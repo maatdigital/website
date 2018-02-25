@@ -1,0 +1,21 @@
+title: "DRMeter MkII Released"
+date: "2017/08/02"
+published: true
+author: "masciarotte"
+image: "/media/news/007thumb.jpg"
+abstract: >
+  Company announces the release of their next generation DRMeter MkII plug–in for Loudness measurement
+content: >
+  <h3>MAAT Proclaims One Meter For All</h3>
+  <p class="lead">MAAT announces the release of a new loudness measurement tool designed with music creation in mind</p>
+  <p>MAAT Incorporated today announced the release of DRMeter MkII, a cross platform plug–in for the measurement and monitoring of audio Loudness and dynamics. The plug–in premiers several new features for the Loudness metering marketplace, and is the first loudness measurement tool specifically designed for music creation as well as broadcast production and post.</p>
+  <p>DRMeter MkII is the first Loudness meter that combines high accuracy R128 and A/85 conformance with elements crafted expressly for music creation. It is the only Loudness meter that displays channel–specific trends by augmenting EBU–mandated monaural measurements with classic L/R metering for Max. Short Term, Max. Momentary and True Peak, to identify trends and channel–specific issues without the need for an additional meter. It is also the first plug–in to offer both the emerging PSR metric, Sample Peak–to–Short–term Loudness Ratio, and official DRi, integrated DR formerly available only in MAAT’s DROffline batch measurement utility.</p>
+  <p>For a complete PDF version, click <a href="https://download.maat.digital/public/PR/007MAAT_Proclaims_One_Meter_For_All.pdf" target="_blank">here</a>.</p>
+tags: ["news","integrated DR","plugin","loudness","R128","A/85"]
+products: []
+links:
+  - "https://www.einpresswire.com/article/433369643/maat-proclaims-one-meter-for-all"
+  - "http://www.fast-and-wide.com/equipment-releases/test-a-measurement/10843-maat-drmeter-mk-ii"
+  - "https://www.gearslutz.com/board/new-product-alert/1203256-maat-releases-next-generation-drmeter-mkii-plugin-loudness-metering.html"
+  - "https://www.kvraudio.com/news/maat-releases-drmeter-mkii-plug-in-for-loudness-measurement-40400"
+  - "https://www.prlog.org/12693442-maat-proclaims-one-meter-for-all.html"
