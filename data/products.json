@@ -19,6 +19,21 @@
     "name": "DRMeter MkII",
     "slide": "/assets/images/slides/DRM2.jpg"
   },
+  "theqorange": {
+    "page": "theqorange",
+    "name": "thEQ Orange",
+    "slide": "/assets/images/slides/dummy.jpg"
+  },
+  "theqred": {
+    "page": "theqred",
+    "name": "thEQ Red",
+    "slide": "/assets/images/slides/dummy.jpg"
+  },
+  "theqblue": {
+    "page": "theqblue",
+    "name": "thEQ Blue",
+    "slide": "/assets/images/slides/dummy.jpg"
+  },
   "rsphaseshifter": {
     "page": "rsphaseshifter",
     "name": "RSPhaseShifter",
