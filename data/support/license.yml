@@ -1,53 +1,53 @@
 title: Licenses & Wibu
 items:
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and send the ZIP file that it creates to <support@maat.digital>. 
+    reply: <br>"We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital. 
     <br>For macOS, launch; '/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app'
     <br>For Windows C drive; '\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe'"
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
-    reply: "In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach."
+    reply: <br>"In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach."
 
   - topic: "What is CodeMeter Control Center?"
-    reply: "CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for all your MAAT licenses."
+    reply: <br>"CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for all your MAAT licenses."
 
   - topic: "What is a CodeMeter CmContainer?"
-    reply: "A CmContainer is a container for your licenses. A CodeMeter dongle or “CmStick” <em>is</em> a hardware CmContainer in and of itself. There are also virtual containers called CmActLicenses. A CmActLicense represents the software–based variant of CodeMeter protection and licensing technology. With virtual containers, licenses and the keys responsible for encrypting and decrypting are saved to a CmActLicense license file which is cryptographically safeguarded and signed. This virtual CmContainer is unique and bound only to a specific computer or device. The unique binding is guaranteed by a digital “fingerprint,” calculated from specific hardware features of a computer or a device. This ensures that CmActLicense licenses are valid only for the identified computer or device and are not transferable. The license <em>inside</em> the container can be moved or parked. See “I need to move my license…” below for more information."
+    reply: <br>"A CmContainer is a container for your licenses. A CodeMeter dongle or “CmStick” <em>is</em> a hardware CmContainer in and of itself. There are also virtual containers called CmActLicenses. A CmActLicense represents the software–based variant of CodeMeter protection and licensing technology. With virtual containers, licenses and the keys responsible for encrypting and decrypting are saved to a CmActLicense license file which is cryptographically safeguarded and signed. This virtual CmContainer is unique and bound only to a specific computer or device. The unique binding is guaranteed by a digital “fingerprint,” calculated from specific hardware features of a computer or a device. This ensures that CmActLicense licenses are valid only for the identified computer or device and are not transferable. The license <em>inside</em> the container can be moved or parked. See “I need to move my license…” below for more information."
 
   - topic: "Is my old Mac compatible with your dongle stuff?"
-    reply: "The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <%= link_to 'Wibu', 'https://www.wibu.com/us/downloads-user-software.html', target: '_blank' %> for all vintages of CodeMeter installers."
+    reply: <br>"The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <%= link_to 'Wibu', 'https://www.wibu.com/us/downloads-user-software.html', target: '_blank' %> for all vintages of CodeMeter installers."
 
   - topic: "How many license activations do I have?"
-    reply: "You have three replacements if you loose your activation. That said, your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
+    reply: <br>"You have three replacements if you loose your activation. That said, your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
 
   - topic: "How can I move a MAAT license from one computer to another?"
-    reply: "The license itself can reside on either a single host computer as a file, or on hardware; a 3-Series CodeMeter dongle. Host–based CmContainer licenses can be moved from one host to another, to or from a file to a dongle, or can be “parked” in the cloud between placement. Obviously, a dongle-based license can be moved around very quickly and easily, while a host-based license involves a fair amount of manipulation, up to the cloud then down to another host, to move it. See the next question below for more information."
+    reply: <br>"The license itself can reside on either a single host computer as a file, or on hardware; a 3-Series CodeMeter dongle. Host–based CmContainer licenses can be moved from one host to another, to or from a file to a dongle, or can be “parked” in the cloud between placement. Obviously, a dongle-based license can be moved around very quickly and easily, while a host-based license involves a fair amount of manipulation, up to the cloud then down to another host, to move it. See the next question below for more information."
 
   - topic: "I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?"
-    reply: "Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines.
-    License transfer or “re–hosting” is very similar to the activation process —
-    a. Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.
-    b. Click “Activate License”.
-    c. Enter your Product Key and click “Activate Online”.
-    d. Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.
-    e. Click on the “Deactivate Selected Licenses Now” button.
-    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information."
+    reply: <br>"Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines.
+    <br>License transfer or “re–hosting” is very similar to the activation process —
+    <br>a. Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.
+    <br>b. Click “Activate License”.
+    <br>c. Enter your Product Key and click “Activate Online”.
+    <br>d. Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.
+    <br>e. Click on the “Deactivate Selected Licenses Now” button.
+    <br>Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information."
 
   - topic: "How many machine are included in my license?"
-    reply: "For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also one-per-machine.
+    reply: <br>"For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also one-per-machine.
     You can install on as many hosts as you want, and that license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information."
 
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
-    reply: "We need a 3-Series CmStick dongle, with 3-xxxxxxxx serial number as shown in the CodeMeter app, or newer to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework we use."
+    reply: <br>"We need a 3-Series CmStick dongle, with 3-xxxxxxxx serial number as shown in the CodeMeter app, or newer to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework we use."
 
   - topic: "I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?"
-    reply: "CodeMeter CmStick dongles on Merging’s Pyramix MassCore systems causes conflicts. CmStick dongles do not interoperate well with Merging’s MassCore/IntervalZero low level realtime engine. However, host–based CmActLicenses interoperate well and should be used when MAAT products are installed on MassCore–equipped systems."
+    reply: <br>"CodeMeter CmStick dongles on Merging’s Pyramix MassCore systems causes conflicts. CmStick dongles do not interoperate well with Merging’s MassCore/IntervalZero low level realtime engine. However, host–based CmActLicenses interoperate well and should be used when MAAT products are installed on MassCore–equipped systems."
 
   - topic: "How can I activate a license on an offline computer, a computer that doesn’t have internet access?"
-    reply: "Also, for each MAAT product you have installed, you’ll find a MAAT/ProductName/Documentation folder with the <em>MAAT Offline License Activation</em> PDF parked there."
+    reply: <br>"Also, for each MAAT product you have installed, you’ll find a MAAT/ProductName/Documentation folder with the <em>MAAT Offline License Activation</em> PDF parked there."
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
-    reply: "A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
+    reply: <br>"A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
 
   - topic: "Where do I find answers to other CodeMeter questions not listed here?"
-    reply: "Head over to CodeMeter’s <%= link_to 'FAQ', 'http://support.codemeter.de/en/faq/', target: '_blank' %> for answers to many more CodeMeter–related questions."
+    reply: <br>"Head over to CodeMeter’s <%= link_to 'FAQ', 'http://support.codemeter.de/en/faq/', target: '_blank' %> for answers to many more CodeMeter–related questions."
