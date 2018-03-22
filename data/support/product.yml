@@ -1,10 +1,14 @@
 title: DAW, App & OS Compatibility
 items:
-  - topic: Question 1
-    reply: Answer to Question 1
 
-  - topic: Question 2
-    reply: Answer to Question 1
+  - topic: Is my old Mac compatible with your dongle stuff?
+    reply: The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <%= link_to 'Wibu', 'https://www.wibu.com/us/downloads-user-software.html', target: '_blank' %> for all vintages of CodeMeter installers.
 
-  - topic: Question 3
-    reply: Answer to Question 1
+  - topic: I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?
+    reply: CodeMeter CmStick dongles on Merging’s Pyramix MassCore systems causes conflicts. CmStick dongles do not interoperate well with Merging’s MassCore/IntervalZero low level realtime engine. However, host–based CmActLicenses interoperate well and should be used when MAAT products are installed on MassCore–equipped systems.
+
+  - topic: My MAAT plug–ins don’t work/float properly in Samplitude/Sequoia.
+    reply: Running the 32 bit version of either Sequoia or Samplitude, you may find that our plug-in windows do not float. As it turns out, you’ll find that <em>none</em> of your 32 bit plug–in windows float! This issue is caused by the “bit-bridge” that Sequoia and Samplitude use to load plug–ins that have an incompatible bit depth. We provide both 32 and 64 bit versions of our plug–ins so, simply disable or remove the 32 bit versions, the 64 bit versions should behave correctly.
+
+  - topic: I use Foobar2000, and would like to run DRMeter within foobar. Can I do that?
+    reply: We’ve been told that George Yohng’s VST wrapper <http://www.yohng.com/> plug–in for Foobar is a good solution for this use case.
