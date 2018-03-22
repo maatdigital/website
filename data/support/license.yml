@@ -1,9 +1,9 @@
 title: Licenses & Wibu
 items:
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital. 
-    <br>For macOS, launch; '/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app'
-    <br>For Windows C drive; '\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe'"
+    reply: "<br>We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital. 
+    <br>**For macOS,** launch; '/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app'
+    <br>**For Windows C drive;** '\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe'"
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach."
