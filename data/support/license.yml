@@ -1,7 +1,10 @@
 title: Licenses & Wibu
 items:
   - topic: I’m having trouble with my MAAT license. Can you help?
-    reply: We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and send the ZIP file that it creates to <support@maat.digital>. For macOS, launch; /Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app — For Windows; C:\Program Files\MAAT\Shared\Utilities\DiagnosticsReporter.exe
+    reply: We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and send the ZIP file that it creates to <support@maat.digital>. For macOS, launch; "/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app" — For Windows C drive; "\Program Files\MAAT\Shared\Utilities\DiagnosticsReporter.exe"
+    
+  - topic: What is CodeMeter Control Center?
+    reply: CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for your MAAT license.
     
   - topic: What is a CodeMeter CmContainer?
     reply: A CmContainer is a virtual container for your licenses. Wibu calls a soft(ware) or host–based license stored on a CmContainer a “CmActLicense.” By the way, a CodeMeter dongle or “CmStick” <em>is</em> a CmContainer in and of itself.
@@ -28,6 +31,3 @@ items:
   - topic: How many machine are included in my license?
     reply: For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also one-per-machine.
     You can install on as many hosts as you want, and that license can be moved, whether it’s file–based or on a dongle. See the previous questions above…
-
-  - topic: What is CodeMeter Control Center?
-    reply: CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for your MAAT license.
