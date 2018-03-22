@@ -18,11 +18,11 @@ items:
   - topic: I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?
     reply: Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines. 
     License transfer or “re–hosting” is very similar to the activation process —
-    1. Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.
-    2. Click “Activate License”.
-    3. Enter your Product Key and click “Activate Online”.
-    4. Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.
-    5. Click on the “Deactivate Selected Licenses Now” button.
+    a. Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.
+    b. Click “Activate License”.
+    c. Enter your Product Key and click “Activate Online”.
+    d. Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.
+    e. Click on the “Deactivate Selected Licenses Now” button.
     Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer (see What is a CodeMeter CmContainer? above).
 
   - topic: How many machine are included in my license?
