@@ -1,22 +1,22 @@
 title: Licenses & Wibu
 items:
   - topic: I’m having trouble with my MAAT license. Can you help?
-    reply: We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and send the ZIP file that it creates to <support@maat.digital>. For macOS, launch; "/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app" — For Windows C drive; "\Program Files\MAAT\Shared\Utilities\DiagnosticsReporter.exe"
-    
-  - topic: What is CodeMeter Control Center?
-    reply: CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for your MAAT license.
-    
-  - topic: What is a CodeMeter CmContainer?
-    reply: A CmContainer is a virtual container for your licenses. Wibu calls a soft(ware) or host–based license stored on a CmContainer a “CmActLicense.” By the way, a CodeMeter dongle or “CmStick” <em>is</em> a CmContainer in and of itself.
-    
+    reply: We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and send the ZIP file that it creates to <support@maat.digital>. For macOS, launch; “/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app” — For Windows C drive; “\Program Files\MAAT\Shared\Utilities\DiagnosticsReporter.exe”
+        
   - topic: What kind of dongle does MAAT use? Can’t I use my iLok?
     reply: In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach. 
+    
+  - topic: What is CodeMeter Control Center?
+    reply: CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for all your MAAT licenses.
+    
+  - topic: What is a CodeMeter CmContainer?
+    reply: A CmContainer is a container for your licenses. A CodeMeter dongle or “CmStick” <em>is</em> a hardware CmContainer in and of itself. There are also virtual containers called CmActLicenses. A CmActLicense represents the software–based variant of CodeMeter protection and licensing technology. With virtual containers, licenses and the keys responsible for encrypting and decrypting are saved to a CmActLicense license file which is cryptographically safeguarded and signed. This virtual CmContainer is unique and bound only to a specific computer or device. The unique binding is guaranteed by a digital “fingerprint,” calculated from specific hardware features of a computer or a device. This ensures that CmActLicense licenses are valid only for the identified computer or device and are not transferable. The license <em>inside</em> the container can be moved or parked. See “I need to move my license…” below for more information.
 
   - topic: Is my old Mac compatible with your dongle stuff?
     reply: The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <%= link_to 'Wibu', 'https://www.wibu.com/us/downloads-user-software.html', target: '_blank' %> for all vintages of CodeMeter installers.
 
   - topic: How many license activations do I have?
-    reply: You have three replacements if you loose your activation. That said, your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the next questions below…
+    reply: You have three replacements if you loose your activation. That said, your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the next questions below for more information.
 
   - topic: I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?
     reply: Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines. 
@@ -26,8 +26,11 @@ items:
     c. Enter your Product Key and click “Activate Online”.
     d. Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.
     e. Click on the “Deactivate Selected Licenses Now” button.
-    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer (see What is a CodeMeter CmContainer? above).
+    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information.
 
   - topic: How many machine are included in my license?
     reply: For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also one-per-machine.
-    You can install on as many hosts as you want, and that license can be moved, whether it’s file–based or on a dongle. See the previous questions above…
+    You can install on as many hosts as you want, and that license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information.
+
+  - topic: Where do I find answers to other CodeMeter questions not listed here?
+    reply: Head over to CodeMeter’s <%= link_to 'FAQ', 'http://support.codemeter.de/en/faq/', target: '_blank' %> for answers to many more CodeMeter–related questions.
