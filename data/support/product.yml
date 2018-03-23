@@ -1,10 +1,10 @@
 title: DAW, App & OS Compatibility
 items:
-  - topic: "Is my old Mac compatible with your dongle stuff?"
-    reply: "• The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <a href='https://www.wibu.com/us/downloads-user-software.html' target='_blank'>Wibu</a> for all vintages of CodeMeter installers."
+  - topic: 'Is my old Mac compatible with your dongle stuff?'
+    reply: '• The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <a href="https://www.wibu.com/us/downloads-user-software.html" target="_blank">Wibu</a> for all vintages of CodeMeter installers.'
 
-  - topic: "I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?"
-    reply: "• CodeMeter CmStick dongles on Merging’s Pyramix MassCore systems causes conflicts. CmStick dongles do not interoperate well with Merging’s MassCore/IntervalZero low level realtime engine. However, host–based CmActLicenses interoperate well and should be used when MAAT products are installed on MassCore–equipped systems."
+  - topic: 'I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?'
+    reply: '• CodeMeter CmStick dongles on Merging’s Pyramix MassCore systems causes conflicts. CmStick dongles do not interoperate well with Merging’s MassCore/IntervalZero low level realtime engine. However, host–based CmActLicenses interoperate well and should be used when MAAT products are installed on MassCore–equipped systems.'
 
-  - topic: "I’m running the 32 bit version of Sequoia/Samplitude, and my MAAT plug–in windows don’t float. What’s up?"
-    reply: "• You may have noticed that <em>none</em> of your 32 bit plug–ins work correctly. This issue only occurs when using the 32 bit versions of a plug–in, and is caused by the “bit-bridge” that Sequoia/Samplitude uses to load plug–ins that have an incompatible bit depth. Fortunately, we ship both 32 and 64 bit versions of our plug–ins, so disable or remove the 32 bit version. Run only the 64 bit version of all your plug–ins and they will behave correctly."
+  - topic: 'I’m running the 32 bit version of Sequoia/Samplitude, and my MAAT plug–in windows don’t float. What’s up?'
+    reply: '• You may have noticed that <em>none</em> of your 32 bit plug–ins work correctly. This issue only occurs when using the 32 bit versions of a plug–in, and is caused by the “bit-bridge” that Sequoia/Samplitude uses to load plug–ins that have an incompatible bit depth. Fortunately, we ship both 32 and 64 bit versions of our plug–ins, so disable or remove the 32 bit version. Run only the 64 bit version of all your plug–ins and they will behave correctly.'
