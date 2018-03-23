@@ -1,7 +1,7 @@
 title: Licenses & Wibu
 items:
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital.
+    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and <a href="mailto:support@maat.digital?Subject=License%20Issue%20Inquiry">e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can."
     <ul>
       <li>For macOS, launch; <code>/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app</code></li>
       <li>For Windows C drive; <code>\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
@@ -17,7 +17,7 @@ items:
     reply: "• A CmContainer is a container for your licenses. A CodeMeter dongle or “CmStick” <em>is</em> a hardware CmContainer in and of itself. There are also virtual containers called CmActLicenses. A CmActLicense represents the software–based variant of CodeMeter protection and licensing technology. With virtual containers, licenses and the keys responsible for encrypting and decrypting are saved to a CmActLicense license file which is cryptographically safeguarded and signed. This virtual CmContainer is unique and bound only to a specific computer or device. The unique binding is guaranteed by a digital “fingerprint,” calculated from specific hardware features of a computer or a device. This ensures that CmActLicense licenses are valid only for the identified computer or device and are not transferable. The license <em>inside</em> the container can be moved or parked. See “I need to move my license…” below for more information."
 
   - topic: "How many license activations do I have?"
-    reply: "• You have three replacements if you loose your activation. That said, your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
+    reply: "• You have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license. Note that your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
 
   - topic: "How can I move a MAAT license from one computer to another?"
     reply: "• The license itself can reside on either a single host computer as a file, or on hardware; a 3-Series CodeMeter dongle. Host–based CmContainer licenses can be moved from one host to another, to or from a file to a dongle, or can be “parked” in the cloud between placement. Obviously, a dongle-based license can be moved around very quickly and easily, while a host-based license involves a fair amount of manipulation, up to the cloud then down to another host, to move it. See the next question below for more information."
@@ -35,18 +35,17 @@ items:
     Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information."
 
   - topic: "How many machine are included in my license?"
-    reply: "• For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also one-per-machine.
-    You can install on as many hosts as you want, and that license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information."
+    reply: "• For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also <em>one per machine</em>. You cannot have one license on multiple machines unless it’s on a CodeMeter dongle.
+    You can install our products on as many hosts as you want, and a license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information."
 
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
     reply: "• We need a 3-Series CmStick dongle or newer, with a 3-xxxxxxxx serial number as shown in the CodeMeter app, to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework that we use."
 
   - topic: "How can I activate a license on an offline computer, a computer that doesn’t have internet access?"
-    reply: "• Take a look at this PDF, where you can read about offline activation.
-    Also, for each MAAT product you have installed, you’ll find a <code>MAAT/ProductName/Documentation</code> folder with the <em>MAAT Offline License Activation</em> PDF parked there."
+    reply: "• Take a look at this <a href='https://website-maat-digital-downloads.s3.amazonaws.com/public/docs/Wibu_Offline_ReadMe.pdf' target='_blank'>PDF</a>, where you can read about offline activation. Also, for each MAAT product you have installed, you’ll find a <code>MAAT/ProductName/Documentation</code> folder with the <em>MAAT Offline License Activation</em> PDF parked there."
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
     reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
 
   - topic: "Where do I find answers to other CodeMeter questions not listed here?"
-    reply: "• Head over to CodeMeter’s <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."
+    reply: "• Head over to CodeMeter’s own <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."
