@@ -1,9 +1,11 @@
 title: Licenses & Wibu
 items:
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital. 
-    <br>- For macOS, launch; '/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app'
-    <br>- For Windows C drive; '\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe'"
+    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital.
+    <ul>
+      <li>For macOS, launch; <code>/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app</code></li>
+      <li>For Windows C drive; <code>\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
+    </ul>"
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach."
@@ -23,12 +25,14 @@ items:
   - topic: "I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?"
     reply: "• Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines.
     <br>License transfer or “re–hosting” is very similar to the activation process —
-    <br>a. Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.
-    <br>b. Click “Activate License”.
-    <br>c. Enter your Product Key and click “Activate Online”.
-    <br>d. Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.
-    <br>e. Click on the “Deactivate Selected Licenses Now” button.
-    <br>Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information."
+    <ol type='a'>
+      <li>Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.</li>
+      <li>Click “Activate License”.</li>
+      <li>Enter your Product Key and click “Activate Online”.</li>
+      <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.</li>
+      <li>Click on the “Deactivate Selected Licenses Now” button.</li>
+    </ol>
+    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information."
 
   - topic: "How many machine are included in my license?"
     reply: "• For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also one-per-machine.
@@ -39,10 +43,10 @@ items:
 
   - topic: "How can I activate a license on an offline computer, a computer that doesn’t have internet access?"
     reply: "• Take a look at this PDF, where you can read about offline activation.
-    Also, for each MAAT product you have installed, you’ll find a MAAT/ProductName/Documentation folder with the <em>MAAT Offline License Activation</em> PDF parked there."
+    Also, for each MAAT product you have installed, you’ll find a <code>MAAT/ProductName/Documentation</code> folder with the <em>MAAT Offline License Activation</em> PDF parked there."
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
     reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
 
   - topic: "Where do I find answers to other CodeMeter questions not listed here?"
-    reply: "• Head over to CodeMeter’s <%= link_to 'FAQ', 'http://support.codemeter.de/en/faq/', target: '_blank' %> for answers to many more CodeMeter–related questions."
+    reply: "• Head over to CodeMeter’s <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."

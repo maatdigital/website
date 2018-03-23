@@ -1,7 +1,7 @@
 title: DAW, App & OS Compatibility
 items:
   - topic: "Is my old Mac compatible with your dongle stuff?"
-    reply: "• The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <%= link_to 'Wibu', 'https://www.wibu.com/us/downloads-user-software.html', target: '_blank' %> for all vintages of CodeMeter installers."
+    reply: "• The current CodeMeter license framework supports macOS 10.10 through 10.13, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <a href='https://www.wibu.com/us/downloads-user-software.html' target='_blank'>Wibu</a> for all vintages of CodeMeter installers."
 
   - topic: "I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?"
     reply: "• CodeMeter CmStick dongles on Merging’s Pyramix MassCore systems causes conflicts. CmStick dongles do not interoperate well with Merging’s MassCore/IntervalZero low level realtime engine. However, host–based CmActLicenses interoperate well and should be used when MAAT products are installed on MassCore–equipped systems."
