@@ -1,7 +1,7 @@
 title: Licenses & Wibu
 items:
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and <a href="mailto:support@maat.digital?Subject=License%20Issue%20Inquiry">e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can."
+    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
     <ul>
       <li>For macOS, launch; <code>/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app</code></li>
       <li>For Windows C drive; <code>\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
