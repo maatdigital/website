@@ -2,8 +2,8 @@ title: Licenses & Wibu
 items:
   - topic: "I’m having trouble with my MAAT license. Can you help?"
     reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and e–mail the ZIP file that it creates to support at maat.digital. 
-    <br>For macOS, launch; '/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app'
-    <br>For Windows C drive; '\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe'"
+    <br>- For macOS, launch; '/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app'
+    <br>- For Windows C drive; '\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe'"
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach."
@@ -35,11 +35,10 @@ items:
     You can install on as many hosts as you want, and that license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information."
 
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
-    reply: "• We need a 3-Series CmStick dongle, with 3-xxxxxxxx serial number as shown in the CodeMeter app, or newer to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework we use."
+    reply: "• We need a 3-Series CmStick dongle or newer, with a 3-xxxxxxxx serial number as shown in the CodeMeter app, to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework that we use."
 
   - topic: "How can I activate a license on an offline computer, a computer that doesn’t have internet access?"
     reply: "• Take a look at this PDF, where you can read about offline activation.
-    
     Also, for each MAAT product you have installed, you’ll find a MAAT/ProductName/Documentation folder with the <em>MAAT Offline License Activation</em> PDF parked there."
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
