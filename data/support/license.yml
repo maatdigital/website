@@ -46,7 +46,7 @@ items:
         <ul>
         <li>For macOSFor macOS, the offline manual is at <code>/Applications/Shared/Documentation</code></li>
         <li>For macOSFor Windows, it’s at <code>\\Program Files\\MAAT\\Shared\\Documentation</code>"</li>
-        </ul>
+        </ul>"
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
     reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
