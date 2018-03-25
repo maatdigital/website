@@ -42,7 +42,13 @@ items:
     reply: "• We need a 3-Series CmStick dongle or newer, with a 3-xxxxxxxx serial number as shown in the CodeMeter app, to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework that we use."
 
   - topic: "How can I activate a license on an offline computer, a computer that doesn’t have internet access?"
-    reply: "• Take a look at this <a href='https://website-maat-digital-downloads.s3.amazonaws.com/public/docs/Wibu_Offline_ReadMe.pdf' target='_blank'>PDF</a>, where you can read about offline activation. Also, for each MAAT product you have installed, you’ll find a <code>MAAT/ProductName/Documentation</code> folder with the <em>MAAT Offline License Activation</em> PDF parked there."
+    reply: "• Take a look at this <a href='https://website-maat-digital-downloads.s3.amazonaws.com/public/docs/Wibu_Offline_ReadMe.pdf' target='_blank'>PDF</a>, where you can read about offline activation. Also, for each MAAT product you have installed, you’ll find a  folder with the <em>MAAT Offline License Activation</em> PDF parked there.
+        <ul>
+        <li>For macOS, the offline manual is at;<br>
+        <code>/Applications/Shared/Documentation</code></li>
+        <li>For Windows, it’s at;<br>
+        <code>\\Program Files\\MAAT\\Shared\\Documentation</code></li>
+        </ul>"
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
     reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
