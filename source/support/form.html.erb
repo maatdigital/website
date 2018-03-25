@@ -1,6 +1,11 @@
 ---
 title: "Support Form"
 layout: "page-misc"
+url: "https://www.maat.digital/drm2/"
+gateway: "https://laej65lgib.execute-api.eu-west-1.amazonaws.com/dev/message/support"
+email:
+  subject: "Upgrade your DRMeter Now!"
+  message: "Thanks for your purchase of DRMeter. As a valued DRM customer, we’re offering a $25 discount on the purchase of DRMeter MkII, our new all–inclusive Loudness Meter designed specifically for.\\n\\nTo grab your own copy of DRM2 with $25 off, click . This __link__ is only valid for 48 hours, so act now!\\n\\nThanks for your continued interest in MAAT, and keep making great sounding music…\\n\\nAll the best from everyone at MAAT"
 ---
 
 <div class="display-table">
@@ -17,29 +22,29 @@ layout: "page-misc"
               <p>Thanks for your interest in upgrading your DRMeter to DRMeter MkII. Your existing DRMeter license will still be valid after you upgrade.</p>
               <p>Please fill in the following information, with a valid email address so we can send you the upgrade information. Don’t forget to copy and paste your Product Key exactly as it was sent to you.</p>
 
-              <form id="support-form">
+              <form id="support-form" action="<%= current_page.data.gateway %>" method="POST">
                 <div class="form-group row">
                   <label for="name" class="col-sm-2 col-form-label">Name</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="name" autocomplete='name' placeholder="Your name" value="My Name" required>
+                    <input type="text" class="form-control" name="name" autocomplete='name' placeholder="Your name" value="My Name" required>
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="country" class="col-sm-2 col-form-label">Country</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="country" autocomplete='country' placeholder="Your country" value="Germany" required>
+                    <input type="text" class="form-control" name="country" autocomplete='country' placeholder="Your country" value="Germany" required>
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="email" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" id="email" autocomplete='email' placeholder="name@example.com" value="daniel@karida.de" required>
+                    <input type="email" class="form-control" name="email" autocomplete='email' placeholder="name@example.com" value="daniel@karida.de" required>
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="os" class="col-sm-2 col-form-label">OS</label>
                   <div class="col-sm-10">
-                    <select class="form-control" id="os" required>
+                    <select class="form-control" name="os" required>
                       <option value="osx">Mac OS</option>
                       <option value="win">Windows</option>
                       <option value="all">Both</option>
@@ -49,11 +54,14 @@ layout: "page-misc"
                 <div class="form-row">
                   <label for="daw" class="col-sm-2 col-form-label">Product Key (DAW)</label>
                   <div class="form-group col-sm-10">
-                    <input type="text" class="form-control" id="daw" autocomplete='daw' placeholder="Your product key" maxlength="29" required>
+                    <input type="text" class="form-control" name="daw" autocomplete='daw' placeholder="Your product key" maxlength="29" value="12345-12345-12345-12345-1234" required>
+                    <div class="invalid-feedback">Your license can't be validated. Please paste your Product Key exactly as it was sent to you.</div>
                   </div>
                 </div>
                 <div class="row justify-content-center mt-3">
-                  <button type="submit" class="btn btn-primary">Send Me an Upgrade Email</button>
+                  <input type="hidden" name="subject" value="<%= current_page.data.email.subject %>">
+                  <input type="hidden" name="message" value="<%= current_page.data.email.message %>">
+                  <button type="submit" class="btn btn-primary" disabled>Send Me an Upgrade Email</button>
                   <button type="reset" class="btn btn-light">Clear Form</button>
                 </div>
               </form>
@@ -67,24 +75,43 @@ layout: "page-misc"
 </div>
 
 <script>
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    var form = document.getElementById('support-form');
+var $ = $.noConflict();
+$(function () {
+  "use strict";
 
-    form.addEventListener('submit', function(event) {
-
-      console.log(form);
-
-      if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
+  $("form#support-form input").on('input', function() {
+    if ($("form#support-form").get(0).checkValidity()) {
+      var daw = $("form#support-form input[name=daw]").val();
+      if (daw.length == 29 && daw.split("-").length == 5) {
+        $(':input[type="submit"]').prop('disabled', false);
       }
+      else {
+        $(':input[type="submit"]').prop('disabled', true);
+      }
+    }
+  });
 
-      event.preventDefault();
-      event.stopPropagation();
-    }, false);
+  $("form#support-form").on("submit", function (event) {
+    event.preventDefault();
 
-    }, false);
-})();
+    $.when(
+      $.ajax({
+        type: 'POST',
+        url: 'https://download.maat.digital/prod/',
+        data: JSON.stringify({
+          'url_long': "<%= current_page.data.url %>",
+          'cdn_prefix': 'download.maat.digital'
+        }),
+        contentType: 'application/json; charset=utf-8',
+        dataType: 'json',
+        encode: true
+      })
+    ).done(function (res) {
+      var msg = "<%= current_page.data.email.message.html_safe %>";
+      $("form#support-form input[name=message]").val(msg.replace("__link__",res.url_short));
+      console.log($("form#support-form"));
+    });
+  });
+
+});
 </script>
