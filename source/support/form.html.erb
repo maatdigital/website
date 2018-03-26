@@ -26,25 +26,25 @@ email:
                 <div class="form-group row">
                   <label for="name" class="col-sm-2 col-form-label">Name</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="name" autocomplete='name' placeholder="Your name" value="My Name" required>
+                    <input type="text" class="form-control" id="name" autocomplete='name' placeholder="Your name" value="My Name" required>
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="country" class="col-sm-2 col-form-label">Country</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="country" autocomplete='country' placeholder="Your country" value="Germany" required>
+                    <input type="text" class="form-control" id="country" autocomplete='country' placeholder="Your country" value="Germany" required>
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="email" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" name="email" autocomplete='email' placeholder="name@example.com" value="daniel@karida.de" required>
+                    <input type="email" class="form-control" id="email" autocomplete='email' placeholder="name@example.com" value="daniel@karida.de" required>
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="os" class="col-sm-2 col-form-label">OS</label>
                   <div class="col-sm-10">
-                    <select class="form-control" name="os" required>
+                    <select class="form-control" id="os" required>
                       <option value="osx">Mac OS</option>
                       <option value="win">Windows</option>
                       <option value="all">Both</option>
@@ -54,13 +54,13 @@ email:
                 <div class="form-row">
                   <label for="daw" class="col-sm-2 col-form-label">Product Key (DAW)</label>
                   <div class="form-group col-sm-10">
-                    <input type="text" class="form-control" name="daw" autocomplete='daw' placeholder="Your product key" maxlength="29" value="12345-12345-12345-12345-1234" required>
+                    <input type="text" class="form-control" id="daw" autocomplete='daw' placeholder="Your product key" maxlength="29" value="12345-12345-12345-12345-1234" required>
                     <div class="invalid-feedback">Your license can't be validated. Please paste your Product Key exactly as it was sent to you.</div>
                   </div>
                 </div>
                 <div class="row justify-content-center mt-3">
-                  <input type="hidden" name="subject" value="<%= current_page.data.email.subject %>">
-                  <input type="hidden" name="message" value="<%= current_page.data.email.message %>">
+                  <input type="hidden" id="subject" value="<%= current_page.data.email.subject %>">
+                  <input type="hidden" id="message" value="<%= current_page.data.email.message %>">
                   <button type="submit" class="btn btn-primary" disabled>Send Me an Upgrade Email</button>
                   <button type="reset" class="btn btn-light">Clear Form</button>
                 </div>
@@ -81,7 +81,7 @@ $(function () {
 
   $("form#support-form input").on('input', function() {
     if ($("form#support-form").get(0).checkValidity()) {
-      var daw = $("form#support-form input[name=daw]").val();
+      var daw = $("input#daw").val();
       if (daw.length == 29 && daw.split("-").length == 5) {
         $(':input[type="submit"]').prop('disabled', false);
       }
@@ -108,9 +108,36 @@ $(function () {
       })
     ).done(function (res) {
       var msg = "<%= current_page.data.email.message.html_safe %>";
-      $("form#support-form input[name=message]").val(msg.replace("__link__",res.url_short));
-      console.log($("form#support-form"));
+
+      var data = {
+        'name': $("input#name").val(),
+        'email': $("input#email").val(),
+        'country': $("input#country").val(),
+        'os': $("select#os").val(),
+        'daw': $("input#daw").val(),
+        'message': msg.replace("__link__",res.url_short),
+        'subject': "<%= current_page.data.email.subject %>",
+        'sender': "MAAT Support <contact@maat.digital>"
+      };
+
+      jQuery.ajax({
+        type: 'POST',
+        url: "<%= current_page.data.gateway %>",
+        dataType: 'json',
+        contentType: 'application/json',
+        data: JSON.stringify(data),
+        success: function (response) {
+          alert("An email was sent to your email address.");
+          console.log(response);
+          // window.location.href = "./";
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(thrownError);
+        }
+      });
     });
+
+    return false;
   });
 
 });
