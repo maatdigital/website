@@ -8,8 +8,8 @@
       </div>
       <div class="container text-center">
         <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
-        <input type="hidden" name="WIN" value="">
-        <input type="hidden" name="OSX" value="">
+        <input type="hidden" name="WIN" value="<%= current_page.data.download.win %>">
+        <input type="hidden" name="OSX" value="<%= current_page.data.download.osx %>">
         <button type="submit" class="btn btn-lg btn-white-border">SIGN UP NOW</button>
       </div>
     </form>
