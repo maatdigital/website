@@ -140,10 +140,11 @@ $(function () {
     return false;
   });
 
-  var shortenURLs = function (callback) {
+  var shortenURLs = function (path_osx, path_win, path_all, callback) {
     var url = {
-      osx: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-macOS.zip",
-      win: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
+      osx: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads" + path_osx,
+      win: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads" + path_win,
+      all: "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads" + path_all
     };
 
     $.when(
@@ -168,55 +169,62 @@ $(function () {
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
         encode: true
+      }),
+      $.ajax({
+        type: 'POST',
+        url: 'https://download.maat.digital/prod/',
+        data: JSON.stringify({
+          'url_long': url.all,
+          'cdn_prefix': 'download.maat.digital'
+        }),
+        contentType: 'application/json; charset=utf-8',
+        dataType: 'json',
+        encode: true
       })
-    ).done(function (osx, win) {
+    ).done(function (osx, win, all) {
       return callback({
         "osx": osx[0].url_short,
-        "win": win[0].url_short
+        "win": win[0].url_short,
+        "all": all[0].url_short
       });
     });
   };
 
   $("form#free2bc-signup button").on("click", function (event) {
-
     event.preventDefault();
-
-    shortenURLs(function (data) {
+    shortenURLs(
+      $('form#free2bc-signup input[name=OSX]').val(),
+      $('form#free2bc-signup input[name=WIN]').val(), "",
+    function (data) {
       $('form#free2bc-signup input[name=OSX]').val(data.osx);
       $('form#free2bc-signup input[name=WIN]').val(data.win);
       $("form#free2bc-signup").submit();
-      // $("form#free2bc-signup")[0].reset();
     });
   });
 
   $("form#newsletter-signup button").on("click", function (event) {
-
     event.preventDefault();
-
-    shortenURLs(function (data) {
+    shortenURLs(
+      $('form#newsletter-signup input[name=OSX]').val(),
+      $('form#newsletter-signup input[name=WIN]').val(), "",
+    function (data) {
       $('form#newsletter-signup input[name=OSX]').val(data.osx);
       $('form#newsletter-signup input[name=WIN]').val(data.win);
       $("form#newsletter-signup").submit();
-      // $("form#newsletter-signup")[0].reset();
     });
   });
 
   $("form#modal-signup button").on("click", function (event) {
-
     event.preventDefault();
-
-    shortenURLs(function (data) {
+    shortenURLs(
+      $('form#modal-signup input[name=OSX]').val(),
+      $('form#modal-signup input[name=WIN]').val(), "",
+    function (data) {
       $('form#modal-signup input[name=OSX]').val(data.osx);
       $('form#modal-signup input[name=WIN]').val(data.win);
       $("form#modal-signup").submit();
-      // $("form#modal-signup")[0].reset();
       $('#newsletterModal').modal('hide')
     });
   });
-
-  // //auto close navbar-collapse on click a
-  // $('a.nav-link').on('click', function () {
-  //   $('.navbar-toggler:visible').click();
-  // });
 
 });
