@@ -32,7 +32,7 @@ items:
       <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.</li>
       <li>Click on the “Deactivate Selected Licenses Now” button.</li>
     </ol>
-    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See “What is a CodeMeter CmContainer?” above for more information."
+    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See the “Restoring Your MAAT License” PDF guide in the How To Guides section above. Also see “What is a CodeMeter CmContainer?” above for more information on how your license is stored."
 
   - topic: "How many machine are included in my license?"
     reply: "• For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also <em>one per machine</em>. You cannot have one license on multiple machines unless it’s on a CodeMeter dongle.
