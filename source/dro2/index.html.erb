@@ -1,0 +1,45 @@
+---
+title: "MAAT DROffline MkII"
+layout: "data-spy"
+avangate:
+  buy: "https://secure.avangate.com/order/checkout.php?PRODS=4734803&QTY=1&CART=1&CARD=1"
+  trial: "https://secure.avangate.com/order/download.php?PRODS=4734803&QTY=1&PAY_TYPE=CCVISAMC"
+---
+
+<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
+  style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
+
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>"
+      style="width: 100%; height: 130%; background-image: url()">
+    <div class="hero-parallax">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="container text-left">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto align-self-center">
+                <div class="hero-static">
+                  <h1>DROffline MkII Analyzer</h1>
+                  <p class="lead">
+                    Get the one and only DR (Dynamic Range) + R128</br>(& a whole lot more) measurement app!</p>
+                  <div class="buttons">
+                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <%= image_tag "product-dro2.jpg", alt: "2BusControl", class: "img-fluid center-img" %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= partial "./details" %>
+<%= partial "./features" %>
+<%= partial "./testimonials" %>
+<%= partial "./specifications" %>
+<%= partial "./buytrial" %>

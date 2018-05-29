@@ -19,6 +19,11 @@
     "name": "DRMeter MkII",
     "slide": "/assets/images/slides/DRM2.jpg"
   },
+  "dro2": {
+    "page": "dro2",
+    "name": "DROffline MkII",
+    "slide": "/assets/images/slides/DRO2.jpg"
+  },
   "theqorange": {
     "page": "theqorange",
     "name": "thEQ Orange",
