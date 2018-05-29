@@ -392,6 +392,17 @@ label {
       margin-right: 5px;
       color: #4aa3df; }
 
+.list-circle {
+  list-style: inherit;
+  padding: 0 0 0 18px;
+  margin: 0; }
+  .list > li {
+    line-height: 30px;
+    overflow: hidden; }
+    .list > li i {
+      margin-right: 5px;
+      color: #4aa3df; }
+
 .page-title h1 {
   color: #333;
   margin: 0px;
