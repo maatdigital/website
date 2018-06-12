@@ -63,9 +63,9 @@ items:
         <li>Run the  CmUninstall.app (uninstaller) included in the download. Enter your administrative password when prompted.</li>
         </ol>"
         
-    - topic: "What Wibu software is installed on my host computer, and can I stop those processes?"
-      reply: "• As with all modern copy protection schemes, a Wibu installation is not, by definition, a rootkit. It is clearly visible at all times and easily removed. The processes are also easily stopped in CodeMeter Control Center.</br>
-            For more detailed information, please read the 'CodeMeter User Help' available via the help menu in CodeMeter Control Center."
+  - topic: "What Wibu software is installed on my host computer, and can I stop those processes?"
+    reply: "• As with all modern copy protection schemes, a Wibu installation is not, by definition, a rootkit. It is clearly visible at all times and easily removed. The processes are also easily stopped in CodeMeter Control Center.</br>
+            For more detailed information, please read the <em>CodeMeter User Help</em> available via the Help menu in the CodeMeter Control Center app."
   
   - topic: "Where do I find answers to other CodeMeter questions not listed here?"
     reply: "• Head over to CodeMeter’s own <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."
