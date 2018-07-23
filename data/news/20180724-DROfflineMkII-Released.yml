@@ -1,0 +1,17 @@
+title: "DROffline MkII Released"
+date: "2018/07/24"
+published: true
+author: "masciarotte"
+image: "/media/news/009thumb.jpg"
+abstract: >
+  Company announces release of their next generation DROffline MkII app for Loudness measurement
+content: >
+  <h3>MAAT Delivers One Two Punch</h3>
+  <p class="lead">MAAT announces the release of a new native loudness measurement app designed with music creation in mind</p>
+  <p>MAAT Incorporated today announced the release of DROffline MkII, a cross platform application for the background detection of file characteristics, measurement of audio Loudness and dynamics and logging of all parameters. The new native utility brings several firsts to the Loudness metering marketplace, and is the only loudness measurement batch processor specifically designed for mastering and music creation in addition to the more traditional broadcast production and post markets.</p>
+  <p>As with the comapnion DRMeter MkII, DROffline MkII is the first Loudness measurement and logging application to combine high accuracy R128 and A/85 conformance with features crafted expressly for music creation. It is the only Loudness measurement utility to display channel–specific trends by augmenting EBU–mandated monaural measurements with classic L/R metering for Max. Short Term, Max. Momentary and True Peak, to identify trends and channel–specific issues without the need for an additional meter. It is also the first app to offer both the emerging PSR metric, Sample Peak–to–Short–term Loudness Ratio, and official DR<i>i</i> Dynamic Range standard for judging “dynamic density,” the amount of dynamic range contrast in a recording.</p>
+  <p>For a complete PDF version, click <a href="https://website-maat-digital-downloads.s3.amazonaws.com/public/PR/009MAAT_Delivers_One_Two_Punch.pdf" target="_blank">here</a>.</p>
+tags: ["news","integrated DR","Minimum PSR","loudness","R128","A/85"]
+products: []
+links:
+
