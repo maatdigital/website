@@ -1,4 +1,4 @@
-title: Our Company
+title: Miscellaneous
 items:
   - topic: "What does MAAT stand for?"
     reply: "• MAAT stands for “Mastering Academy Audio Tools.” In addition, Maat or Ma’at is, according to Wikipedia, “…the ancient Egyptian concepts of truth, balance, order, harmony, law, morality, and justice. Maat was also the goddess who personified these concepts, and regulated the stars, seasons, and the actions of mortals and the deities who had brought order from chaos at the moment of creation.” For audio engineering, order from chaos is a good thing!"
@@ -7,5 +7,9 @@ items:
     reply: "• MAAT Incorporated is owned and operated by the four principal executives who founded the company; Friedemann Tischmeyer, Dr. Christoph Musialik, Tad Nicol and Oliver Masciarotte."
 
   - topic: "Why you should care about MAAT…"
-    reply: "• MAAT is built on the belief that higher fidelity, enhanced workflows and less visual fatigue are hallmarks of better quality software. Our reliance on hard science and in–depth research, tempered by extensive listening and customer feedback, redefines audio tools for media professionals worldwide.<br>
+    reply: "• MAAT is built on the belief that higher fidelity, enhanced workflows and less visual fatigue are hallmarks of better quality software. Our reliance on hard science and in–depth research, tempered by extensive listening and customer feedback, redefines audio tools for media professionals worldwide.</br>
         We love audio. For all of us at MAAT, it’s what we do…all day, every day. From seminal product developments to key patents and intellectual property, we have extensive experience from a manufacturer and engineering viewpoint. All that is moderated by over a century of practical pro audio knowledge. That’s why we can confidently say, “Sound…Simply Better”"
+
+  - topic: "What is DR Dynamic Range?"
+    reply: "• DR Dynamic Range, what we now refer to as DR<em>i</em> or integrated DR, was introduced and initially promoted by the PMF, the Pleasurize Music Foundation. Friedemann Tischmeyer is the founder, and Karlheinz Brandenburg, Ronald Prent and Oliver Masciarotte are board members. At the time, there was no unit of measure for subjective dynamic range reduction. Friedemann found that there was no standardized method for gauging “dynamic density,” or the amount of aggressive dynamic range reduction being applied to popular music. So, together with some colleagues, he created the DR standard. MAAT is granted exclusive license to continue DR tool development.</br>
+        Note that DR is not simply the difference between the peak and quietest value of a track or the common but less than useful PLR or crest factor measurement. It’s more complex, which is how it’s able to provide a meaningful integer value that both represents how much a song is “crushed” and relates directly to how it actually sounds. After two decades, DR<em>i</em> has become a de factor international standard, with tens of thousands of albums and songs measured for comparison by engineers and enthusiasts."

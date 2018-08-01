@@ -27,14 +27,14 @@ items:
     <br>License transfer or “re–hosting” is very similar to the activation process —
     <ol type='a'>
       <li>Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.</li>
-      <li>Click “Activate License”.</li>
+      <li>Click “Activate/Deactivate License.” Older products may only say “Activate License.” In this case, click on that instead.</li>
       <li>Enter your Product Key and click “Activate Online”.</li>
-      <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct license is selected.</li>
-      <li>Click on the “Deactivate Selected Licenses Now” button.</li>
+      <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct or desired license is selected.</li>
+      <li>Click “Deactivate Selected Licenses Now.” The license is now dormant, and is available to be moved to a new host or dongle.</li>
     </ol>
     Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See the “Restoring Your MAAT License” PDF guide in the How To Guides section above. Also see “What is a CodeMeter CmContainer?” above for more information on how your license is stored."
 
-  - topic: "How many machine are included in my license?"
+  - topic: "How many machines are included in my license?"
     reply: "• For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also <em>one per machine</em>. You cannot have one license on multiple machines unless it’s on a CodeMeter dongle.
     You can install our products on as many hosts as you want, and a license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information."
 
@@ -46,12 +46,26 @@ items:
         <ul>
         <li>For macOS, the offline manual is at;<br>
         <code>/Applications/Shared/Documentation</code></li>
-        <li>For Windows, it’s at;<br>
+        <li>For Windows, it’s at:</br>
         <code>\\Program Files\\MAAT\\Shared\\Documentation</code></li>
         </ul>"
 
   - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
     reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
 
+  - topic: "How can I remove Wibu license support from my system?"
+    reply: "• Note that MAAT software will not run without Wibu license support installed. To remove this software, please follow these instructions:
+        <ol>
+        <li>Download the CodeMeter User Runtime. Current versions of the CodeMeter User Runtime are available at:</br>
+        <code>http://codemeter.com/us/service/downloads.html</code></li>
+        <li>Open the downloaded file.</li>
+        <li>In the rare case where you do not have administrative privileges, then re–log in as an administrative user.</li>
+        <li>Run the  CmUninstall.app (uninstaller) included in the download. Enter your administrative password when prompted.</li>
+        </ol>"
+        
+  - topic: "What Wibu software is installed on my host computer, and can I stop those processes?"
+    reply: "• As with all modern copy protection schemes, a Wibu installation is not, by definition, a rootkit. It is clearly visible at all times and easily removed. The processes are also easily stopped in CodeMeter Control Center.</br>
+            For more detailed information, please read the <em>CodeMeter User Help</em> available via the Help menu in the CodeMeter Control Center app."
+  
   - topic: "Where do I find answers to other CodeMeter questions not listed here?"
     reply: "• Head over to CodeMeter’s own <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."
