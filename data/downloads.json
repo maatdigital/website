@@ -8,7 +8,7 @@
     "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
   ],
   "proxy": [{
-    "endpoint": "2BusControl Installer",
+    "endpoint": "Installer_Download-2BusControl",
     "redirect": "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-macOS.zip"
   },{
     "endpoint": "bar.zip",
