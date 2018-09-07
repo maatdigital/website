@@ -22,6 +22,7 @@ page '/*.txt', layout: false, directory_index: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
+page "/dl/*", layout: false
 
 # Custom pages
 page '/404', directory_index: false
@@ -39,11 +40,16 @@ page '/login', directory_index: false
 # )
 
 # News Proxy
+ignore "/news/template.html"
 data.news.each do |id, article|
   proxy "/news/#{id}/index.html", "/news/template.html", :locals => { :article => article }
 end
 
-ignore "/news/template.html"
+# Download Proxy
+ignore "/dl/template.html"
+data.downloads.proxy.each do |item|
+  proxy "/dl/#{item.endpoint}/index.html", "/dl/template.html", :locals => { :item => item }
+end
 
 # General configuration
 # config[:url_root] = '//maat-digital.sites.grp.one'
