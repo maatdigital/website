@@ -117,7 +117,7 @@ small {
 
 label {
   font-weight: 500;
-  text-transform: capitalize; }
+  /*text-transform: capitalize;*/ }
 
 .border-width {
   width: 60px;
@@ -441,7 +441,7 @@ Buttons
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   border: 0px;
   font-size: 13px;
   font-weight: 500;
@@ -642,7 +642,7 @@ Dropdown style
   min-width: 200px;
   padding: 10px; }
   .dropdown-menu > li > a {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding: 8px 20px;
@@ -734,7 +734,7 @@ Blog Styles
     padding: 15px; }
     .post .blog-desc h4 {
       margin: 8px 0;
-      text-transform: capitalize; }
+      /*text-transform: capitalize;*/ }
       .post .blog-desc h4 a {
         color: #253340; }
         .post .blog-desc h4 a:hover {
@@ -1070,7 +1070,7 @@ Features and service icon boxes
       color: #333; }
     .feature-icon-left .content h4 {
       font-weight: 400;
-      text-transform: capitalize; }
+      /*text-transform: capitalize;*/ }
     .feature-icon-left .content p {
       opacity: 0.9; }
 
@@ -1201,7 +1201,7 @@ Features tabs style
         color: #333;
         font-size: 55px;
         line-height: 70px;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         letter-spacing: 0px;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
       .hero-parallax .hero-inner .hero-content p {
@@ -1236,7 +1236,7 @@ Features tabs style
   font-weight: 500;
   font-size: 80px;
   line-height: 100px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); }
 
 .caption-text {
