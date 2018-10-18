@@ -1,9 +1,9 @@
 ---
 title: "MAAT Dongles"
 layout: "data-spy"
-download:
-  osx: "/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-macOS.zip"
-  win: "/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
+avangate:
+  buy: "https://secure.avangate.com/order/checkout.php?PRODS=4710518&QTY=1&CART=1&CARD=1"
+  trial: "https://secure.avangate.com/order/download.php?PRODS=4710518&QTY=1&PAY_TYPE=CCVISAMC"
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading" style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
@@ -18,8 +18,8 @@ download:
                   <h1>Dongles</h1>
                   <p class="lead">Get your free, comprehensive stereo master monitoring &amp; metering plug-in!</p>
                   <div class="buttons">
-                    <a href="#free2bc" class="btn btn-xl btn-primary ">Free Download <i class="ion-play"></i></a>
-                    <a href="#details" class="btn btn-xl btn-white-omas-special-style-border">Learn More</a>
+                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now</a>
                   </div>
                 </div>
               </div>
@@ -38,4 +38,4 @@ download:
 <%= partial "./highlights" %>
 <%= partial "./testimonials" %>
 <%= partial "./specifications" %>
-<%= partial "./free2bc" %>
+<%= partial "./buytrial" %>
