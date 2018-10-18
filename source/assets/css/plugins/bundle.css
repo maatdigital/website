@@ -11233,7 +11233,7 @@ a.text-dark:hover {
 }
 
 .flex-pauseplay span {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 /* ====================================================================================================================
