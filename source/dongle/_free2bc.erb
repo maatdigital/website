@@ -1,0 +1,17 @@
+<div id="free2bc" class="cta-skin">
+  <div class="container text-center">
+    <h2>FREE 2BC DOWNLOAD</h2>
+    <p>Simply register for our newsletter and get your free 2BC! </p>
+    <form id="free2bc-signup" class="form-inline" action="<%= data.newsletter.general.url %>" method="POST" novalidate>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="<%= data.newsletter.general.hidden %>" tabindex="-1" value="">
+      </div>
+      <div class="container text-center">
+        <input type="text" class="form-control" name="EMAIL" placeholder="Enter your email address">
+        <input type="hidden" name="WIN" value="<%= current_page.data.download.win %>">
+        <input type="hidden" name="OSX" value="<%= current_page.data.download.osx %>">
+        <button type="submit" class="btn btn-lg btn-white-border">SIGN UP NOW</button>
+      </div>
+    </form>
+  </div>
+</div>
