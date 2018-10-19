@@ -8,7 +8,8 @@ items:
     </ul>"
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
-    reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach."
+    reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick dongle because of their superior reliability over PACE’ iLok and the versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach.<br>
+    One last thing…You don’t need a dongle to use our software! You can store your license right on your computer."
 
   - topic: "What is CodeMeter Control Center?"
     reply: "• CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for all your MAAT licenses."
