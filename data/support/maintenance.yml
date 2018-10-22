@@ -8,4 +8,4 @@ items:
 
   - topic: "Can you recommend any products for routine Windows maintenance?"
     reply: "• We have found that, for Windows, applications advertised for optimization and repair do more harm than good. Instead, we recommend the factory tools like Disk Cleanup. For the Start button menu, choose All Programs→Accessories→System Tools→Disk Cleanup. If you are running Windows 10, then also use the built in defragmentation tools. From the Taskbar, select the search bar and enter “defrag”. Then, select <em>Defragment and Optimize Drives</em>.<br>
-        — For additional tip, search Microsoft’s support for “Tips to improve PC performance in Windows 10”. When searching for 3rd party tools and tips, always use a focused, trusted source like pcmag.com, pcworld.com or tomshardware.com."
+        — For additional tips, search Microsoft’s support for “Tips to improve PC performance in Windows 10”. When searching for 3rd party tools and tips, always use a focused, trusted source like pcmag.com, pcworld.com or tomshardware.com."
