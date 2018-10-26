@@ -13,7 +13,7 @@ See notes on [Installation on Windows](#windows), then return back to here.
 
 The following describes the use of `rbenv`:
 
-```
+```bash
 # Install dependencies as root
 sudo apt install -y git build-essential libssl-dev libreadline-dev zlib1g-dev
 
@@ -41,24 +41,23 @@ gem install bundler
 After the development environment is setup, install
 [Middleman](https://middlemanapp.com):
 
-```
+```bash
 gem install middleman
 ```
 
 Then change into the project directory and install dependencies:
 
-```
+```bash
 bundle install --path vendor/bundle
 ```
 
-### <a name="windows"></a> Installation on Windows
+### [Installation on Windows](#windows)
 
 One nice way to use Windows for development is the new support for Ubuntu in
-Windows 10. Follow these instructions to set it up:
-https://msdn.microsoft.com/en-us/commandline/wsl/about
+Windows 10. [Follow these instructions](https://msdn.microsoft.com/en-us/commandline/wsl/about) to set it up.
 
 Installation may take a while. Also install [Visual
-Code](https://code.visualstudio.com/.
+Code](https://code.visualstudio.com/).
 
 When installation is completed a few additional steps might be required.
 
@@ -68,7 +67,7 @@ Create an SSH key or use an existing SSH key, which must be available in
 `/home/<user>/.ssh`. If the keys directory is in your Windows home directory,
 for example in directory `SSH`, it's enough to create a symbolic link:
 
-```
+```bash
 ln -s /mnt/c/Users/<User>/SSH ~/.ssh
 ```
 
@@ -77,7 +76,7 @@ ln -s /mnt/c/Users/<User>/SSH ~/.ssh
 Modify User Settings in VS Code (`File => Preferences => User Settings`) and add
 the following within the `settings.json` pane:
 
-```
+```json
 {
   // some other settings may be there already
   "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe"
@@ -90,16 +89,16 @@ Enable the terminal with `Ctrl+Shift+@` and use it as in Ubuntu.
 
 For development, change into the project directory and run:
 
-```
+```bash
 bundle exec middleman server
 ```
 
-Then check the website in your browser: http://localhost:4567 It will refresh
-the website automatically, when changes are made and saved.
+Then check the website in your browser: [http://localhost:4567](http://localhost:4567)
+It will refresh the website automatically, when changes are made and saved.
 
 To build the static files run:
 
-```
+```bash
 bundle exec middleman build
 ```
 
