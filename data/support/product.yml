@@ -3,10 +3,7 @@ items:
   - topic: 'Is my old Mac compatible with your dongle stuff?'
     reply: '• The current CodeMeter license framework supports macOS 10.10 through 10.14, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <a href="https://www.wibu.com/us/downloads-user-software.html" target="_blank">Wibu</a> for all vintages of CodeMeter installers.'
 
-  - topic: 'I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?'
-    reply: '• Our CodeMeter CmStick <a href="https://www.maat.digital/dongle/" target="_blank">dongles</a> are not only compatible but can also be used to store your Sequoia or Samplitude license alongside your MAAT licenses.'
-
-  - topic: 'I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?'
+   - topic: 'I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?'
     reply: '• Our CodeMeter <a href="https://www.maat.digital/dongle/" target="_blank">CmSticks</a> are compatible with Merging’s Pyramix MassCore/IntervalZero low level realtime engine. Our host–based CmActLicenses also interoperate and can be used as well with MassCore–equipped systems.'
 
   - topic: 'I’m running the 32 bit version of Sequoia/Samplitude, and my MAAT plug–in windows don’t float. What’s up?'
