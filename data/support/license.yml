@@ -11,9 +11,9 @@ items:
     reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongle</a> because of their superior security compared to PACE’ iLok and their versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach.<br>
         <em>One last thing…</em>You don’t need a dongle to use most of our software! You can store your license right on your computer. The only exception is our thEQ family of equalizers. thEQorange, thEQred and thEQblue all require a <a href='https://www.maat.digital/dongle/' target='_blank'>3–Series CmStick</a> from Wibu."
 
- - topic: 'I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?'
+  - topic: 'I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?'
     reply: "• Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> are not only compatible but can also be used to store your Sequoia or Samplitude license alongside your MAAT licenses. The reverse may not be true as we require the current generation of CmStick."
-    
+
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
     reply: "• We need a <a href='https://www.maat.digital/dongle/' target='_blank'>3-Series CmStick</a> dongle or newer, with a 3-xxxxxxxx serial number as shown in the CodeMeter app, to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework that we use."
 
@@ -66,10 +66,10 @@ items:
         <li>In the rare case where you do not have administrative privileges, then re–log in as an administrative user.</li>
         <li>Run the  CmUninstall.app (uninstaller) included in the download. Enter your administrative password when prompted.</li>
         </ol>"
-        
+
   - topic: "What Wibu software is installed on my host computer, and can I stop those processes?"
     reply: "• As with all modern copy protection schemes, a Wibu installation is not, by definition, a rootkit. It is clearly visible at all times and easily removed. The processes are also easily stopped in CodeMeter Control Center.</br>
             For more detailed information, please read the <em>CodeMeter User Help</em> available via the Help menu in the CodeMeter Control Center app."
-  
+
   - topic: "Where do I find answers to other CodeMeter questions not listed here?"
     reply: "• Head over to CodeMeter’s own <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."
