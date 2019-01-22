@@ -227,4 +227,11 @@ $(function () {
     });
   });
 
+  // Hack for dropdown button
+  $('#btnGroupDrop1').click(function(){
+    window.setTimeout(function(){
+      $(".dropdown-hack").css('top','50px');
+      $(".dropdown-hack").css('transform','none');
+    }, 100);
+  });
 });
