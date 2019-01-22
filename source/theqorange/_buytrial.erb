@@ -2,12 +2,17 @@
   <div class="container text-center">
     <h2>thEQorange</h2>
     <p><strong>Introductory Price: $890, $990 List</strong></p>
-    <div class="buttons">
-      <a href="<%= current_page.data.avangate.buy %>"
-        class="btn btn-xl btn-primary">Order Now <i class="ion-play"></i></a>
-      <a href="<%= current_page.data.avangate.trial %>"
-        class="btn btn-xl btn-white-border">Try It Now</a>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Purchase Now
+        </button>
+        <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
+          <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Lifetime Purchase</a>
+          <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item">Yearly Subscription</a>
+        </div>
+      </div>
+      <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
     </div>
-    </form>
   </div>
 </div>
