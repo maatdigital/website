@@ -29,10 +29,16 @@
     "role": "Co-Founder",
     "text": "Leeb, a visionary and portfolio entrepreneur with C-Level (CIO) experience for a global high tech enterprise, combines that background with 12 years of early stage endeavors. He is founder of 42Angelitos–The Startup Catapult in Palo Alto, California. In this capacity, Leeb joins our team as co-founder and sparring partner to fine tune MAAT´s marketing, social media and business strategies."
   },
+    "masciarotte": {
+    "title": "Oliver Masciarotte",
+    "image": "team/masciarotte.jpg",
+    "role": "Co-Founder, Secretary & Product Management",
+    "text": "Masciarotte has spent over 30 years immersed in the tech space, working on facilitation, marketing, and product development for many pro and CE audio manufacturers, including Lexicon, Sonic Solutions, and Minnetonka Audio. His client roster is as diverse as Altec Lansing, Apple, Harper Collins, The Hit Factory, NASA Johnson, NPR, the San Francisco Symphony, Sony and Universal. His writings include a book covering file–based music for the home and well over 100 articles in sundry trade publications. “OMas” holds one U.S. patent and is an invited presenter at numerous trade conferences. A member of the AES, SMPTE, PMI and DCS, he enjoys collaborating on building better mouse traps."
+  },
   "nichol": {
     "title": "Tad Nicol",
     "image": "team/tad.jpg",
-    "role": "Co-Founder & Plug–in Development",
+    "role": "Head of Development",
     "text": "An audio software architect working on everything from DSP to GUIs to IPC to automated QA and beyond, Tad keeps the code repository well oiled, and helps it grow smoothly, designing sustainable & modular frameworks to help integrate all the pieces needed to create robust artistic tools. He grew up listening to lots of tunes while traveling across mountains and deserts, and is always seeking ways to manifest his love of music."
   },
   "jong": {
@@ -46,11 +52,5 @@
     "image": "team/lorenzo.jpg",
     "role": "UI Design",
     "text": "Lorenzo began his journey into music technology in the late 90s, honing his skills as a DJ/Producer. By the mid 00s, he was frequently performing at renowned clubbing brands Ministry of Sound, Cream and Gatecrasher to name but a few. During this time, he was also responsible for a string of original music releases which gained support from major UK radio stations. After years of touring the world, Lorenzo began his training in user interface design and as time progressed, he found himself designing for some of the world’s best selling audio companies. His flair for creative design and attention to detail brought him into the MAAT circle, where he is responsible for creating the intuitive, sleek interfaces found on MAAT’s digital products."
-  },
-  "masciarotte": {
-    "title": "Oliver Masciarotte",
-    "image": "team/masciarotte.jpg",
-    "role": "Co-Founder, Marcom & Product Management",
-    "text": "Masciarotte has spent over 30 years immersed in the tech space, working on facilitation, marketing, and product development for many pro and CE audio manufacturers, including Lexicon, Sonic Solutions, and Minnetonka Audio. His client roster is as diverse as Altec Lansing, Apple, Harper Collins, The Hit Factory, NASA Johnson, NPR, the San Francisco Symphony, Sony and Universal. His writings include a book covering file–based music for the home and well over 100 articles in sundry trade publications. “OMas” holds one U.S. patent and is an invited presenter at numerous trade conferences. A member of the AES, SMPTE, PMI and DCS, he enjoys collaborating on building better mouse traps."
   }
 }
