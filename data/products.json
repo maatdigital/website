@@ -26,17 +26,17 @@
   },
   "theqorange": {
     "page": "theqorange",
-    "name": "thEQ Orange",
+    "name": "thEQorange",
     "slide": "/assets/images/slides/thEQo.jpg"
   },
   "theqred": {
     "page": "theqred",
-    "name": "thEQ Red",
+    "name": "thEQred",
     "slide": "/assets/images/slides/dummy.jpg"
   },
   "theqblue": {
     "page": "theqblue",
-    "name": "thEQ Blue",
+    "name": "thEQblue",
     "slide": "/assets/images/slides/dummy.jpg"
   },
   "rsphaseshifter": {
