@@ -1045,15 +1045,16 @@ Features and service icon boxes
   display: block; }
 
 .features-bg {
+  color: #111;
   background: url(../images/bg2.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 50px; }
   .features-bg .center-title h2, .features-bg .center-title p {
-    color: #333; }
+    color: #111; }
   .features-bg .center-title:after {
-    background: #333; }
+    background: #111; }
 
 .feature-icon-left {
   margin-bottom: 40px; }
