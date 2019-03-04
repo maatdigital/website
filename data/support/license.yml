@@ -9,7 +9,8 @@ items:
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongle</a> because of their superior security compared to PACE’ iLok and their versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach.<br>
-    <em>One last thing…</em>You don’t need a dongle to use most of our software! You can store your license right on your computer. The only exception is our thEQ family of equalizers. thEQorange, thEQred and thEQblue all require a <a href='https://www.maat.digital/dongle/' target='_blank'>3–Series CmStick</a> from Wibu."
+    Note that several other audio vendors, including BaseHead, Magix, Propellerheads and the Telos Alliance use Wibu copy protection.<br>
+    <em>One last thing…</em>You don’t need a dongle to use most of our software! You can store your license right on your computer. The only exception is our thEQ family of equalizers. thEQorange, thEQred and thEQblue all require Wibu’s <a href='https://www.maat.digital/dongle/' target='_blank'>3–Series CmStick</a>."
 
   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
     reply: "• Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> are not only compatible but can also be used to store your Sequoia or Samplitude license alongside your MAAT licenses. The reverse may not be true as we require the current generation of CmStick."
