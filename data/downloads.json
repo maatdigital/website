@@ -63,12 +63,12 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BusControl/MAAT_2BusControl_CombinedInstaller-1.0.3.zip"
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.1.1-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.2.3-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.1.1-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.2.3-Windows.zip"
   },{
     "endpoint": "thEQo-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_theEQorange_CombinedInstaller-1.1.1.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_theEQorange_CombinedInstaller-1.2.3.zip"
   }]
 }
