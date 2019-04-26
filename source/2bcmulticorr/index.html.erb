@@ -2,8 +2,7 @@
 title: "MAAT 2BC multiCORR"
 layout: "data-spy"
 avangate:
-  buy: "https://secure.avangate.com/order/checkout.php?PRODS=14296093&QTY=1&CART=1&CARD=1"
-  subscribe: "https://secure.avangate.com/order/checkout.php?PRODS=18897082&QTY=1&CART=1&CARD=1"
+  buy: "https://secure.2checkout.com/order/checkout.php?PRODS=21939842&QTY=1&CART=1&CARD=1"
   trial: "/try_2BCmC"
 ---
 
@@ -26,12 +25,9 @@ avangate:
                       <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Purchase Now
                       </button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Lifetime Purchase</a>
-                        <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item">Annual Subscription</a>
-                      </div>
-                    </div>
-                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
+                      <div class="buttons">
+                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now</a>
                   </div>
                 </div>
               </div>
