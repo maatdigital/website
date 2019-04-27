@@ -62,6 +62,15 @@
     "endpoint": "2BC-crossplatform.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BusControl/MAAT_2BusControl_CombinedInstaller-1.0.3.zip"
   },{
+    "endpoint": "2BCmC-macos.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.2-macOS.zip"
+  },{
+    "endpoint": "2BCmC-windows.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.2-Windows.zip"
+  },{
+    "endpoint": "2BCmC-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BCmC/MAAT_2BC_multiCORR_CombinedInstaller-1.1.2.zip"
+  },{
     "endpoint": "thEQo-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.2.3-macOS.zip"
   },{
