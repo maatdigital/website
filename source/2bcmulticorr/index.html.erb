@@ -2,41 +2,30 @@
 title: "MAAT 2BC multiCORR"
 layout: "data-spy"
 avangate:
-  buy: "https://secure.avangate.com/order/checkout.php?PRODS=14296093&QTY=1&CART=1&CARD=1"
-  subscribe: "https://secure.avangate.com/order/checkout.php?PRODS=18897082&QTY=1&CART=1&CARD=1"
-  trial: "/try_2BCmC"
+  buy: "https://secure.2checkout.com/order/checkout.php?PRODS=21939842&QTY=1&CART=1&CARD=1"
+  trial: "https://secure.2checkout.com/order/download.php?PRODS=21939842&QTY=1&PAY_TYPE=CCVISAMC"
 ---
 
-<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
-    style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
+<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading" style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
 
-  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>"
-      style="width: 100%; height: 130%; background-image: url()">
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>" style="width: 100%; height: 130%; background-image: url()">
     <div class="hero-parallax">
       <div class="hero-inner">
         <div class="hero-content">
           <div class="container text-left">
             <div class="row">
-              <div class="col-md-5 ml-auto mr-auto align-self-center">
+              <div class="col-md-8 ml-auto mr-auto align-self-center">
                 <div class="hero-static">
                   <h1>2BC multiCORR</h1>
-                  <p class="lead">Multiband correlation with monitor control</p>
-                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Purchase Now
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Lifetime Purchase</a>
-                        <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item">Annual Subscription</a>
-                      </div>
-                    </div>
-                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
+                  <p class="lead">Multiband correlation with integral monitor control</p>
+                  <div class="buttons">
+                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now</a>
                   </div>
                 </div>
               </div>
-              <div class="col-md-7">
-                <%= image_tag "product-2BCmC.png", alt: "2BC multiCORR", class: "img-fluid center-img" %>
+              <div class="col-md-3">
+                <%= image_tag "products/2BCmC/hero-2bcmc.png", alt: "2BC multiCORR UI", class: "img-fluid center-img" %>
               </div>
             </div>
           </div>
