@@ -1,4 +1,4 @@
-!-- Note that 2BC and all free products ALWAYS are an NL or newsletter build, one which incorporates an opt-in registration mechanism --
+
 {
   "config" : {
     "action": "https://download.maat.digital/prod/",
