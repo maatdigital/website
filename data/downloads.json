@@ -1,3 +1,4 @@
+!-- Note that 2BC and all free products ALWAYS are an NL or newsletter build, one which incorporates an opt-in registration mechanism --
 {
   "config" : {
     "action": "https://download.maat.digital/prod/",
@@ -9,10 +10,10 @@
   ],
   "proxy": [{
     "endpoint": "DRM2-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.0-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.9-macOS.zip"
   },{
     "endpoint": "DRM2-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.0-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.9-Windows.zip"
   },{
     "endpoint": "DRM2-crossplatform.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_CombinedInstaller-1.6.0.zip"
@@ -54,10 +55,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/RSPhaseShifter/MAAT_RSPhaseShifter_CombinedInstaller-1.1.10.zip"
   },{
     "endpoint": "2BC-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BC/MAAT_2BusControl_Installer-1.1.2-NL-macOS.zip"
   },{
     "endpoint": "2BC-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BC/MAAT_2BusControl_Installer-1.1.2-NL-Windows.zip"
   },{
     "endpoint": "2BC-crossplatform.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BusControl/MAAT_2BusControl_CombinedInstaller-1.0.3.zip"
