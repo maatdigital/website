@@ -72,12 +72,12 @@
     "redirect": "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BCmC/MAAT_2BC_multiCORR_CombinedInstaller-1.1.3.zip"
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.2.3-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.3-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_thEQorange_Installer-1.2.3-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.3-Windows.zip"
   },{
     "endpoint": "thEQo-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQO/MAAT_theEQorange_CombinedInstaller-1.2.3.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_theEQorange_CombinedInstaller-1.2.3.zip"
   }]
 }
