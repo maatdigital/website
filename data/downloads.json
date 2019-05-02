@@ -4,8 +4,8 @@
     "hostname": "download.maat.digital"
   },
   "2buscontrol": [
-    "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-macOS.zip",
-    "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BusControl/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
+    "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BC/MAAT_2BusControl_Installer-1.0.3-macOS.zip",
+    "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BC/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
   ],
   "proxy": [{
     "endpoint": "DRM2-macos.zip",
@@ -15,7 +15,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.9-Windows.zip"
   },{
     "endpoint": "DRM2-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_CombinedInstaller-1.6.0.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_CombinedInstaller-169.zip"
   },{
     "endpoint": "DRM-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-1.1.10-macOS.zip"
@@ -33,7 +33,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO2/MAAT_DROffline_MkII_Installer-1.1.7-Windows.zip"
   },{
     "endpoint": "DRO2-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO2/MAAT_DROffline_MkII_CombinedInstaller-1.1.7.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO2/MAAT_DROffline_MkII_CombinedInstaller-117.zip"
   },{
     "endpoint": "DRO-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO/MAAT_DROffline_Installer-1.1.7-macOS.zip"
@@ -42,7 +42,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO/MAAT_DROffline_Installer-1.1.7-Windows.zip"
   },{
     "endpoint": "DRO-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO/MAAT_DROffline_CombinedInstaller-1.1.7.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRO/MAAT_DROffline_CombinedInstaller-117.zip"
   },{
     "endpoint": "RSPS-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-1.1.10-macOS.zip"
@@ -51,7 +51,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-1.1.10-Windows.zip"
   },{
     "endpoint": "RSPS-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_CombinedInstaller-1.1.10.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_CombinedInstaller-1110.zip"
   },{
     "endpoint": "2BC-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BC/MAAT_2BusControl_Installer-1.1.2-NL-macOS.zip"
@@ -60,7 +60,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BC/MAAT_2BusControl_Installer-1.1.2-NL-Windows.zip"
   },{
     "endpoint": "2BC-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BusControl/MAAT_2BusControl_CombinedInstaller-1.0.3.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BC/MAAT_2BusControl_CombinedInstaller-103.zip"
   },{
     "endpoint": "2BCmC-macos.zip",
     "redirect": "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.3-macOS.zip"
@@ -69,7 +69,7 @@
     "redirect": "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.3-Windows.zip"
   },{
     "endpoint": "2BCmC-crossplatform.zip",
-    "redirect": "https://s3-eu-west-1.amazonaws.com/website-maat-digital-downloads/releases/current/2BCmC/MAAT_2BC_multiCORR_CombinedInstaller-1.1.3.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BCmC/MAAT_2BC_multiCORR_CombinedInstaller-113.zip"
   },{
     "endpoint": "thEQo-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.3-macOS.zip"
@@ -78,6 +78,6 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.3-Windows.zip"
   },{
     "endpoint": "thEQo-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_theEQorange_CombinedInstaller-1.2.3.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_theEQorange_CombinedInstaller-123.zip"
   }]
 }
