@@ -1,12 +1,23 @@
 <div class="cta-skin">
   <div class="container text-center">
-    <h2>2BC multiCORR</h2>
-   <p><strong><strike>MSRP $49</strike>, Introductory Price: $24</strong></p>
-    <div class="buttons">
+    <h2> 2BC multiCORR</h2>
+    <p><strong><strike>MSRP $49</strike>, Introductory Price: $24</strong></p>
+
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
       <a href="<%= current_page.data.avangate.buy %>"
         class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
-      <a href="<%= current_page.data.avangate.trial %>"
-        class="btn btn-xl btn-white-border">Try It Now</a>
+
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Try It Now
+        </button>
+
+        <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
+          <a href="https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.3-NL-macOS.zip" class="dropdown-item">Installer for macOS</a>
+          <a href="https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.3-NL-Windows.zip" class="dropdown-item">Installer for Windows</a>
+        </div>
+      </div>
     </div>
     </form>
   </div>
