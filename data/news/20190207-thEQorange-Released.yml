@@ -10,7 +10,7 @@ content: >
   <p class="lead">Company announces release of benchmark linear phase digital EQ plug–in</p>
   <p>MAAT Incorporated, a manufacturer of exceptional performance professional audio solutions, today announced the release of thEQorange, a cross platform plug–in for equalization and correction of digital audio. The new product continues the legacy of the famed Linear Phase PEQ Orange, while introducing several firsts to the equalization marketplace.</p>
   <p>Available for both Windows and macOS, thEQorange builds on the groundbreaking foundation of Algorithmix’s no–compromise LP EQ Orange, while bringing that reference quality into the 21st Century. thEQorange is a two–pass, time domain equalizer that employs 80 bit floating point internal precision. It reduces pre and post–echo, while also providing exceptional pass and stopband ripple behavior, normally not achievable with frequency domain linear phase equalizers. Its complex internal architecture, sophisticated signal windowing, and applied calculation precision all contribute to its exceptionally natural sound and exacting fidelity.</p>
-  <p>For a complete PDF version, click <a href="https://website-maat-digital-downloads.s3.amazonaws.com/public/PR/009MAAT_Delivers_One_Two_Punch.pdf" target="_blank">here</a>.</p>
+  <p>For a complete PDF version, click <a href="https://website-maat-digital-downloads.s3.amazonaws.com/public/PR/010MAAT_Reestablishes_Reference_Equalizer.pdf" target="_blank">here</a>.</p>
 tags: ["news","software","mastering","equalization","EQ","linear phase","plugin"]
 products: []
 links:
