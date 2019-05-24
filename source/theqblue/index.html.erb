@@ -20,9 +20,17 @@ avangate:
                 <div class="hero-static">
                   <h1>thEQblue</h1>
                   <p class="lead">A dozen precision variations on “analog,” all in one EQ.</p>
-                  <div class="buttons">
-                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
-                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now</a>
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Purchase Now
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Lifetime Purchase</a>
+                        <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item">Annual Subscription</a>
+                      </div>
+                    </div>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
                   </div>
                 </div>
               </div>
