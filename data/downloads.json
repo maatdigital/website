@@ -26,6 +26,9 @@
   },{
     "endpoint": "2BCmC-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.5-NL-Windows.zip"
+  },{
+    "endpoint": "2BCmC-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_CombinedInstaller-115.zip"
     
 
   },{
@@ -34,6 +37,9 @@
   },{
     "endpoint": "DRM-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_Installer-1.1.12-NL-Windows.zip"
+  },{
+    "endpoint": "DRM-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_CombinedInstaller-1112.zip"
 
 
   },{
@@ -42,6 +48,9 @@
   },{
     "endpoint": "DRM2-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_Installer-1.6.12-NL-Windows.zip"
+  },{
+    "endpoint": "DRM2-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_CombinedInstaller-1612.zip"
 
 
   },{
@@ -50,6 +59,9 @@
   },{
     "endpoint": "DRO-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO/MAAT_DROffline_Installer-1.1.11-NL-Windows.zip"
+  },{
+    "endpoint": "DRO-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO/MAAT_DROffline_CombinedInstaller-1111.zip"
 
 
   },{
@@ -58,6 +70,9 @@
   },{
     "endpoint": "DRO2-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_Installer-1.1.11-NL-Windows.zip"
+  },{
+    "endpoint": "DRO2-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_CombinedInstaller-1111.zip"
 
 
   },{
@@ -66,6 +81,9 @@
   },{
     "endpoint": "RSPS-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/RSPS/MAAT_RSPhaseShifter_Installer-1.1.13-NL-Windows.zip"
+  },{
+    "endpoint": "RSPS-crossplatform.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/RSPS/MAAT_RSPhaseShifter_CombinedInstaller-1113.zip"
 
 
   },{
