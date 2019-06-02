@@ -3,7 +3,9 @@ title: "MAAT DRMeter MkII"
 layout: "data-spy"
 avangate:
   buy: "https://secure.avangate.com/order/checkout.php?PRODS=4710518&QTY=1&CART=1&CARD=1"
-  trial: "https://secure.avangate.com/order/download.php?PRODS=4710518&QTY=1&PAY_TYPE=CCVISAMC"
+  trial:
+    mac: "https://secure.avangate.com/order/download.php?PRODS=4710518&QTY=1&PAY_TYPE=CCVISAMC"
+    win: "https://secure.avangate.com/order/download.php?PRODS=4710518&QTY=1&PAY_TYPE=CCVISAMC"
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
@@ -20,10 +22,20 @@ avangate:
                 <div class="hero-static">
                   <h1>DRMeter MkII</h1>
                   <p class="lead">The One Meter For All Of Us</p>
+
                   <div class="buttons">
-                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
-                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now</a>
+                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary"> Buy It Now <i class="ion-play"></i></a>
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                      <button id="btnGroupDrop0" type="button" class="btn btn-white-omas-special-style-border btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Try It Now
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                        <a href="<%= current_page.data.avangate.trial.mac %>" class="dropdown-item">Installer for macOS</a>
+                        <a href="<%= current_page.data.avangate.trial.win %>" class="dropdown-item">Installer for Windows</a>
+                      </div>
+                    </div>
                   </div>
+
                 </div>
               </div>
               <div class="col-md-3">
