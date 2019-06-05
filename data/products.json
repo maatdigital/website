@@ -4,6 +4,11 @@
     "name": "2BusControl",
     "slide": "/assets/images/slides/2BC.jpg"
   },
+  "2bcmulticorr": {
+    "page": "2bcmulticorr",
+    "name": "2BC multiCORR",
+    "slide": "/assets/images/slides/2BCmC.jpg"
+  },
   "drmeter": {
     "page": "drmeter",
     "name": "DRMeter",
