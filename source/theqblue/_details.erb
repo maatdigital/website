@@ -19,9 +19,7 @@
     <div class="container">
       <div class="row vertical-align-child">
         <div class="col-md-4 margin-b-30">
-          <div class="icon-box text-center">
-            <i class="ion-android-color-palette feature-sign"></i>
-          </div>
+          <%= image_tag "products/thEQblue/Architectures.png", alt: "thEQblue", class: "img-fluid center-img" %>
         </div>
 
         <div class="col-md-8 margin-b-30">
@@ -35,7 +33,7 @@
 
         </div>
       </div>
-      <div class="space-60"></div>
+      <div class="space-30"></div>
     </div>
 
     <div class="container">
@@ -47,14 +45,24 @@
             For a century, engineers have developed countless equalizers. A few became legend, our thEQorange is one. The most popular version in recording and post is the parametric equalizer or PEQ, first perfected by Massenburg in 1972. It offers maximum flexibility with only three controls. Properly used, the PEQ is a powerful tool and the best friend of every audio engineer in the quest for perfect sound. As Spidey (and Voltaire) always reminds us though, “With great power comes great responsibility.” When designed by a clueless or cost–constrained software engineer, it can be your greatest sonic enemy.
           </p>
           <h3>Choice Is Good</h3>
-          <p>In order to give you a choice of features and price, thEQblue is available in two versions:<br><br>
-               • thEQblue6, <em> with 6 topologies; №s 1 through 6 below</em><br>
-               • thEQblue12, <em>with 12 topologies; all twelve below</em><br><br>
-          <strong>&#9758; thEQblue6 owners can upgrade to get all twelve architectures.</strong>
+          <p>In order to give you a choice of features and price, thEQblue is available in two versions:
+            <ul>
+              <li>thEQblue6, <em> with 6 topologies; №s 1 through 6 below</em></li>
+              <li>thEQblue12, <em>with 12 topologies; all twelve below</em></li>
+            </ul>
+            <strong>&#9758; thEQblue6 owners can upgrade to get all twelve architectures.</strong>
           </p>
         </div>
 
-        <div class="col-md-8 margin-b-30">
+        <div class="col-md-4 margin-b-30">
+          <div class="icon-box text-center">
+            <i class="ion-wineglass feature-sign"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row vertical-align-child">
+        <div class="col-md-12 margin-b-30">
           <p><strong>№  <code>Type</code>        <em>Comments
           &amp; Analog Kinfolk</em></strong></p>
           <p><strong>01</strong> <code>Classic Sym</code>  <em>Series symmetrical, almost constant Q bell — common mix desk &amp; outboard gear topology, try on “surgical” applications</em></p>
@@ -71,14 +79,8 @@
           <p><strong>12</strong> <code>Parallel LC</code>  <em>Parallel passive LC — Tonal advantages with band interaction &amp; asymmetry disadvantages, found in old or newly recreated PEQs, another choice for mastering [reference Massive Passive, Sontec]</em></p>
           <p>Constant Q is more for surgical applications, while proportional EQs are best when combining multiple overlapping Sections. As a point of reference, API, Pultec, Masselec and Avalon EQs are all of the proportional type.</p>
           <p><strong>&#9758;</strong> Note that all 12 topologies are normalized to have exactly the same bell shape at 6.02dB of boost. This allows you to easily compare the sound of each architecture.</p>
-
-        <div class="col-md-4 margin-b-30">
-          <div class="icon-box text-center">
-            <i class="ion-wineglass feature-sign"></i>
-          </div>
         </div>
-      </div>
-      <div class="space-60"></div>
+      <div class="space-30"></div>
     </div>
 
   </div>
@@ -89,9 +91,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4 margin-b-30">
-        <div class="icon-box text-center">
-          <i class="ion-document feature-sign"></i>
-        </div>
+        <%= image_tag "products/thEQblue/Analyzer-Input.jpg", alt: "thEQblue", class: "img-fluid center-img" %>
       </div>
 
       <div class="col-md-8 margin-b-30">
@@ -114,11 +114,21 @@
         <h3>Comprehensive</h3>
         <p>With thEQblue, you can call up twelve Sections from one of the twelve architectures available. For each Section, choose from nine freely assignable filter types, including bell, first and second order low or high shelf along with first and second order low or high cut. The most significant filter types bearing the equalizer name are bells. Set to a particular Q, different bells change their bandwidth depending on the amount of boost or cut making comparison difficult between architectures.
         </p>
+
         <h6>How to compare topologies…</h6>
         <p>In order to make meaningful comparisons of different typologies you must be aware of two factors:<br>
         1. All 12 equalizer topologies are normalized to have exactly the same bell shape for 6dB of boost. If you use just one bell filter at +6dB, you will get the same audible result for all types. This normalization of the Q or Quality Factor is a unique MAAT feature, and distinguishes our typologies from their analog antecedents because many of the originals have undefined Q definitions due to the limitation of analog technology. The normalization allows you to compare the different EQ architectures in thEQblue with ease.<br>
         2. A single minimal phase bell filter <em>with identical shape</em> will sound the same regardless of topology. The difference between topologies becomes obvious when you have activated more bells and other filters so that they start to interact with each other. This will reveal the different characteristics of each architectures, in terms of phase interaction and different gain and Q relationships.
         </p>
+      </div>
+
+      <div class="col-md-4 margin-b-30">
+        <%= image_tag "products/thEQblue/Filter-Types.png", alt: "thEQblue", class: "img-fluid center-img" %>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-md-12 margin-b-30">
         <h3>Classics All</h3>
         <p>The Classic Symmetrical is the most popular bell shape used in many mixers and outboard equalizers. It is almost “constant Q.” That is, as resonant frequency changes, the bandwidth changes, widening as the frequency goes from low to high to maintain a constant ratio of center frequency divided by bandwidth. Constant Q is roughly the way our hearing perceives an EQ’s effect.
         </p>
@@ -128,19 +138,17 @@
         </p>
         <p>Finally we emulated two vintage parallel equalizers. With parallel construction, the main input feeds every filter in parallel, with each filter’s output being summed together for the final composite output. With a serial implementation, filters are cascaded; each fed from the output of the previous filter. Unlike a serial parametric equalizer (almost all paramets are serial), parallel–connected filters combine or cascade differently. They also behave differently in terms of phase. Their special interactive behavior between bands is offset by a pleasing sonic character. Our Parallel LC emulates old skool parallel passive PEQ circuitry built with inductors and capacitors. The Parallel Feed–Forward/Feedback topology emulates the feed–forward/feed–back designs still popular in low noise analog graphic EQs. While the feed–forward path is trivial to implement, the feedback path is impossible to implement in traditional digital signal processing, because of the need for so called “delay–free” feedback loops. In thEQblue, we apply a unique and very elaborate technique for true emulation of delay-free feedback. The result is a characteristic sound and perfectly complementary filters for boost <em>and</em> cut.
         </p>
+
         <h4>The Filter Library</h4>
         <p>In thEQblue, not only are various bell–shaped filters available but also different kinds of shelving filters. Nine of the serial equalizers use a special shelving design characterized by a cut–off frequency defined in the middle of the transition region. We found these filter definitions more intuitive than the classical “–3 dB below maximum.” The old skool definition is only used in the Classic Asymmetrical architecture in order to conform to its analog antecedent. All 2nd order shelving filters have a Q adjustment to emulate vintage characteristics, with their inherent and specific bumps at higher slopes. Also, the parallel equalizers are equipped with respective shelving filters shapes that are typical of old parallel PEQs. They also have interacting bands as did their analog predecessors.<br>
         Every complex PEQ is equipped with cut filters. With thEQblue, each of the twelve equalizer topologies can provide 1st and 2nd order cuts. The 2nd order filters have a Q adjustment to create a resonant filter response, and can be combined to provide very steep “brickwall”  slopes by cascading several Sections.
         </p>
+
         <h3>Best of Both Worlds</h3>
         <p>thEQblue is a creative equalizer tool combining the best of both the analog and digital domains. To avoid bell filter asymmetry at high frequencies for baseband sample rates, typical of many digital equalizers, we have applied  reference–quality upsampling, which automatically kicks in for 44.1 or 48 kHz. By using proprietary filter algorithms, we have achieved a huge dynamic range, as well as extremely low noise and distortion. This yields unparalleled sonic purity, impossible for any analog circuitry.
         </p>
       </div>
-      <div class="col-md-4 margin-b-30">
-        <div class="icon-box text-center">
-          <i class="ion-ios-thunderstorm feature-sign"></i>
-        </div>
-      </div>
+
   </div>
   <div class="space-60"></div>
   </div>
