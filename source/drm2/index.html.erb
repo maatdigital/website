@@ -4,15 +4,11 @@ layout: "data-spy"
 avangate:
   buy: "https://secure.avangate.com/order/checkout.php?PRODS=4710518&QTY=1&CART=1&CARD=1"
   trial:
-    mac: "https://secure.avangate.com/order/download.php?PRODS=4710518&QTY=1&PAY_TYPE=CCVISAMC"
-    win: "https://secure.avangate.com/order/download.php?PRODS=4710518&QTY=1&PAY_TYPE=CCVISAMC"
+    mac: "https://www.maat.digital/dl/DRM2-macos.zip"
+    win: "https://www.maat.digital/dl/DRM2-windows.zip"
 ---
-
-<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
-    style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
-
-  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>"
-      style="width: 100%; height: 130%; background-image: url()">
+<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading" style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>" style="width: 100%; height: 130%; background-image: url()">
     <div class="hero-parallax">
       <div class="hero-inner">
         <div class="hero-content">
@@ -30,8 +26,8 @@ avangate:
                         Try It Now
                       </button>
                       <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                        <a href="<%= current_page.data.avangate.trial.mac %>" class="dropdown-item">Installer for macOS</a>
-                        <a href="<%= current_page.data.avangate.trial.win %>" class="dropdown-item">Installer for Windows</a>
+                        <a href="https://www.maat.digital/dl/DRM2-macos.zip" class="dropdown-item">Installer for macOS</a>
+                        <a href="https://www.maat.digital/dl/DRM2-windows.zip" class="dropdown-item">Installer for Windows</a>
                       </div>
                     </div>
                   </div>
