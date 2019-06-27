@@ -2,8 +2,9 @@
 title: "MAAT thEQblue"
 layout: "data-spy"
 avangate:
-  buy: "https://secure.2checkout.com/order/checkout.php?PRODS=24243526&QTY=1&CART=1&CARD=1"
-  trial: ""
+  buy12: "https://secure.2checkout.com/order/checkout.php?PRODS=24243526&QTY=1&CART=1&CARD=1"
+  buy6: "https://secure.2checkout.com/order/checkout.php?PRODS=24243616&QTY=1&CART=1&CARD=1"
+  trial: "/try_thEQ"
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
@@ -20,27 +21,22 @@ avangate:
                 <div class="hero-static">
                   <h1>thEQblue</h1>
                   <p class="lead">A dozen precision variations on “analog,” all in one EQ.</p>
-
                   <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-
                     <div class="btn-group" role="group">
                       <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Buy It Now
+                        Purchase Now
                       </button>
                       <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">thEQblue12</a>
-                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">thEQblue6</a>
-                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Upgrade thEQblue6 to 12</a>
+                        <a href="<%= current_page.data.avangate.buy12 %>" class="dropdown-item">thEQblue12</a>
+                        <a href="<%= current_page.data.avangate.buy6 %>" class="dropdown-item">thEQblue6</a>
                       </div>
                     </div>
-                    <a href="https://www.maat.digital/try_thEQ" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
                   </div>
-
                 </div>
               </div>
-
               <div class="col-md-7">
-                <%= image_tag "product-theqblue.png", alt: "thEQ Blue", class: "img-fluid center-img" %>
+                <%= image_tag "product-theblue.png", alt: "thEQblue", class: "img-fluid center-img" %>
               </div>
             </div>
           </div>
@@ -51,6 +47,7 @@ avangate:
 </section>
 
 <%= partial "./details" %>
-<%#= partial "./testimonials" %>
+<%= partial "./learnmore" %>
+<%= partial "./testimonials" %>
 <%= partial "./specifications" %>
 <%= partial "./buytrial" %>
