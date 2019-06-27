@@ -2,15 +2,21 @@
   <div class="container text-center">
     <h2>thEQblue</h2>
     <p><strong>Coming Soon…<br>
-    thEQblue12; <strike>MSRP $390</strike>, Introductory Price $289<br>
-    thEQblue6; <strike>MSRP $220</strike>, Introductory Price $219</strong>
+    thEQblue12; <strike>MSRP $389</strike>, Introductory Price $309<br>
+    thEQblue6; <strike>MSRP $219</strike>, Introductory Price $179</strong>
     </p>
-    <div class="buttons">
-      <a href="<%= current_page.data.avangate.buy %>"
-        class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></a>
-      <a href="<%= current_page.data.avangate.trial %>"
-        class="btn btn-xl btn-white-border">Try It Now</a>
+    
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Purchase Now
+        </button>
+        <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
+          <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">thEQblue12</a>
+          <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item"> thEQblue6</a>
+        </div>
+      </div>
+      <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
     </div>
-    </form>
   </div>
 </div>
