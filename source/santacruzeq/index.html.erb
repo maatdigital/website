@@ -2,9 +2,9 @@
 title: "MAAT SantaCruzEQ"
 layout: "data-spy"
 avangate:
+  buy12: "https://secure.2checkout.com/order/checkout.php?PRODS=24243526&QTY=1&CART=1&CARD=1"
   buy6: "https://secure.2checkout.com/order/checkout.php?PRODS=24243616&QTY=1&CART=1&CARD=1"
-  trial6 macOS: "https://www.maat.digital/dl/SCEQ-macos.zip"
-  trial6 Win: "https://www.maat.digital/dl/SCEQ-windows.zip"
+  trial: "/try_SCEQ"
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
@@ -20,22 +20,23 @@ avangate:
               <div class="col-md-5 ml-auto mr-auto align-self-center">
                 <div class="hero-static">
                   <h1>SantaCruzEQ</h1>
-                  <p class="lead">A dozen precision variations on “analog,” in our most affordable EQ ever.</p>
+                  <p class="lead">Six or twelve precision variations on “analog,” all in one affordable EQ.</p>
                   <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                     <div class="btn-group" role="group">
                       <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Purchase Now
                       </button>
                       <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                        <a href="<%= current_page.data.avangate.buy12 %>" class="dropdown-item">SantaCruzEQ12</a>
                         <a href="<%= current_page.data.avangate.buy6 %>" class="dropdown-item">SantaCruzEQ6</a>
                       </div>
                     </div>
-                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">No Demo Yet </a>
+                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
                   </div>
                 </div>
               </div>
               <div class="col-md-7">
-                <%= image_tag "product-theqblue.png", alt: "thEQblue", class: "img-fluid center-img" %>
+                <%= image_tag "product-SantaCruzEQ.png", alt: "SantaCruzEQ", class: "img-fluid center-img" %>
               </div>
             </div>
           </div>
@@ -46,6 +47,6 @@ avangate:
 </section>
 
 <%= partial "./details" %>
-<%#= partial "./testimonials" %>
+<%= partial "./testimonials" %>
 <%= partial "./specifications" %>
 <%= partial "./buytrial" %>
