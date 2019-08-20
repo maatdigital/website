@@ -34,7 +34,7 @@ items:
     reply: "• Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines.
     <br>License transfer or “re–hosting” is very similar to the activation process —
     <ol type='a'>
-      <li>Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.</li>
+      <li>Navigate to the back panel of your MAAT product by clicking on the gear icon or, for older products, the MAAT logo on the front panel.</li>
       <li>Click “Activate/Deactivate License.” Older products may only say “Activate License.” In this case, click on that instead.</li>
       <li>Enter your Product Key and click “Activate Online”.</li>
       <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct or desired license is selected.</li>
