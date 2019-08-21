@@ -9,7 +9,7 @@ items:
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongle</a> because of their superior security compared to PACE’ iLok and their versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach.<br>
-    Note that several other audio vendors, including <em>BaseHead, Magix, Propellerheads, SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use Wibu copy protection.<br>
+    Note that several other audio vendors, including <em>BaseHead, MAGIX, Propellerheads, SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use Wibu copy protection.<br>
     <em>One last thing…</em>You don’t need a dongle to use most of our software! You can store your license right on your computer. The only exception is our thEQ family of equalizers. thEQorange, thEQred and thEQblue all require Wibu’s <a href='https://www.maat.digital/dongle/' target='_blank'>3–Series CmStick</a>."
 
   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
@@ -34,7 +34,7 @@ items:
     reply: "• Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines.
     <br>License transfer or “re–hosting” is very similar to the activation process —
     <ol type='a'>
-      <li>Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.</li>
+      <li>Navigate to the back panel of your MAAT product by clicking on the gear icon or, for older products, the MAAT logo on the front panel.</li>
       <li>Click “Activate/Deactivate License.” Older products may only say “Activate License.” In this case, click on that instead.</li>
       <li>Enter your Product Key and click “Activate Online”.</li>
       <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct or desired license is selected.</li>
