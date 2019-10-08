@@ -37,7 +37,13 @@
 
 <body>
   <%= partial "includes/header" %>
-  <%= partial "includes/parallaxer" %>
+  <%=
+    if current_page.data.height === "small" then
+      partial "includes/parallaxer-small"
+    else
+      partial "includes/parallaxer"
+    end
+  %>
   <%= yield %>
   <%= partial "includes/footer" %>
   <%= partial "includes/modals" %>
