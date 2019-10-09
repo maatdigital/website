@@ -1,16 +1,35 @@
 ---
 title: "Steinberg - Fall 2019 Promotion"
-image: "bg2.jpg"
-height: "small"
+layout: "data-spy"
 ---
 
-<div class="container">
-  <div class="space-60"></div>
+<section id="home" class="dzsparallaxer auto-init dzsparallaxer use-loading"
+  style="position: relative; height: 350px; padding-top: 110px;" data-options='{  mode_scroll: "normal" }'>
 
-  <div style="text-align: center;">
-    <%= image_tag 'logo-steinberg.png', alt: "Steinberg - Fall 2019 Promotion", class: "", style: "width:50%" %>
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg2.jpg' %>"
+      style="width: 100%; height: 130%; background-image: url()">
+    <div class="hero-parallax">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="container text-left">
+            <div class="row">
+              <div class="col-md-7 ml-auto mr-auto align-self-center">
+                <div class="hero-static">
+                  <h1 style="font-weight:500"><%= current_page.data.title %></h1>
+                  <p class="lead"></div>
+              </div>
+              <div class="col-md-5">
+                <%= image_tag 'logo-steinberg.png', alt: "Steinberg - Fall 2019 Promotion", class: "img-fluid center-img" %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
 
+<div class="container">
   <div class="space-60"></div>
 
   <div class="center-title">
