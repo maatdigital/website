@@ -35,7 +35,16 @@
           </ul>
         </li>
 
-        <li class="nav-item"><%= link_to 'EFX', '/rsphaseshifter', class: 'nav-link' %></li>
+        <!--li class="nav-item"><%= link_to 'EFX', '/rsphaseshifter', class: 'nav-link' %></li-->
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="" href="#"
+            id="navbarDropdownEFXLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">EFX</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownEFXLink">
+            <li><%= link_to 'LINearise', '/linearise', class: 'dropdown-item' %></li>
+          </ul>
+        </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" role="" href="#"
