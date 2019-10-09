@@ -20,7 +20,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BC/MAAT_2BusControl_Installer-1.1.3-NL-Windows.zip"
 
 
- },{
+  },{
     "endpoint": "2BCmC-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_Installer-1.1.5-NL-macOS.zip"
   },{
@@ -29,7 +29,15 @@
   },{
     "endpoint": "2BCmC-crossplatform.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_CombinedInstaller-115.zip"
-    
+
+
+  },{
+    "endpoint": "LIN-macos.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-1.1.0-NL-macOS.zip"
+  },{
+    "endpoint": "LIN-windows.zip",
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-1.1.0-NL-Windows.zip"
+
 
   },{
     "endpoint": "DRM-macos.zip",
