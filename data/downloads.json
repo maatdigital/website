@@ -96,24 +96,18 @@
 
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.9-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.13-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.9-Windows.zip"
-  },{
-    "endpoint": "thEQo-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_CombinedInstaller-129.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.13-Windows.zip"
 
 
   },{
     "endpoint": "thEQb-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.1.0-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.2-macOS.zip"
   },{
     "endpoint": "thEQb-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.1.0-Windows.zip"
-  },{
-    "endpoint": "thEQb-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQb/MAAT_thEQblue_CombinedInstaller-110.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.2-Windows.zip"
     
     
   },{
