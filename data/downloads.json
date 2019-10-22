@@ -112,13 +112,11 @@
     
   },{
     "endpoint": "SCEQ-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3-eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.0-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.0-macOS.zip"
   },{
     "endpoint": "SCEQ-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3-eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.0-Windows.zip"
-  },{
-    "endpoint": "SCEQ-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_CombinedInstaller-110.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.0-Windows.zip"
+ 
     
   }]
 }
