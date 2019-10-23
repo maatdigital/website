@@ -52,13 +52,10 @@
 
   },{
     "endpoint": "DRM2-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_Installer-1.6.12-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_Installer-1.6.13-NL-macOS.zip"
   },{
     "endpoint": "DRM2-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_Installer-1.6.12-NL-Windows.zip"
-  },{
-    "endpoint": "DRM2-crossplatform.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_CombinedInstaller-1612.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM2/MAAT_DRMeter_MkII_Installer-1.6.13-NL-Windows.zip"
 
 
   },{
