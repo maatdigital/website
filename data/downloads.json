@@ -101,10 +101,10 @@
 
   },{
     "endpoint": "thEQb-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.2-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.3-macOS.zip"
   },{
     "endpoint": "thEQb-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.2-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.3-Windows.zip"
     
     
   },{
