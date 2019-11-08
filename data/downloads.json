@@ -33,10 +33,10 @@
 
   },{
     "endpoint": "LIN-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-1.1.1-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-1.1.3-NL-macOS.zip"
   },{
     "endpoint": "LIN-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-1.1.1-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-1.1.3-NL-Windows.zip"
 
 
   },{
