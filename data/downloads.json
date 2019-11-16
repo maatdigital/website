@@ -84,10 +84,10 @@
 
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.13-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.14-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.13-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.14-Windows.zip"
 
 
   },{
