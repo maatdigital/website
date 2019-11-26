@@ -41,10 +41,10 @@
 
   },{
     "endpoint": "DRM-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_Installer-1.1.12-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_Installer-1.1.13-NL-macOS.zip"
   },{
     "endpoint": "DRM-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_Installer-1.1.12-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_Installer-1.1.13-NL-Windows.zip"
 
 
   },{
@@ -65,10 +65,10 @@
 
   },{
     "endpoint": "DRO2-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_Installer-1.1.11-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_Installer-1.1.12-NL-macOS.zip"
   },{
     "endpoint": "DRO2-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_Installer-1.1.11-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_Installer-1.1.12-NL-Windows.zip"
 
 
   },{
