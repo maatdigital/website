@@ -27,7 +27,7 @@ items:
   - topic: "How many license activations do I have?"
     reply: "• You have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license. Note that your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
 
-  - topic: "How can I move a MAAT license from one computer to another?"
+  - topic: "How can I move a MAAT license from one computer to another, or from my computer to a MAAT CmStick?"
     reply: "• The license itself can reside on either a single host computer as a file, or on hardware; a 3-Series CodeMeter dongle. Host–based CmContainer licenses can be moved from one host to another, to or from a file to a dongle, or can be “parked” in the cloud between placement. Obviously, a dongle-based license can be moved around very quickly and easily, while a host-based license involves a fair amount of manipulation, up to the cloud then down to another host, to move it. See the next question below for more information."
 
   - topic: "I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?"
