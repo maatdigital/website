@@ -78,26 +78,26 @@
 
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.15-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.16-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.15-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-1.2.16-Windows.zip"
 
 
   },{
     "endpoint": "thEQb-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.7-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.8-macOS.zip"
   },{
     "endpoint": "thEQb-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.7-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-1.2.8-Windows.zip"
     
     
   },{
     "endpoint": "SCEQ-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.3-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.4-NL-macOS.zip"
   },{
     "endpoint": "SCEQ-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.3-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-1.1.4-NL-Windows.zip"
     
     
   },{
