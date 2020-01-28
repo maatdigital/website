@@ -235,6 +235,13 @@ $(function () {
     }, 100);
   });
 
+  $('#btnGroupDrop3').click(function(){
+    window.setTimeout(function(){
+      $(".dropdown-hack").css('top','50px');
+      $(".dropdown-hack").css('transform','none');
+    }, 100);
+  });
+
   $('table.modalImage a.clickImage').on('click', function (event) {
     event.preventDefault();
     $('#myModalImage img').attr('src',$('img', this).attr('alt'));

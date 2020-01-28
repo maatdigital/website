@@ -9,7 +9,7 @@ items:
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongle</a> because of their superior security compared to PACE’ iLok and their versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach.<br>
-    Note that several other audio vendors, including <em>BaseHead, Magix, Propellerheads, SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use Wibu copy protection.<br>
+    Note that several other audio vendors, including <em>BaseHead, MAGIX, Propellerheads, SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use Wibu copy protection.<br>
     <em>One last thing…</em>You don’t need a dongle to use most of our software! You can store your license right on your computer. The only exception is our thEQ family of equalizers. thEQorange, thEQred and thEQblue all require Wibu’s <a href='https://www.maat.digital/dongle/' target='_blank'>3–Series CmStick</a>."
 
   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
@@ -27,14 +27,14 @@ items:
   - topic: "How many license activations do I have?"
     reply: "• You have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license. Note that your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
 
-  - topic: "How can I move a MAAT license from one computer to another?"
+  - topic: "How can I move a MAAT license from one computer to another, or from my computer to a MAAT CmStick?"
     reply: "• The license itself can reside on either a single host computer as a file, or on hardware; a 3-Series CodeMeter dongle. Host–based CmContainer licenses can be moved from one host to another, to or from a file to a dongle, or can be “parked” in the cloud between placement. Obviously, a dongle-based license can be moved around very quickly and easily, while a host-based license involves a fair amount of manipulation, up to the cloud then down to another host, to move it. See the next question below for more information."
 
   - topic: "I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?"
-    reply: "• Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the cloud. Once it’s “parked,” you can move it back onto any of your machines.
-    <br>License transfer or “re–hosting” is very similar to the activation process —
+    reply: "• Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the Cloud. Once it’s “parked,” you can move it back onto any of your machines.
+    <br>License transfer or “re–hosting” is very similar to the activation process…Follow these steps:
     <ol type='a'>
-      <li>Navigate to the back panel of your MAAT product by clicking on the MAAT logo on the front panel.</li>
+      <li>Navigate to the back panel of your MAAT product by clicking on the gear icon or, for older products, the MAAT logo on the front panel.</li>
       <li>Click “Activate/Deactivate License.” Older products may only say “Activate License.” In this case, click on that instead.</li>
       <li>Enter your Product Key and click “Activate Online”.</li>
       <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct or desired license is selected.</li>

@@ -29,12 +29,24 @@
             aria-haspopup="true" aria-expanded="false">EQ</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownDRFamilyLink">
             <li><%= link_to 'thEQorange', '/theqorange', class: 'dropdown-item' %></li>
+            <li><%= link_to 'thEQblue', '/theqblue', class: 'dropdown-item' %></li>
             <!--li><%= link_to 'thEQred', '/theqred', class: 'dropdown-item' %></li-->
-            <!--li><%= link_to 'thEQblue', '/theqblue', class: 'dropdown-item' %></li-->
+            <li><%= link_to 'SantaCruzEQ', '/santacruzeq', class: 'dropdown-item' %></li>
           </ul>
         </li>
 
-        <li class="nav-item"><%= link_to 'EFX', '/rsphaseshifter', class: 'nav-link' %></li>
+        <!-- STANDALONE MENU ITEM li class="nav-item"><%= link_to 'ProductName', '/url', class: 'nav-link' %></li-->
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="" href="#"
+            id="navbarDropdownEFXLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">EFX</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownEFXLink">
+            <li><%= link_to 'RSPhaseShifter', '/rsphaseshifter', class: 'dropdown-item' %></li>
+            <li><%= link_to 'MtG', '/mtg', class: 'dropdown-item' %></li>
+            <li><%= link_to 'LINearise', '/linearise', class: 'dropdown-item' %></li>
+          </ul>
+        </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" role="" href="#"
@@ -78,6 +90,7 @@
           <a href="https://secure.avangate.com/myaccount" target="_blank"
               class="btn btn-rounded btn-primary nav-link">Login</a>
         </li-->
+        
       </ul>
     </div>
 </nav>

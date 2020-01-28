@@ -1427,3 +1427,9 @@ Features tabs style
 .navbar-toggler.navbar-toggler-right {
   right: 0px;
 }
+
+/** Maat custom styles **/
+table.maat-comparison td,
+table.maat-comparison th {
+  padding: 1em;
+}
