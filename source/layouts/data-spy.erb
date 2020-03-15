@@ -32,6 +32,7 @@
   <![endif]-->
 
   <%= javascript_include_tag "plugins/plugins.js", "template-custom.js" %>
+  <script id="fsc-api" src="<%= data.site.api.fastspring.src %>" type="text/javascript" data-storefront="<%= data.site.api.fastspring.storefront %>"></script>
   <%= partial "includes/analytics" %>
 </head>
 

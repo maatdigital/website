@@ -31,7 +31,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <%= javascript_include_tag "plugins/plugins", "template-custom", "masterslider.min" %>
+  <%= javascript_include_tag "plugins/plugins", "template-custom", "masterslider.min" %></script>
+  <script id="fsc-api" src="<%= data.site.api.fastspring.src %>" type="text/javascript" data-storefront="<%= data.site.api.fastspring.storefront %>"></script>
   <%= partial "includes/analytics" %>
 </head>
 

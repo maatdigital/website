@@ -10,6 +10,7 @@
 
   <%= content_tag :title, current_page.data.title || data.site.title %>
 
+  <script id="fsc-api" src="<%= data.site.api.fastspring.src %>" type="text/javascript" data-storefront="<%= data.site.api.fastspring.storefront %>"></script>
   <%= partial "includes/analytics" %>
 </head>
 
