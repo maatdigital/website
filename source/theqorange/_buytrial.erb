@@ -3,14 +3,14 @@
     <h2>thEQorange</h2>
     <p><strong>• Perpetual License: $589<br>
     • Subscription: $9.92 per month ($119 Annual Renewal)</strong></p>
-    
+
     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
       <div class="btn-group" role="group">
         <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase Now
         </button>
          <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
-          <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Lifetime Purchase</a>
-          <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item">Annual Subscription</a>
+          <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Lifetime Purchase</a>
+          <a data-fsc-item-path-value='<%= current_page.data.fastspring.subscribe %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Annual Subscription</a>
          </div>
       </div>
       <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>

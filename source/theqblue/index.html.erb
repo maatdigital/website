@@ -1,6 +1,9 @@
 ---
 title: "MAAT thEQblue"
 layout: "data-spy"
+fastspring:
+  buy6: "maat-theqblue6-perpetual-license"
+  buy12: "maat-theqblue12-perpetual-license"
 avangate:
   buy12: "https://secure.2checkout.com/order/checkout.php?PRODS=24243526&QTY=1&CART=1&CARD=1"
   buy6: "https://secure.2checkout.com/order/checkout.php?PRODS=24243616&QTY=1&CART=1&CARD=1"
@@ -27,8 +30,8 @@ avangate:
                         Purchase Now
                       </button>
                       <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                        <a href="<%= current_page.data.avangate.buy12 %>" class="dropdown-item">thEQblue12</a>
-                        <a href="<%= current_page.data.avangate.buy6 %>" class="dropdown-item">thEQblue6</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy12 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">thEQblue12</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy6 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">thEQblue6</a>
                       </div>
                     </div>
                     <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>

@@ -1,6 +1,7 @@
 ---
 title: "MAAT DROffline"
 layout: "data-spy"
+fastspring: "maat-droffline-perpetual-license"
 avangate:
   buy: "https://secure.2checkout.com/order/checkout.php?PRODS=4710516&QTY=1&CART=1&CARD=1"
   trial:
@@ -21,21 +22,20 @@ avangate:
               <div class="col-md-7 ml-auto mr-auto align-self-center">
                 <div class="hero-static">
                   <h1>DROffline</h1>
-                  <p class="lead">
-                    The value priced version of our official DR<em>i</em> (integrated Dynamic Range) measurement utility</p>
-                    
-                    <div class="buttons">
-                      <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary">Buy It Now<i class="ion-play"></i></a>
-                      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                  <p class="lead">The value priced version of our official DR<em>i</em> (integrated Dynamic Range) measurement utility</p>
+
+                  <div class="buttons">
+                    <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy It Now <i class="ion-play"></i></button>
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                       <button id="btnGroupDrop0" type="button" class="btn btn-white-omas-special-style-border btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Try It Now
+                      Try It Now
                       </button>
-                       <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
                         <a href="https://www.maat.digital/dl/DRO-macos.zip" class="dropdown-item">Installer for macOS</a>
                         <a href="https://www.maat.digital/dl/DRO-windows.zip" class="dropdown-item">Installer for Windows</a>
-                       </div>
                       </div>
                     </div>
+                  </div>
 
                 </div>
               </div>
