@@ -5,10 +5,10 @@
     • SantaCruzEQ6: $189</strong></p>
 
     <div class="btn-group">
-      <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Buy It Now</button>
+      <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy It Now <i class="ion-play"></i></button>
       <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
-        <a href="<%= current_page.data.avangate.buy12 %>" class="dropdown-item">SantaCruzEQ12</a>
-        <a href="<%= current_page.data.avangate.buy6 %>" class="dropdown-item">SantaCruzEQ6</a>
+        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy12 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">SantaCruzEQ12</a>
+        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy6 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">SantaCruzEQ6</a>
       </div>
     </div>
 
