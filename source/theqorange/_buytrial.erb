@@ -4,16 +4,16 @@
     <p><strong>• Perpetual License: $589<br>
     • Subscription: $9.92 per month ($119 Annual Renewal)</strong></p>
 
-        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase Now</button>
-                <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                    <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Lifetime Purchase</a>
-                    <a data-fsc-item-path-value='<%= current_page.data.fastspring.subscribe %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Annual Subscription</a>
-                </div>
-            </div>
-                      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
-        </div>
-    
+    <div class="btn-group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-xl btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Purchase Now <i class="ion-play"></i></button>
+      <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
+        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Lifetime Purchase</a>
+        <a data-fsc-item-path-value='<%= current_page.data.fastspring.subscribe %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Annual Subscription</a>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
+    </div>
   </div>
 </div>
