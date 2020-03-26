@@ -12,14 +12,15 @@ items:
     <em>Get this!</em> You don’t need a dongle to use our software! MAAT licenses are now cloud–based."
 
   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
-    reply: "• Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> are not only compatible but can also be used to store your Sequoia or Samplitude license alongside your MAAT licenses. The reverse may not be true as we require the current generation of CmStick. In addition to MAGIX, several other audio vendors, including <em>BaseHead and Propellerheads</em> use Wibu copy protection. SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use a proprietary Wibu implementation<br>"
+    reply: "• For sure. Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> can also be used to store your Sequoia or Samplitude license. If you have a very old MAGIX dongle, you will need to work with MAGIX support to move your license.<br>
+    In addition to MAGIX, several other audio vendors, including <em>BaseHead and Propellerheads</em> use Wibu copy protection. SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use a proprietary Wibu implementation<br>"
 
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
-    reply: "• Not any more, but we will take back your MAAT dongle in exchange for a US$30 in–store coupon! Give us a shout at <support@maat.digital> to learn more."
+    reply: "• Not any more, but we will take back your MAAT dongle in exchange for a US$30 in–store coupon! Give us a shout at support@maat.digital to learn more."
 
   - topic: "How many license activations do I have?"
     reply: "• Technically, you have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license.<br>
-    New that MAAT licenses are cloud–based, you shouldn’t need anything more that your Product Key to recover your license even if your host computer dies a sudden death (We’re lookin’ at you, Windows fans). See the question “I need to move my license…” below for more information."
+    Now that MAAT licenses are cloud–based, you shouldn’t need anything more that your Product Key to recover your license even if your host computer dies a sudden death (We’re lookin’ at you, Windows fans). See the question “How can I move a MAAT license…” below for more information."
 
   - topic: "How can I move a MAAT license from one computer to another?"
     reply: "• The license itself resides in the Cloud. You can return or park your license on our licensing server, and pick it up later on another host. Once your product is licensed, click the Activate/Deactivate Online button to deactivate your license, then repeat to reactivate.<br>
@@ -28,14 +29,11 @@ items:
   - topic: "I need to work offline/remotely, or I’ll be traveling and need to get work done away from the Internet. What to do?"
     reply: "• If, for security reasons, you have an offline host computer or you plan on working without a reliable internet connection, you can request an offline license. This will license your MAAT product without periodically contacting our licensing server. If you anticipate working without the internet for more than an hour at a time, take a moment to surrender your online license, and replace it with an offline version.<br>
     To prepare for offline activation, you will need some method to move your License Confirmation file to the offline host machine. That can be accomplished in any number of ways, but a flash drive or “thumb drive” is often readily available and most convenient. You will also need your Product Key that was supplied to you via e–mail when you purchased your MAAT product. The offline activation process starts with generating a License Request, with a “maatr” file extension, which is submitted on–line to our server or via e–mail to MAAT Support <support@maat.digital>. A License Confirmation file, with a “maatc” extension, will be returned to you, which will activate your product.<br>
-    For offline activation, follow these steps:
-    <ol type='a'>
+    For offline activation, do the following:
+    <ol type='->'>
       <li>Navigate to the back panel of your MAAT product by clicking on the gear icon or, for older products, the MAAT logo on the front panel.</li>
     </ol>
     You can also return or park your license back on our licensing server, and pick it up later on another host.
-    <ol type='a'>
+    <ol type='->'>
       <li>Once your product is licensed, click the Activate/Deactivate Offline button to deactivate your license, then repeat on another host to reactivate.</li>
     </ol>"
-
-  - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
-    reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
