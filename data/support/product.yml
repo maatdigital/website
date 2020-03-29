@@ -1,7 +1,7 @@
 title: DAW, App & OS Compatibility
 items:
-  - topic: 'Is my old Mac compatible with your dongle stuff?'
-    reply: '• The current CodeMeter license framework supports macOS 10.10 through 10.14, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <a href="https://www.wibu.com/us/downloads-user-software.html" target="_blank">Wibu</a> for all vintages of CodeMeter installers.'
+  - topic: 'Is my old machine compatible with your stuff?'
+    reply: '• Our products support macOS 10.8 through 10.14, and Windows 7 through 10.'
 
   - topic: 'I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?'
     reply: '• Yes, our products are compatible with Merging’s Pyramix MassCore/IntervalZero low level realtime engine.'
