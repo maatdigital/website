@@ -1,8 +1,7 @@
-title: Genuine DR & Compatibility
+title: DAW, App & OS Compatibility
 items:
-
-  - topic: 'Is my old machine compatible with your stuff?'
-    reply: '• Our products support macOS 10.8 through 10.14, and Windows 7 through 10.'
+  - topic: 'Is my old Mac compatible with your dongle stuff?'
+    reply: '• The current CodeMeter license framework supports macOS 10.10 through 10.14, which means 10.8 and 10.9 users have to manually install an older version of CodeMeter for macOS. Head over to <a href="https://www.wibu.com/us/downloads-user-software.html" target="_blank">Wibu</a> for all vintages of CodeMeter installers.'
 
   - topic: 'I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?'
     reply: '• Yes, our products are compatible with Merging’s Pyramix MassCore/IntervalZero low level realtime engine.'
@@ -11,4 +10,4 @@ items:
     reply: '• You may have noticed that <em>none</em> of your 32 bit plug–ins work correctly. This issue only occurs when using the 32 bit versions of a plug–in, and is caused by the “bit-bridge” that Sequoia/Samplitude uses to load plug–ins that have an incompatible bit depth. Fortunately, we ship both 32 and 64 bit versions of our plug–ins, so disable or remove the 32 bit version. Run only the 64 bit version of all your plug–ins and they will behave correctly.'
 
   - topic: 'I bought a meter plugin that says it measures “Dynamic Range” and looks a lot like the original TT DR Dynamic Range meter. Trouble is, the dynamic range it shows is really different from what’s shown by MAAT’s meters. So, what’s the deal? Maybe two different measurement methods? I need to know what’s the right DR of my client’s songs.'
-    reply: '• You guessed correctly; two different measurement methods. The only DR standard is the PMF’s DR<em>i</em> or integrated DR measurement standard. First seen in the TT DR Dynamic Range meter and TT DR Offline Meter, DR<em>i</em> is now used with permission in MAAT’s DR line including <a href='https://www.maat.digital/drmeter/' target='_blank'>DRMeter</a>, <a href='https://www.maat.digital/drm2/' target='_blank'>DRMeter MkII</a>, <a href='https://www.maat.digital/droffline/' target='_blank'>DROffline</a> and <a href='https://www.maat.digital/dro2/' target='_blank'>DROffline MkII</a>. Other products which claim to measure DR are unauthorized and inaccurate. Accept no substitutes!'
+    reply: '• You guessed correctly; two different measurement methods. The only DR standard is the PMF DR measurement standard, first seen in the TT DR Dynamic Range meter and TT DR Offline Meter and used with permission in MAAT’s DR line including DRMeter, DRMeter MkII, DROffline and DROffline MkII. Other products which claim to measure DR are unauthorized and inaccurate. Accept no substitutes!'
