@@ -1,17 +1,20 @@
 title: Licenses
 items:
-  - topic: "I’m having trouble with my MAAT license. Can you help?"
+  - topic: "When is MAAT discontinuing <strong><em>all</em></strong> WiBu licenses?"
+    reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Make sure that you <a href='https://www.maat.digital/support/#installers' target='_blank'>download</a> the latest version of your product. Then, reinstall and reactivate with your existing Product Keys."
+
+ - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
+    reply: "• We’ve tried Wibu, and we’ve tried PACE but decided to create a modern, cloud–based license system for our products.
+    <strong><em>Get this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
+
+   - topic: "I’m having trouble with my MAAT license. Can you help?"
     reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we included during installation, and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
     <ul>
       <li>For macOS, in the Applications/MAAT folder launch; <code>/Shared/Utilities/DiagnosticsReporter.app</code></li>
       <li>For Windows C drive, in the \\Program Files\\MAAT folder, open <code>\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
     </ul>"
 
-  - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
-    reply: "• We’ve tried Wibu, and we’ve tried PACE but decided to create a modern, cloud–based license system for our products.
-    <strong><em>Get this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
-
-  - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
+   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
     reply: "• For sure. Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> can be used to store your Sequoia or Samplitude license. If you have a very old MAGIX dongle, you will need to work with MAGIX support to move your license.<br>
     In addition to MAGIX, several other audio vendors, including BaseHead and Propellerheads use Wibu copy protection. SADiE, the Telos Alliance and Mark Levinson’s Daniel Hertz use a proprietary Wibu implementation.<br>"
 
