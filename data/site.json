@@ -15,7 +15,7 @@
     "analytics": "",
     "fastspring": {
       "src": "https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.3/fastspring-builder.min.js",
-      "storefront": "maatdigital.test.onfastspring.com/popup-maatdigital"
+      "storefront": "maatdigital.onfastspring.com/popup-maatdigital"
     }
   }
 }
