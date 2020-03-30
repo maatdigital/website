@@ -1,7 +1,7 @@
 title: Licenses
 items:
   - topic: "When is MAAT discontinuing <strong><em>all</em></strong> WiBu licenses?"
-    reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Make sure that you <a href='https://www.maat.digital/support/#installers' target='_blank'>download</a> the latest version of your product. Then, reinstall and reactivate with your existing Product Keys."
+    reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Visit the Support page, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys."
 
  - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• We’ve tried Wibu, and we’ve tried PACE but decided to create a modern, cloud–based license system for our products.
