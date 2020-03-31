@@ -1,76 +1,43 @@
-title: Licenses & Wibu
+title: Licenses
 items:
-  - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we’ve included during installation, and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
-    <ul>
-      <li>For macOS, launch; <code>/Applications/MAAT/Shared/Utilities/DiagnosticsReporter.app</code></li>
-      <li>For Windows C drive; <code>\\Program Files\\MAAT\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
-    </ul>"
+  - topic: "When is MAAT discontinuing <strong><em>all</em></strong> Wibu licenses?"
+    reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Support</a> page, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys."
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
-    reply: "• In a perfect world, manufacturers could choose the protection framework they want, and you folks could keep your licenses on a generic USB stick. Alas, that won’t work as generic flash memory is simply not able to secure your licenses. We chose Wibu Systems’ CodeMeter license framework and their CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongle</a> because of their superior security compared to PACE’ iLok and their versatility of license type and location. Unfortunately, that means one more dongle and business expense if you decide to go with a portable hardware license storage approach.<br>
-    Note that several other audio vendors, including <em>BaseHead, MAGIX, Propellerheads, SADiE, the Telos Alliance</em> and <em>Mark Levinson’s Daniel Hertz</em> use Wibu copy protection.<br>
-    <em>One last thing…</em>You don’t need a dongle to use most of our software! You can store your license right on your computer. The only exception is our thEQ family of equalizers. thEQorange, thEQred and thEQblue all require Wibu’s <a href='https://www.maat.digital/dongle/' target='_blank'>3–Series CmStick</a>."
+    reply: "• We’ve tried Wibu, and we’ve tried PACE but decided to create a modern, cloud–based license system for our products.
+    <strong><em>Get this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
+
+  - topic: "I’m having trouble with my MAAT license. Can you help?"
+    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we included during installation, and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
+    <ul>
+      <li>For macOS, in the Applications/MAAT folder launch; <code>/Shared/Utilities/DiagnosticsReporter.app</code></li>
+      <li>For Windows C drive, in the \\Program Files\\MAAT folder, open <code>\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
+    </ul>"
 
   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
-    reply: "• Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> are not only compatible but can also be used to store your Sequoia or Samplitude license alongside your MAAT licenses. The reverse may not be true as we require the current generation of CmStick."
+    reply: "• For sure. Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> can be used to store your Sequoia or Samplitude license. If you have a very old MAGIX dongle, you will need to work with MAGIX support to move your license.<br>
+    In addition to MAGIX, several other audio vendors, including BaseHead and Propellerheads use Wibu copy protection. SADiE, the Telos Alliance and Mark Levinson’s Daniel Hertz use a proprietary Wibu implementation.<br>"
 
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
-    reply: "• We need a <a href='https://www.maat.digital/dongle/' target='_blank'>3-Series CmStick</a> dongle or newer, with a 3-xxxxxxxx serial number as shown in the CodeMeter app, to store our licenses. Previous model dongles lack the memory space in the firmware to store the new Wibu framework that we use."
-
-  - topic: "What is CodeMeter Control Center?"
-    reply: "• CodeMeter Control Center, found in the CodeMeter app that’s installed with your paid MAAT products, is the software utility that provides reporting, updating, and migration services for all your MAAT licenses."
-
-  - topic: "What is a CodeMeter CmContainer?"
-    reply: "• A CmContainer is a container for your licenses. A CodeMeter dongle or “CmStick” <em>is</em> a hardware CmContainer in and of itself. There are also virtual containers called CmActLicenses. A CmActLicense represents the software–based variant of CodeMeter protection and licensing technology. With virtual containers, licenses and the keys responsible for encrypting and decrypting are saved to a CmActLicense license file which is cryptographically safeguarded and signed. This virtual CmContainer is unique and bound only to a specific computer or device. The unique binding is guaranteed by a digital “fingerprint,” calculated from specific hardware features of a computer or a device. This ensures that CmActLicense licenses are valid only for the identified computer or device and are not transferable. The license <em>inside</em> the container can be moved or parked. See “I need to move my license…” below for more information."
+    reply: "• Not any more, but we’ll take back your MAAT dongle in exchange for a US$30 in–store coupon! Give us a shout at <a href='mailto:support@maat.digital?Subject=Dongle%20Exchange%20Inquiry'>Support</a> to learn more."
 
   - topic: "How many license activations do I have?"
-    reply: "• You have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license. Note that your license can be moved from host to host, as well as to or from a dongle. It’s not stuck on one computer, and can even be parked in the “cloud” if you need to put it in storage for some reason, such as during maintenance. See the question “I need to move my license…” below for more information."
+    reply: "• Technically, you have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license.<br>
+    Now that MAAT licenses are cloud–based, you shouldn’t need anything more that your Product Key to recover your license even if your host computer dies a sudden death (We’re lookin’ at you, Windows fans). See the question “How can I move a MAAT license…” below for more information."
 
-  - topic: "How can I move a MAAT license from one computer to another, or from my computer to a MAAT CmStick?"
-    reply: "• The license itself can reside on either a single host computer as a file, or on hardware; a 3-Series CodeMeter dongle. Host–based CmContainer licenses can be moved from one host to another, to or from a file to a dongle, or can be “parked” in the cloud between placement. Obviously, a dongle-based license can be moved around very quickly and easily, while a host-based license involves a fair amount of manipulation, up to the cloud then down to another host, to move it. See the next question below for more information."
+  - topic: "How can I move a MAAT license from one computer to another?"
+    reply: "• The license itself resides in the Cloud. You can return or park your license on our licensing server, and pick it up later on another host. Once your product is licensed, click the Activate/Deactivate Online button to deactivate your license, then repeat to reactivate.<br>
+    <em>Important!</em> If you save and close any DAW session that includes a MAAT instance, your license will be automatically returned to the Cloud. Pick it up on another Cloud–connected machine, right where you left off."
 
-  - topic: "I need to move my license from one machine to another, or I need to re–build my host computer. How do I move or store my license?"
-    reply: "• Before performing maintenance or moving temporarily to another host computer, you need to move your license(s) off of your current host and into the Cloud. Once it’s “parked,” you can move it back onto any of your machines.
-    <br>License transfer or “re–hosting” is very similar to the activation process…Follow these steps:
-    <ol type='a'>
+  - topic: "I need to work offline/remotely, or I’ll be traveling and need to get work done away from the Internet. What to do?"
+    reply: "• If, for security reasons, you have an offline host computer or you plan on working without a reliable internet connection, you can request an offline license. This will license your MAAT product without periodically contacting our licensing server. If you anticipate working without the internet for more than an hour at a time, take a moment to surrender your online license, and replace it with an offline version.<br>
+    To prepare for offline activation, you will need some method to move your License Confirmation file to the offline host machine. That can be accomplished in any number of ways, but a flash drive or “thumb drive” is often readily available and most convenient. You will also need your Product Key that was supplied to you via e–mail when you purchased your MAAT product. The offline activation process starts with generating a License Request, with a “maatr” file extension, which is submitted on–line to our server or via e–mail to <a href='mailto:support@maat.digital?Subject=Offline%20Activation%20Inquiry'>MAAT Support</a>. A License Confirmation file, with a “maatc” extension, will be returned to you, which will activate your product.<br>
+    For offline activation, do the following:
+    <ul>
       <li>Navigate to the back panel of your MAAT product by clicking on the gear icon or, for older products, the MAAT logo on the front panel.</li>
-      <li>Click “Activate/Deactivate License.” Older products may only say “Activate License.” In this case, click on that instead.</li>
-      <li>Enter your Product Key and click “Activate Online”.</li>
-      <li>Click on the “Re-host Licenses” button. If multiple license entries are displayed, make sure the correct or desired license is selected.</li>
-      <li>Click “Deactivate Selected Licenses Now.” The license is now dormant, and is available to be moved to a new host or dongle.</li>
-    </ol>
-    Your license is now “parked” in the cloud, and can later be added to another CodeMeter CmContainer. See the “Restoring Your MAAT License” PDF guide in the How To Guides section above. Also see “What is a CodeMeter CmContainer?” above for more information on how your license is stored."
-
-  - topic: "How many machines are included in my license?"
-    reply: "• For paid licenses, you can store or “bind” your license on either one USB dongle or one host machine at any given time. Our trial licenses are <em>only</em> file–based and are also <em>one per machine</em>. You cannot have one license on multiple machines unless it’s on a CodeMeter dongle.<br>
-    — You can install our products on as many hosts as you want, and a license can be moved, whether it’s file–based or on a dongle. See the previous questions above for more information."
-
-  - topic: "How can I activate a license on an offline computer, a computer that doesn’t have internet access?"
-    reply: "• Take a look at this <a href='https://website-maat-digital-downloads.s3.amazonaws.com/public/docs/Wibu_Offline_ReadMe.pdf' target='_blank'>PDF</a>, where you can read about offline activation. Also, for each MAAT product you have installed, you’ll find a  folder with the <em>MAAT Offline License Activation</em> PDF parked there.
-        <ul>
-        <li>For macOS, the offline manual is at;<br>
-        <code>/Applications/Shared/Documentation</code></li>
-        <li>For Windows, it’s at:</br>
-        <code>\\Program Files\\MAAT\\Shared\\Documentation</code></li>
-        </ul>"
-
-  - topic: "Is there a difference between a 'ticket' and a 'Product Key'?"
-    reply: "• A ticket is a container for single or multiple Product Keys. Product Keys are equivalent to serial numbers, and can unlock individual or multiple MAAT products."
-
-  - topic: "How can I remove Wibu license support from my system?"
-    reply: "• Note that MAAT software will not run without Wibu license support installed. To remove this software, please follow these instructions:
-        <ol>
-        <li>Download the CodeMeter User Runtime. Current versions of the CodeMeter User Runtime are available at:</br>
-        <code>http://codemeter.com/us/service/downloads.html</code></li>
-        <li>Open the downloaded file.</li>
-        <li>In the rare case where you do not have administrative privileges, then re–log in as an administrative user.</li>
-        <li>Run the  CmUninstall.app (uninstaller) included in the download. Enter your administrative password when prompted.</li>
-        </ol>"
-
-  - topic: "What Wibu software is installed on my host computer, and can I stop those processes?"
-    reply: "• As with all modern copy protection schemes, a Wibu installation is not, by definition, a rootkit. It is clearly visible at all times and easily removed. The processes are also easily stopped in CodeMeter Control Center.</br>
-    For more detailed information, please read the <em>CodeMeter User Help</em> available via the Help menu in the CodeMeter Control Center app."
-
-  - topic: "Where do I find answers to other CodeMeter questions not listed here?"
-    reply: "• Head over to CodeMeter’s own <a href='http://support.codemeter.de/en/faq/' target='_blank'>FAQ</a> for answers to many more CodeMeter–related questions."
+      <li>Click on the Activate/Deactivate Offline button, and follow the prompts.</li>
+    </ul>
+    You can also return or park your license back on our licensing server, and pick it up later on another host.
+    <ul>
+      <li>Once your product is licensed, click the Activate/Deactivate Offline button to deactivate your license, then repeat on another host to reactivate.</li>
+    </ul>"

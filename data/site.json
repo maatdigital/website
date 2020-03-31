@@ -12,6 +12,15 @@
       "secret_key": "lbW8npTfnH4="
     },
     "google": "",
-    "analytics": ""
+    "analytics": "",
+    "fastspring": {
+      "src": "https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.3/fastspring-builder.min.js",
+      "storefront": "maatdigital.onfastspring.com/popup-maatdigital"
+    },
+    "nalpeiron": {
+      "url": "https://my.nalpeiron.com/shaferws.asmx/UpdateLicenseCode",
+      "user": "MAATWebServices",
+      "pass": "tr45erV8V4LE"
+    }
   }
 }

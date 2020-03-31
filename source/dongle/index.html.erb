@@ -1,6 +1,7 @@
 ---
 title: "MAAT Dongles"
 layout: "data-spy"
+fastspring: "maat-wibu3series-dongle"
 avangate:
   buy: "https://secure.2checkout.com/order/checkout.php?PRODS=14295186&QTY=1&CART=1&CARD=1&__c=1"
 ---
@@ -14,10 +15,10 @@ avangate:
             <div class="row">
               <div class="col-md-5 ml-auto mr-auto align-self-center">
                 <div class="hero-static">
-                  <h1> Hardware License Containers</h1>
-                  <p class="lead">Portable licenses…any time, anywhere.</p>
+                  <h1>3<sup>rd</sup> Party Hardware License Containers</h1>
+                  <p class="lead">Portable licenses for your other software…any time, anywhere.</p>
                   <div class="buttons">
-                    <a href="<%= current_page.data.avangate.buy %>" class="btn btn-xl btn-primary">Buy Now <i class="ion-play"></i></a>
+                    <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy It Now <i class="ion-play"></i></button>
                   </div>
                 </div>
               </div>
@@ -34,6 +35,7 @@ avangate:
 
 <%= partial "./details" %>
 <%= partial "./highlights" %>
-<%= partial "./instructions" %>
+<!--%= partial "./instructions" %-->
+<!--%= partial "./video" %-->
 <%= partial "./specifications" %>
 <%= partial "./buytrial" %>
