@@ -1,6 +1,9 @@
 ---
 title: "MAAT thEQorange"
 layout: "data-spy"
+fastspring:
+  buy: "maat-theqorange-perpetual-license"
+  subscribe: "maat-theqorange-annual-subscription"
 avangate:
   buy: "https://secure.2checkout.com/order/checkout.php?PRODS=14296093&QTY=1&CART=1&CARD=1"
   subscribe: "https://secure.2checkout.com/order/checkout.php?PRODS=18897082&QTY=1&CART=1&CARD=1"
@@ -21,18 +24,18 @@ avangate:
                 <div class="hero-static">
                   <h1>thEQorange</h1>
                   <p class="lead">Linear Phase Without Compromise</p>
+                  
                   <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                     <div class="btn-group" role="group">
-                      <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Purchase Now
-                      </button>
+                      <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase Now</button>
                       <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
-                        <a href="<%= current_page.data.avangate.buy %>" class="dropdown-item">Lifetime Purchase</a>
-                        <a href="<%= current_page.data.avangate.subscribe %>" class="dropdown-item">Annual Subscription</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Lifetime Purchase</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.subscribe %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">Annual Subscription</a>
                       </div>
                     </div>
-                    <a href="<%= current_page.data.avangate.trial %>" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
+                      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
                   </div>
+                  
                 </div>
               </div>
               <div class="col-md-7">
