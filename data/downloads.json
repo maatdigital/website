@@ -10,7 +10,9 @@
   "proxy": [{
     "endpoint": "DRM2-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.9-macOS.zip"
-  },{
+  },
+  
+  {
     "endpoint": "2BC-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BC/MAAT_2BusControl_Installer-1.1.4-NL-macOS.zip"
   },{
