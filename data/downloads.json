@@ -26,10 +26,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/2BCmC/MAAT_2BC_multiCORR_Installer-2.0.3-NL-Windows.zip"
   },{
     "endpoint": "LIN-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-2.0.0-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-2.0.3-NL-macOS.zip"
   },{
     "endpoint": "LIN-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-2.0.0-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/LIN/MAAT_LINearise_Installer-2.0.3-NL-Windows.zip"
   },{
     "endpoint": "DRM-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRM/MAAT_DRMeter_Installer-2.0.3-NL-macOS.zip"
@@ -56,10 +56,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/DRO2/MAAT_DROffline_MkII_Installer-2.0.3-NL-Windows.zip"
   },{
     "endpoint": "RSPS-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/RSPS/MAAT_RSPhaseShifter_Installer-2.0.0-NL-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/RSPS/MAAT_RSPhaseShifter_Installer-2.0.3-NL-macOS.zip"
   },{
     "endpoint": "RSPS-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/RSPS/MAAT_RSPhaseShifter_Installer-2.0.0-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current_third_party_newsletter/RSPS/MAAT_RSPhaseShifter_Installer-2.0.3-NL-Windows.zip"
   },{
     "endpoint": "thEQo-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.0.3-macOS.zip"
@@ -86,10 +86,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-2.0.3-NL-Windows.zip"
   },{
     "endpoint": "MtG-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.0-NL-MacOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.3-NL-MacOS.zip"
   },{
     "endpoint": "MtG-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.0-NL-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.3-NL-Windows.zip"
 
   }]
 }
