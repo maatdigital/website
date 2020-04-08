@@ -86,7 +86,7 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/SCEQ/MAAT_SantaCruzEQ_Installer-2.0.3-NL-Windows.zip"
   },{
     "endpoint": "MtG-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.3-NL-MacOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.3-NL-macOS.zip"
   },{
     "endpoint": "MtG-windows.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current_third_party_newsletter/MtG/MAAT_MtG_Installer-2.0.3-NL-Windows.zip"
