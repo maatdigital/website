@@ -4,12 +4,12 @@
     "hostname": "download.maat.digital"
   },
   "2buscontrol": [
-    "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BC/MAAT_2BusControl_Installer-1.0.3-macOS.zip",
-    "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/2BC/MAAT_2BusControl_Installer-1.0.3-Windows.zip"
+    "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/2BC/MAAT_2BusControl_Installer-1.1.4-macOS.zip",
+    "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/2BC/MAAT_2BusControl_Installer-1.1.4-Windows.zip"
   ],
   "proxy": [{
     "endpoint": "DRM2-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-1.6.9-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-2.0.4-macOS.zip"
   },
   
   {
