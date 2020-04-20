@@ -3,6 +3,10 @@ items:
   - topic: "When is MAAT discontinuing <strong><em>all</em></strong> Wibu licenses?"
     reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Support</a> page, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys."
 
+  - topic: "How many machines or activations is my license good for?"
+    reply: "• So long as it’s not at the same time, you can jump between several workstations. Whenever the last MAAT instance is removed or closed on your computer, the license lease is returned automatically to the license server. So, another computer can open or instantiate your MAAT product and receive a new licensing lease without interruption.<br>
+    Note that, if anything prevents the license from being returned such as WiFi dropping out, your license will “time out” and nonetheless become available again after an hour."
+
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
     reply: "• We’ve tried Wibu, and we’ve tried PACE but decided to create a modern, cloud–based license system for our products.
     <strong><em>Get this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
@@ -16,7 +20,7 @@ items:
 
   - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
     reply: "• For sure. Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> can be used to store your Sequoia or Samplitude license. If you have a very old MAGIX dongle, you will need to work with MAGIX support to move your license.<br>
-    In addition to MAGIX, several other audio vendors, including BaseHead and Propellerheads use Wibu copy protection. SADiE, the Telos Alliance and Mark Levinson’s Daniel Hertz use a proprietary Wibu implementation.<br>"
+    In addition to MAGIX, several other audio vendors, including BaseHead and Propellerheads use Wibu copy protection. SADiE, the Telos Alliance and Mark Levinson’s Daniel Hertz use a proprietary Wibu implementation."
 
   - topic: "I already have a CodeMeter dongle. Can I use it with MAAT’s products?"
     reply: "• Not any more, but we’ll take back your MAAT dongle in exchange for a US$30 in–store coupon! Give us a shout at <a href='mailto:support@maat.digital?Subject=Dongle%20Exchange%20Inquiry'>Support</a> to learn more."
