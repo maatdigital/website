@@ -86,10 +86,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-2.0.4-Windows.zip"
   },{
     "endpoint": "SCEQ-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.0.4-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.0.6-macOS.zip"
   },{
     "endpoint": "SCEQ-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.0.4-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.0.6-Windows.zip"
 
   }]
 }
