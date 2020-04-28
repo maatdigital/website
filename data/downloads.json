@@ -26,10 +26,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/2BCmC/MAAT_2BC_multiCORR_Installer-2.0.4-Windows.zip"
   },{
     "endpoint": "DRM-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.0.4-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.0.5-macOS.zip"
   },{
     "endpoint": "DRM-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.0.4-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.0.5-Windows.zip"
   },{
     "endpoint": "DRM2-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-2.0.4-macOS.zip"
@@ -56,10 +56,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-2.0.4-Windows.zip"
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.0.4-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.0.5-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.0.4-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.0.5-Windows.zip"
   },{
     "endpoint": "thEQr-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQr/MAAT_thEQred_Installer-2.0.0-macOS.zip"
