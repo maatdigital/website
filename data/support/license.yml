@@ -1,10 +1,10 @@
 title: Licenses
 items:
   - topic: "When is MAAT discontinuing <strong><em>all</em></strong> Wibu licenses?"
-    reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Support</a> page, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys."
+    reply: "• We will shut down all Wibu licensing on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Installer section</a> of the Support page above, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys. We e–mailed your Product Keys to you when you purchased."
 
   - topic: "How many machines or activations is my license good for?"
-    reply: "• So long as it’s not at the same time, you can jump between several workstations. Whenever the last MAAT instance is removed or closed on your computer, the license lease is returned automatically to the license server. So, another computer can open or instantiate your MAAT product and receive a new licensing lease without interruption.<br>
+    reply: "• So long as it’s not at the same time, you can jump between several workstations. Whenever the last MAAT instance is removed or closed on your computer, your license is returned automatically to the license server. So, another computer can open or instantiate your MAAT product and receive a new licensing lease without interruption.<br>
     Note that, if anything prevents the license from being returned such as WiFi dropping out, your license will “time out” and nonetheless become available again after an hour."
 
   - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
@@ -12,7 +12,7 @@ items:
     <strong><em>Get this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
 
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we included during installation, and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us. We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
+    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, please run the utility we included during installation, and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us, along with your Product Key (we e–mailed you your Product Keys when you purchased). We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
     <ul>
       <li>For macOS, in the Applications/MAAT folder launch; <code>/Shared/Utilities/DiagnosticsReporter.app</code></li>
       <li>For Windows C drive, in the \\Program Files\\MAAT folder, open <code>\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
