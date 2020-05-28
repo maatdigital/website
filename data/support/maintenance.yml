@@ -6,3 +6,14 @@ items:
   - topic: "Can you recommend any products for routine Windows maintenance?"
     reply: "• We have found that, for Windows, applications advertised for optimization and repair usually do more harm than good. Instead, we recommend the factory tools like Disk Cleanup. From the Start button menu, choose All Programs → Accessories → System Tools → Disk Cleanup. If you are running Windows 10, then also use the built in defragmentation tools. From the Taskbar, select the search bar and enter “defrag”. Then, select <em>Defragment and Optimize Drives</em>.<br>
     For additional tips, search Microsoft’s support for “Tips to improve PC performance in Windows 10”. When searching for 3rd party tips about tools and utilities, always use a trusted source like pcmag.com, pcworld.com or tomshardware.com."
+
+  - topic: "Trying to install unsigned 3rd party products on your Mac?"
+    reply: "• Due to increased security defaults in recent builds of macOS, you may need to try the following steps:<br>
+    <ol>
+    <li>Open "System Preferences" by clicking on the Apple icon and choosing that option.</li>
+    <li>Select "Security & Privacy" from the "System Preferences" window.</li>
+    <li>Select the "General" tab, and select the lock in the lower left corner to allow changes.</li>
+    <li>Enter your computer username and password, then select “Unlock.”</li>
+    <li>In the “Allow apps downloaded from:” section, select the radio button to the left of “Anywhere.”</li>
+    <li>Close the window. You can now install unsigned applications that you trust. For security reasons, you may want to repeat this process checking "Mac App Store" in step five in order to turn this feature back off.</li>
+    </ol>
