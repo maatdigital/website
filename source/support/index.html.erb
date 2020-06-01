@@ -11,6 +11,7 @@ image: "bg2.jpg"
     <p>The Top DAWs</p>
   </div>
 
+
   <div class="row">
     <% data.approved.items.each do |item| %>
       <div class="col-md-4 margin-b-40">
@@ -21,6 +22,7 @@ image: "bg2.jpg"
     <% end %>
   </div>
 </div>
+
 
 <div class="container">
   <div class="center-title">
@@ -39,6 +41,7 @@ image: "bg2.jpg"
     </p>
   </div>
 </div>
+
 
 <div id="installers" class="container">
   <div class="center-title">
@@ -64,6 +67,7 @@ image: "bg2.jpg"
   </div>
 </div>
 
+
 <div id="troubleshooting" class="container">
   <div class="center-title">
     <h2>Troubleshooting</h2>
@@ -74,6 +78,8 @@ image: "bg2.jpg"
     </ul>
     </p>
   </div>
+</div>
+
 
 <div id="manuals" class="container">
   <div class="center-title">
@@ -101,11 +107,11 @@ image: "bg2.jpg"
   <!--div class="row">
   </div-->
      
-  <div class="center-title">
+<div class="center-title">
     <h2 id="FAQ"><br>FAQ — Frequently Asked Questions</h2>
-  </div>
+</div>
   
-  <div class="row">
+<div class="row">
   <% ["license","product","maintenance","company"].each do |list| %>
     <div class="col-md-6 margin-b-20">
       <h4><%= data.support[list].title %></h4>
@@ -120,9 +126,9 @@ image: "bg2.jpg"
       </ul>
     </div>
   <% end %>
-  </div>
+</div>
 
-  <div class="space-60"></div>
+<div class="space-60"></div>
 </div>
 
 <script >
