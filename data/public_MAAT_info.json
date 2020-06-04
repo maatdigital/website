@@ -1,0 +1,135 @@
+{
+    "Products" :
+    {
+        "2BC" :
+        {
+            "version" : "1.1.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/2BC-macos.zip/",
+                "win" : "https://www.maat.digital/dl/2BC-windows.zip"
+            },
+            "subscription" : 0
+        },
+        "2BCMC" :
+        {
+            "version" : "2.0.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/2BCmC-macos.zip",
+                "win" : "https://www.maat.digital/dl/2BCmC-windows.zip"
+            },
+            "subscription" : 4.99
+        },
+        "DRM" :
+        {
+            "version" : "2.0.6",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/DRM-macos.zip",
+                "win" : "https://www.maat.digital/dl/DRM-windows.zip"
+            },
+            "subscription" : 0
+        },
+        "DRM2" :
+        {
+            "version" : "2.0.5",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/DRM2-macos.zip",
+                "win" : "https://www.maat.digital/dl/DRM2-windows.zip"
+            },
+            "subscription" : 12.99
+        },
+        "DRO" :
+        {
+            "version" : "2.0.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/DRO-macos.zip",
+                "win" : "https://www.maat.digital/dl/DRO-windows.zip"
+            },
+            "subscription" : 0
+        },
+        "DRO2" :
+        {
+            "version" : "2.0.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/DRO2-macos.zip",
+                "win" : "https://www.maat.digital/dl/DRO2-windows.zip"
+            },
+            "subscription" : 4.99
+        },
+        "EQb" :
+        {
+            "version" : "2.1.0",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/EQb-macos.zip",
+                "win" : "https://www.maat.digital/dl/EQb-windows.zip"
+            },
+            "subscription" : 37.99
+        },
+        "EQo" :
+        {
+            "version" : "2.0.6",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/EQo-macos.zip",
+                "win" : "https://www.maat.digital/dl/EQo-windows.zip"
+            },
+            "subscription" : 57.99
+        },
+        "EQr" :
+        {
+            "version" : "1.1.0",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/EQr-macos.zip",
+                "win" : "https://www.maat.digital/dl/EQr-windows.zip"
+            },
+            "subscription" : 47.99
+        },
+        "LIN" :
+        {
+            "version" : "2.0.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/LIN-macos.zip",
+                "win" : "https://www.maat.digital/dl/LIN-windows.zip"
+            },
+            "subscription" : 1
+        },
+        "MtG" :
+        {
+            "version" : "2.0.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/MtG-macos.zip",
+                "win" : "https://www.maat.digital/dl/MtG-windows.zip"
+            },
+            "subscription" : 7.99
+        },
+        "RSPS" :
+        {
+            "version" : "2.0.4",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/RSPS-macos.zip",
+                "win" : "https://www.maat.digital/dl/RSPS-windows.zip"
+            },
+            "subscription" : 9.99
+        },
+        "SCEQ" :
+        {
+            "version" : "2.0.6",
+            "download" :
+            {
+                "mac" : "https://www.maat.digital/dl/SCEQ-macos.zip",
+                "win" : "https://www.maat.digital/dl/SCEQ-windows.zip"
+            },
+            "subscription" : 25.99
+        }
+    }
+}
