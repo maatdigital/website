@@ -1,91 +1,112 @@
 ---
 title: "Product Upgrades"
 image: "bg2.jpg"
+layout: "layout_upgrade"
 ---
 
-<div class="container">
+<div id="product-upgrades" class="container">
   <div id="thEQb6" style="margin-top:60px;">
     <h2>Upgrade thEQblue6 to 12</h2>
     <p>Verify your previous purchase of thEQblue to upgrade at a special price.</p>
 
-    <form data-product-id="1760000103" onsubmit="alert(1)">
-      <div class="form-row align-items-center">
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label for="verify" class="sr-only">Your license code</label>
-            <input type="text" class="form-control" id="verify" placeholder="Your license code" aria-required="true" aria-invalid="true">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary">Verify Purchase</button>
-          </div>
+    <div class="form-row align-items-center">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label class="sr-only">Your license code</label>
+          <input type="text" class="form-control" placeholder="Your license code" aria-required="true" aria-invalid="true">
         </div>
       </div>
-    </form>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <button class="btn btn-primary verify" data-verify="thEQb6">Verify Purchase</button>
+          <button class="btn btn-primary checkout d-none">Buy checkout</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="SCEQ6" style="margin-top:30px;">
     <h2>SantaCruzEQ6 to 12</h2>
     <p>Verify your previous purchase of SantaCruz to upgrade at a special price.</p>
 
-    <form data-product-id="1760000103">
-      <div class="form-row align-items-center">
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label for="verify" class="sr-only">Your license code</label>
-            <input type="text" class="form-control" id="verify" placeholder="Your license code" aria-required="true" aria-invalid="true">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary">Verify Purchase</button>
-          </div>
+    <div class="form-row align-items-center">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label class="sr-only">Your license code</label>
+          <input type="text" class="form-control" placeholder="Your license code" aria-required="true" aria-invalid="true">
         </div>
       </div>
-    </form>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <button class="btn btn-primary verify" data-verify="SCEQ6">Verify Purchase</button>
+          <button class="btn btn-primary checkout d-none">Buy checkout</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="DRM" style="margin-top:60px;">
     <h2>DRMeter to DRMeter MkII</h2>
     <p>Verify your previous purchase of DRMeter to upgrade at a special price.</p>
 
-    <form data-product-id="1760000103">
-      <div class="form-row align-items-center">
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label for="verify" class="sr-only">Your license code</label>
-            <input type="text" class="form-control" id="verify" placeholder="Your license code" aria-required="true" aria-invalid="true">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary">Verify Purchase</button>
-          </div>
+    <div class="form-row align-items-center">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label class="sr-only">Your license code</label>
+          <input type="text" class="form-control" placeholder="Your license code" aria-required="true" aria-invalid="true">
         </div>
       </div>
-    </form>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <button class="btn btn-primary verify" data-verify="DRM">Verify Purchase</button>
+          <button class="btn btn-primary checkout d-none">Buy checkout</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="DRO" style="margin-top:60px;">
     <h2>DROffline to DROffline MkII</h2>
     <p>Verify your previous purchase of DROffline to upgrade at a special price.</p>
 
-    <form data-product-id="1760000103">
-      <div class="form-row align-items-center">
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label for="verify" class="sr-only">Your license code</label>
-            <input type="text" class="form-control" id="verify" placeholder="Your license code" aria-required="true" aria-invalid="true">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary">Verify Purchase</button>
-          </div>
+    <div class="form-row align-items-center">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label class="sr-only">Your license code</label>
+          <input type="text" class="form-control" placeholder="Your license code" aria-required="true" aria-invalid="true">
         </div>
       </div>
-    </form>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <button class="btn btn-primary verify" data-verify="DRO">Verify Purchase</button>
+          <button class="btn btn-primary checkout d-none">Buy checkout</button>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
+
+<script type="text/javascript">
+  $('button.verify').on('click',function(evt){
+    var product = $(this).attr('data-verify');
+    fastspring.builder.tag({
+      'product': product,
+      'license': $('div#' + product + ' input').val()
+    })
+    $(this).blur();
+  });
+
+  $('button.checkout').on('click',function(evt){
+    fastspring.builder.add('javascript');
+    fastspring.builder.checkout();
+  });
+
+	function dataCallbackFunction(fsdata) 	{
+		if (fsdata.tags) {
+      console.log(fsdata.tags);
+			$('div#' + fsdata.tags.product + ' button.verify').removeClass('btn-primary').addClass('btn-success');
+			$('div#' + fsdata.tags.product + ' button.checkout').removeClass('d-none');
+		}
+	}
+</script>
