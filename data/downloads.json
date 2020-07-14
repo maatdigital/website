@@ -56,22 +56,22 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQb/MAAT_thEQblue_Installer-2.1.0-Windows.zip"
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.1.0-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.1.2-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.1.0-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQo/MAAT_thEQorange_Installer-2.1.2-Windows.zip"
   },{
     "endpoint": "thEQr-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQr/MAAT_thEQred_Installer-1.1.3-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQr/MAAT_thEQred_Installer-1.1.5-macOS.zip"
   },{
     "endpoint": "thEQr-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQr/MAAT_thEQred_Installer-1.1.3-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQr/MAAT_thEQred_Installer-1.1.5-Windows.zip"
   },{
     "endpoint": "LIN-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.0.4-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.1.0-macOS.zip"
   },{
     "endpoint": "LIN-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.0.4-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.1.0-Windows.zip"
   },{
     "endpoint": "MtG-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/MtG/MAAT_MtG_Installer-2.1.0-macOS.zip"
@@ -80,10 +80,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/MtG/MAAT_MtG_Installer-2.1.0-Windows.zip"
   },{
     "endpoint": "RSPS-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.1-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.2-macOS.zip"
   },{
     "endpoint": "RSPS-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.1-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.2-Windows.zip"
   },{
     "endpoint": "SCEQ-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.1.4-macOS.zip"
