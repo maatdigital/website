@@ -4,7 +4,7 @@ items:
     reply: '• Our products support macOS 10.8 through 10.14, and Windows 7 through 10.'
 
   - topic: 'I’m running Merging’s Pyramix system with the MassCore option. Are MAAT’s products compatible?'
-    reply: '• Yes, our products are compatible with Merging’s Pyramix MassCore/IntervalZero low level realtime engine.'
+    reply: '• Yes, our products are compatible with Merging’s Pyramix MassCore/IntervalZero low level real time engine.'
 
   - topic: 'I’m running the 32 bit version of Sequoia/Samplitude, and my MAAT plug–in windows don’t float. What’s up?'
     reply: '• You may have noticed that <em>none</em> of your 32 bit plug–ins work correctly. This issue only occurs when using the 32 bit versions of a plug–in, and is caused by the “bit-bridge” that Sequoia/Samplitude uses to load plug–ins that have an incompatible bit depth. Fortunately, we ship both 32 and 64 bit versions of our plug–ins, so disable or remove the 32 bit version. Run only the 64 bit version of all your plug–ins and they will behave correctly.'
