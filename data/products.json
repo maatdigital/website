@@ -48,5 +48,10 @@
     "page": "rsphaseshifter",
     "name": "RSPhaseShifter",
     "slide": "/assets/images/slides/RSPS.jpg"
+  },
+  "linearise": {
+    "page": "linearise",
+    "name": "linearise",
+    "slide": "/assets/images/slides/LIN.jpg"
   }
 }
