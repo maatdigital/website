@@ -26,10 +26,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/2BCmC/MAAT_2BC_multiCORR_Installer-2.1.3-Windows.zip"
   },{
     "endpoint": "DRM-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.1.3-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.1.4-macOS.zip"
   },{
     "endpoint": "DRM-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.1.3-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM/MAAT_DRMeter_Installer-2.1.4-Windows.zip"
   },{
     "endpoint": "DRM2-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/DRM2/MAAT_DRMeter_MkII_Installer-2.1.3-macOS.zip"
@@ -68,10 +68,10 @@
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/EQr/MAAT_thEQred_Installer-1.1.6-Windows.zip"
   },{
     "endpoint": "LIN-macos.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.1.1-macOS.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.1.3-macOS.zip"
   },{
     "endpoint": "LIN-windows.zip",
-    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.1.1-Windows.zip"
+    "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/LIN/MAAT_LINearise_Installer-2.1.3-Windows.zip"
   },{
     "endpoint": "MtG-macos.zip",
     "redirect": "https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/releases/current/MtG/MAAT_MtG_Installer-2.1.1-macOS.zip"
