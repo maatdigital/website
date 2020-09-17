@@ -1,14 +1,18 @@
 <div class="cta-skin">
   <div class="container text-center">
-    <h2>LINearise</h2>
-    <p><strong>Price: $19</strong></p>
+    <h2>Order Better Dithering Now</h2>
+    <p><strong>• LINSurround: $49<br>
+    • LINearise: $24</strong></p>
 
-    <div class="btn-group">
-          <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy It Now! </button>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Order Now</button>
+        <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
+          <a data-fsc-item-path-value='<%= current_page.data.fastspring.linsurround %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">LINSurround</a>
+          <a data-fsc-item-path-value='<%= current_page.data.fastspring.linearise %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">LINearise</a>
         </div>
-
-        <div class="btn-group">
-          <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now </a>
+      </div>
+      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
     </div>
 
   </div>
