@@ -8,7 +8,7 @@ items:
     reply: "• It has a two–way “conversation” between your local host and the remote server; a Product Key inquiry followed by the server’s response. It knows where our plug–ins and apps are supposed to be stored, so it looks in those folders for items with our product names. It does not do recursive searches, digging into sub-folders as that doesn’t make sense for us to do. If you have organized your directories to better work for you, far be it for us to dig around in there. That’s why we provided two additional search paths.<br>
 After it has checked your licenses, it also checks with the server on what are the current builds. It compares your installed versions so it knows if there are any updates available. That’s how it knows if your local copy is out of date."
 
-  - topic: "What is the level of search, what are the privileges License Central has, and also what kind of information does it share over the network through it's dedicated port?"
+  - topic: "What are the privileges License Central has, and also what kind of information does it share over the network through it's dedicated port?"
     reply: "• No special privileges as the directories it’s working in are not hidden or protected. Network communication is the same license info it uses when you open an app or instantiate a plug-in — it sends our “standard” query to the license server and first asks for a match with the Product Key(s) it found. The server replies with our standard response, which is what type of license and what is its duration."
 
   - topic: "When is MAAT discontinuing <strong><em>all</em></strong> Wibu licenses?"
@@ -23,7 +23,8 @@ After it has checked your licenses, it also checks with the server on what are t
     <strong><em>Check this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
 
   - topic: "I’m having trouble with my MAAT license. Can you help?"
-    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, first please run License Central, which is liked above. We also include that utility during installation. Launch License Central and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us, along with your Product Key (we e–mailed you your Product Keys when you purchased). We’ll take a look at the diagnostic ZIP and get back to you as soon as we can.
+    reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, first please run License Central, which is liked above. We also include that utility during installation. Usually, simply opening and closing License Central, then restarting your plug–in host will fix most problems.<br>
+    If you’ve run License Central and are still having problems, launch License Central again and <a href='mailto:support@maat.digital?Subject=License%20Issue%20Inquiry'>e–mail</a> the ZIP file that it creates to us, along with your Product Key (we e–mailed you your Product Keys when you purchased). We’ll take a look at the diagnostic ZIP and get back to you as soon as we can. The diagnostic ZIP file is written to your Desktop.
         <ul>
           <li>For macOS, in the Applications/MAAT folder launch; <code>/Shared/Utilities/DiagnosticsReporter.app</code></li>
           <li>For Windows C drive, in the \\Program Files\\MAAT folder, open <code>\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
