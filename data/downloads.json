@@ -92,10 +92,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/MtG/MAAT_MtG_Installer-2.1.1-Windows.zip"
   },{
     "endpoint": "RSPS-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.4-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.5-macOS.zip"
   },{
     "endpoint": "RSPS-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.4-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.5-Windows.zip"
   },{
     "endpoint": "SCEQ-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.1.8-macOS.zip"
