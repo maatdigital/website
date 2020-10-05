@@ -21,6 +21,9 @@
       "url": "https://my.nalpeiron.com/shaferws.asmx/UpdateLicenseCode",
       "user": "MAATWebServices",
       "pass": "tr45erV8V4LE"
+    },
+    "upgradecheck": {
+      "url": "https://05x80yth19.execute-api.us-west-1.amazonaws.com/default/IsLicenseValidForUpgrade"
     }
   }
 }
