@@ -12,15 +12,15 @@ layout: "layout_upgrade"
     <div class="form-row align-items-center mb-3">
       <div class="input-group">
         <span class="input-group-addon border-secondary">Your license code</span>
-        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;" value="X4MUE">
+        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;">
         <span class="input-group-addon border-secondary"> - </span>
-        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;" value="TZ1CD">
+        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;">
         <span class="input-group-addon border-secondary"> - </span>
-        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;" value="0VQ74">
+        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;">
         <span class="input-group-addon border-secondary"> - </span>
-        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;" value="FTIF7">
+        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;">
         <span class="input-group-addon border-secondary"> - </span>
-        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;" value="00584">
+        <input type="text" class="form-control border-secondary" placeholder="xxxxx" maxlength="5" style="text-align: center;">
         <button class="input-group-addon btn btn-primary verify" data-verify="drm">Verify Purchase</button>
       </div>
     </div>
@@ -61,15 +61,17 @@ layout: "layout_upgrade"
     });
 
     $.ajax({
-    type: "POST",
+    type: "GET",
       url: "<%= data.site.api.upgradecheck.url %>",
       data: {
-        "product": "drm",
+        "product": product,
         "key": license.join('-')
       },
       success: function (response) {
-        // $(this).blur();
-        console.log(response);
+        $("div#" + product + " .lead code").text(response);
+      },
+      error: function (error) {
+        $("div#" + product + " .lead code").text(error.statusText + ": " + error.responseText);
       },
       dataType: "json"
     });
