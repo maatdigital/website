@@ -23,7 +23,7 @@
       "pass": "tr45erV8V4LE"
     },
     "upgradecheck": {
-      "url": "https://05x80yth19.execute-api.us-west-1.amazonaws.com/default/IsLicenseValidForUpgrade"
+      "url": "https://bicpqu3prb.execute-api.us-west-1.amazonaws.com/default/checkForUpgrade"
     }
   }
 }
