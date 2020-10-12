@@ -44,10 +44,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO/MAAT_DROffline_Installer-2.1.5-Windows.zip"
   },{
     "endpoint": "DRO2-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.1.3-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.1.4-macOS.zip"
   },{
     "endpoint": "DRO2-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.1.3-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.1.4-Windows.zip"
   },{
     "endpoint": "thEQb-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.5-macOS.zip"
