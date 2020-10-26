@@ -1,0 +1,15 @@
+title: "GŌN Released"
+date: "2020/10/20"
+published: true
+author: "masciarotte"
+image: "/media/news/015thumb.jpg"
+abstract: >
+  Company announces release of sophisticated goniometer visual plug–in free of charge
+content: >
+  <h3>MAAT Contributes Trad Audio Visualization Tool</h3>
+  <p class="lead">MAAT Incorporated, a manufacturer of exceptional performance professional audio solutions, today announced the release of GŌN, a cross platform plug–in for visualization of digital audio signals. The new product adds to MAAT’s roster of refined, no–cost utilities for audio engineers.</p>
+  <p>GŌN is a free software goniometer that authentically replicates an analog oscilloscope experience while keeping complexity at bay. This “phase scope” plug–in quickly conveys global trends and potential trouble spots, with an in–built visual out–of–phase warning. Unlike an oscilloscope which takes up room in the studio, GŌN’s purposeful lack of any knobs or switches means its straightforward, resizable user interface contains only a single button, the Preferences gear icon. Control over gain, focus, “phosphor” color, drawing style and persistence are all adjustable by the user, and everything can be saved as a personal preset.</p>
+  <p>For a complete PDF version, click <a href="https://maat-digital-downloads.s3.us-west-1.amazonaws.com/public/PR/015MAAT_Contributes_Trad_Audio_Visualization_Tool.pdf" target="_blank">here</a>.</p>
+tags: ["news","software","Universal Binary 2","goniometer","phase scope","Apple Silicon","plugin"]
+products: []
+links:
