@@ -2,6 +2,8 @@
 title: "Upgrade Your Product"
 image: "bg2.jpg"
 layout: "layout_upgrade"
+fastspring: "maat-drmetermk2-perpetual-license"
+
 ---
 
 <div id="product-upgrades" class="container">
@@ -22,18 +24,27 @@ layout: "layout_upgrade"
   <div id="drm" class="py-4">
     <h4>DRMeter to DRMeter MkII</h4>
     <p>Verify your previous purchase of DRMeter to upgrade at a special price.</p>
-
     <div class="form-row align-items-center mb-3 row">
-    <div class="input-group col-lg-9 col-xl-7">
-    <span class="input-group-addon border-secondary d-none d-md-block">Your license code</span>
-    <input type="text" class="form-control border-secondary" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" maxlength="29" style="text-align:center;">
-    <button class="input-group-addon btn btn-primary verify" data-verify="drm">Verify<span class="d-none d-sm-block">&nbsp;Purchase</span></button>
-  </div>
+      <div class="input-group col-lg-9 col-xl-7">
+      <span class="input-group-addon border-secondary d-none d-md-block">Your license code</span>
+      <input type="text" class="form-control border-secondary" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" maxlength="29" style="text-align:center;">
+      <button class="input-group-addon btn btn-primary verify" data-verify="drm">Verify<span class="d-none d-sm-block">&nbsp;Purchase</span></button>
+      </div>
     </div>
+  </div>
+  <div class="lead">Your coupon code is: <code>---</code></div>
+</div>
 
-    <div class="lead">Your coupon code is: <code>---</code></div>
+
+<div id="product-upgrades" class="container">
+  <div class="btn-group">
+    <p><em>Copy</em> your coupon code, then click the <em>Upgrade Now</em> button below. <em>Paste</em> your coupon code into the Coupon Code field in the shopping cart and click <em>Apply</em> for your discount.
+    </p>
+    <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Upgrade Now! </button>
   </div>
 </div>
+
+<hr>
 
 <section class="grey-bg mt-5 pt-4 pb-2 border border-top-1 border-bottom-0">
   <div class="container">
@@ -58,6 +69,8 @@ layout: "layout_upgrade"
     <div class="lead">Your coupon code is: <code>---</code></div>
   </div>
 </div>
+
+<hr>
 
 <script type="text/javascript">
 
