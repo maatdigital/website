@@ -2,7 +2,9 @@
 title: "Upgrade Your Product"
 image: "bg2.jpg"
 # layout: "layout_upgrade" X4MUE+TZ1CD-0VQ74-FTIF7-00584
-fastspring: "maat-drmetermk2-perpetual-license"
+fastspring:
+  drm: "maat-drmetermk2-perpetual-license"
+  dro: "maat-drofflinemk2-perpetual-license"
 ---
 
 <div class="container">
@@ -32,14 +34,18 @@ fastspring: "maat-drmetermk2-perpetual-license"
     </div>
 
     <div class="lead">Your coupon code is: <code>---</code></div>
+
+    <div class="col-lg-9 col-xl-7 mt-4 pl-0">
+      <p><em>Copy</em> your coupon code, then click the <em>Upgrade Now</em> button below. <em>Paste</em> your coupon code into the Coupon Code field in the shopping cart and click <em>Apply</em> for your discount.</p>
+      <button data-fsc-item-path-value='<%= current_page.data.fastspring.drm %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Upgrade Now! </button>
+    </div>
   </div>
 </div>
 
 <div class="container">
   <div class="btn-group">
-    <p><em>Copy</em> your coupon code, then click the <em>Upgrade Now</em> button below. <em>Paste</em> your coupon code into the Coupon Code field in the shopping cart and click <em>Apply</em> for your discount.
-    </p>
-    <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Upgrade Now! </button>
+
+
   </div>
 </div>
 
@@ -66,6 +72,14 @@ fastspring: "maat-drmetermk2-perpetual-license"
     </div>
 
     <div class="lead">Your coupon code is: <code>---</code></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="btn-group">
+    <p><em>Copy</em> your coupon code, then click the <em>Upgrade Now</em> button below. <em>Paste</em> your coupon code into the Coupon Code field in the shopping cart and click <em>Apply</em> for your discount.
+    </p>
+    <button data-fsc-item-path-value='<%= current_page.data.fastspring.dro %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Upgrade Now! </button>
   </div>
 </div>
 
