@@ -32,7 +32,14 @@
   <![endif]-->
 
   <%= javascript_include_tag "plugins/plugins", "template-custom", "masterslider.min" %></script>
-  <script id="fsc-api" src="<%= data.site.api.fastspring.src %>" type="text/javascript" data-storefront="<%= data.site.api.fastspring.storefront %>" data-continuous="true"></script>
+  <script
+    id="fsc-api"
+    type="text/javascript"
+    src="<%= data.site.api.fastspring.src %>"
+    data-storefront="<%= data.site.api.fastspring.storefront %>"
+    data-data-callback="dataCallbackFunction"
+    data-continuous="true">
+  </script>
   <%= partial "includes/analytics" %>
 </head>
 
