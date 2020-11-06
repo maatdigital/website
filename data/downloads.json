@@ -50,22 +50,22 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.1.4-Windows.zip"
   },{
     "endpoint": "thEQb-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.13-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.14-macOS.zip"
   },{
     "endpoint": "thEQb-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.13-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.14-Windows.zip"
   },{
     "endpoint": "thEQo-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQo/MAAT_thEQorange_Installer-2.1.9-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQo/MAAT_thEQorange_Installer-2.1.10-macOS.zip"
   },{
     "endpoint": "thEQo-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQo/MAAT_thEQorange_Installer-2.1.9-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQo/MAAT_thEQorange_Installer-2.1.10-Windows.zip"
   },{
     "endpoint": "thEQr-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQr/MAAT_thEQred_Installer-1.1.6-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQr/MAAT_thEQred_Installer-1.1.10-macOS.zip"
   },{
     "endpoint": "thEQr-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQr/MAAT_thEQred_Installer-1.1.6-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQr/MAAT_thEQred_Installer-1.1.10-Windows.zip"
   },{
     "endpoint": "GON-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/GON/MAAT_GON_Installer-1.0.1-macOS.zip"
@@ -98,10 +98,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/RSPS/MAAT_RSPhaseShifter_Installer-2.1.6-Windows.zip"
   },{
     "endpoint": "SCEQ-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.1.13-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.1.14-macOS.zip"
   },{
     "endpoint": "SCEQ-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.1.13-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/SCEQ/MAAT_SantaCruzEQ_Installer-2.1.14-Windows.zip"
 
 
   }]
