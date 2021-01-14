@@ -32,10 +32,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRM/MAAT_DRMeter_Installer-2.2.0-Windows.zip"
   },{
     "endpoint": "DRM2-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRM2/MAAT_DRMeter_MkII_Installer-2.2.1-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRM2/MAAT_DRMeter_MkII_Installer-2.2.2-macOS.zip"
   },{
     "endpoint": "DRM2-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRM2/MAAT_DRMeter_MkII_Installer-2.2.1-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRM2/MAAT_DRMeter_MkII_Installer-2.2.2-Windows.zip"
   },{
     "endpoint": "DRO-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO/MAAT_DROffline_Installer-2.2.0-macOS.zip"
@@ -44,16 +44,16 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO/MAAT_DROffline_Installer-2.2.0-Windows.zip"
   },{
     "endpoint": "DRO2-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.0-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.1-macOS.zip"
   },{
     "endpoint": "DRO2-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.0-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.1-Windows.zip"
   },{
     "endpoint": "thEQb-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.19-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.15-macOS.zip"
   },{
     "endpoint": "thEQb-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.19-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-2.1.15-Windows.zip"
   },{
     "endpoint": "thEQo-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQo/MAAT_thEQorange_Installer-2.1.16-macOS.zip"
