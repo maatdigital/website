@@ -44,10 +44,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO/MAAT_DROffline_Installer-2.2.2-Windows.zip"
   },{
     "endpoint": "DRO2-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.1-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.3-macOS.zip"
   },{
     "endpoint": "DRO2-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.1-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.3-Windows.zip"
   },{
     "endpoint": "thEQb-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-3.0.3-macOS.zip"
@@ -80,10 +80,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LC/MAAT_License_Central_Installer-1.3.0-Windows.zip"
   },{
     "endpoint": "LIN-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.1-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.2-macOS.zip"
   },{
     "endpoint": "LIN-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.1-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.2-Windows.zip"
   },{
     "endpoint": "MAATgo-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/MAATgo/MAAT_MAATgo_Installer-1.0.2-macOS.zip"
