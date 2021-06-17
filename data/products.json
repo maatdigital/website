@@ -50,8 +50,8 @@
     "slide": "/assets/images/slides/RSPS.jpg"
   },
   "linearise": {
-    "page": "linearise",
-    "name": "linearise",
+    "page": "lin",
+    "name": "linpro",
     "slide": "/assets/images/slides/LIN.jpg"
   }
 }
