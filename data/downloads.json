@@ -80,10 +80,17 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LC/MAAT_License_Central_Installer-1.4.0-Windows.zip"
   },{
     "endpoint": "LIN-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.2-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINpro_Installer-4.0.0-macOS.zip"
   },{
     "endpoint": "LIN-windows.zip",
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINpro_Installer-4.0.0-Windows.zip"
+  },{
+    "endpoint": "LINearise-macos.zip",
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.2-macOS.zip"
+  },{
+    "endpoint": "LINearise-windows.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LIN/MAAT_LINearise_Installer-3.1.2-Windows.zip"
+  
   },{
     "endpoint": "MAATgo-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/MAATgo/MAAT_MAATgo_Installer-1.0.2-macOS.zip"
