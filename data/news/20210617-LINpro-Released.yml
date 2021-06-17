@@ -4,7 +4,7 @@ published: true
 author: "masciarotte"
 image: "/media/news/018thumb.jpg"
 abstract: >
-  Company releases a modern precision DSP benchmark
+  Company releases a modern DSP benchmark for 19 bits of audio in a 16 bit file
 content: >
   <h3>MAAT Redefines Dithering for Digital Audio</h3>
   <p class="lead">Company announces the re–release of a wholly rearchitected cross platform plug–in for the redithering of digital audio. While the new version represents the debut of MAAT’s next generation of dithering engine, LINpro retains and improves upon its versatility and reference quality while enhancing the user experience.</p>
