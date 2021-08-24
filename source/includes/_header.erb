@@ -74,6 +74,16 @@
         <!--li class="nav-item"><%= link_to 'Free', '/2buscontrol', class: 'nav-link' %></li-->
 
         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="" href="#"
+            id="navbarDropdownFreeLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Free</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownFreeLink">
+            <li><%= link_to '2BusControl', '/2buscontrol', class: 'dropdown-item' %></li>
+            <li><%= link_to 'GŌN', '/gon', class: 'dropdown-item' %></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><%= link_to 'News', '/news', class: 'nav-link' %></li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" role="" href="#"
@@ -86,3 +96,13 @@
             <li><%= link_to 'Advisory Board', '../about#board', class: 'dropdown-item' %></li>
           </ul>
         </li>
+
+        <!--li class="nav-item">
+          <a href="https://secure.avangate.com/myaccount" target="_blank"
+              class="btn btn-rounded btn-primary nav-link">Login</a>
+        </li-->
+        
+      </ul>
+    </div>
+</nav>
+
