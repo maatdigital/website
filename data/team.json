@@ -18,10 +18,10 @@
     "text": "Masciarotte has spent over 40 years immersed in the tech space, first in manufacturing, DVD and music production, then on facilitation, marketing, and product development for many pro and CE audio manufacturers. These include dbx, Lexicon, Sonic Solutions, and Minnetonka Audio. His diverse client roster encompasses Altec Lansing, Apple, Harper Collins, The Hit Factory, NASA Johnson, NPR, the San Francisco Symphony, Sony and Universal. Writings include a popular guide to file–based music for the home plus well over 100 articles in sundry trade publications. A member of the AES, SMPTE, PMI and DCS, he enjoys collaborating with partners and guiding the MAAT team to create better sounding mouse traps."
   },
    "shield": {
-    "title": "Adam Shield",
-    "image": "team/shield.jpg",
+    "title": "Nils Petersson",
+    "image": "team/petersson.jpg",
     "role": "Head of Development",
-    "text": "Shield’s passions are situated at the intersection of programming, music, and audio. While working as an educator, Adam designed software specifically to introduce his students to the world of Music Production. He has also built electronic instruments, interactive sound installations, and live performances involving complex electronics. Shield received degrees in Music Composition and Music Technology from Carnegie Mellon University, and has completed contract work for Universal Audio, RØDE and Audiofile Engineering. Our “Agent of Shield” is also an avid composer of contemporary classical music, with award-winning works performed by ensembles and orchestras across the United States and abroad."
+    "text": "Petersson is a programmer, musician and audio engineer. Launching his career in film post while working on Emmy award–winning TV shows such as The Americans and Unbreakable Kimmy Schmidt, he simultaneously received his Masters in Music Technology at NYU. Petersson has also produced music for several popular podcasts and YouTube series. In his copious free time, you might catch him building whimsical music apps, playing synth with his band Tabemono in Brooklyn venues, or on a roof top playing improvised contemporary music with his friends."
   },
   "kessler": {
     "title": "Ralph Kessler",
@@ -38,27 +38,15 @@
  
  
   "leeb": {
-    "title": "42Angelitos Chris Leeb",
+    "title": "Chris Leeb",
     "image": "team/leeb.jpg",
-    "role": "Co-Founder",
+    "role": "Facilitator",
     "text": "Leeb, a visionary and portfolio entrepreneur with C-Level (CIO) experience for a global high tech enterprise, combines that background with 12 years of early stage endeavors. He is founder of 42Angelitos–The Startup Catapult in Palo Alto, California. In this capacity, Leeb joins our team as co-founder and sparring partner to fine tune MAAT´s marketing, social media and business strategies."
-  },
-  "nichol": {
-    "title": "Tad Nicol",
-    "image": "team/tad.jpg",
-    "role": "Head of Development",
-    "text": "An audio software architect working on everything from DSP to GUIs to IPC to automated QA and beyond, Tad keeps the code repository well oiled, and helps it grow smoothly, designing sustainable & modular frameworks to help integrate all the pieces needed to create robust artistic tools. He grew up listening to lots of tunes while traveling across mountains and deserts, and is always seeking ways to manifest his love of music."
   },
   "jong": {
     "title": "Jochem De Jong",
     "image": "team/jong.jpg",
     "role": "Plug-in Development",
     "text": "When author, musician, and programmer de Jong isn’t writing articles on audio technology, he’s creating new products and new art together with like minded folks that inspire him. Comfortable guiding co–conspirators on music or publishing–related projects, he’s currently on a quest to refine his C++ and audio plug-in programming chops. De Jong has developed over thirty audio plug-ins for companies around the world, and has released his own mastering DSP suite. His compositions can be heard in over 50 commercials and short films, and he’s written over 6 hours of stock music. De Jong brings a wealth of interdisciplinary knowledge to MAAT’s neural collective."
-  },
-  "lorenzo": {
-    "title": "Nathan Lorenzo",
-    "image": "team/lorenzo.jpg",
-    "role": "UI Design",
-    "text": "Lorenzo began his journey into music technology in the late 90s, honing his skills as a DJ/Producer. By the mid 00s, he was frequently performing at renowned clubbing brands Ministry of Sound, Cream and Gatecrasher to name but a few. During this time, he was also responsible for a string of original music releases which gained support from major UK radio stations. After years of touring the world, Lorenzo began his training in user interface design and as time progressed, he found himself designing for some of the world’s best selling audio companies. His flair for creative design and attention to detail brought him into the MAAT circle, where he is responsible for creating the intuitive, sleek interfaces found on MAAT’s digital products."
   }
 }
