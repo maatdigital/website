@@ -1,0 +1,15 @@
+title: "LINpro OEM Announced"
+date: "2021/09/28"
+published: true
+author: "masciarotte"
+image: "/media/news/019thumb.jpg"
+abstract: >
+  Company’s LINpro OEM dithering technology licensed by Steinberg Media Technologies GmbH
+content: >
+  <h3>MAAT Lands Steinberg For Dithering Design Win</h3>
+  <p class="lead">Company announced the licensing of their LINpro intellectual property (IP) for next generation redithering of digital audio. MAAT’s LINpro OEM Developer Kit was licensed by Steinberg Media Technologies GmbH to supplement their existing dither capabilities. The LINpro OEM software toolset first appears in Wavelab 11, Steinberg’s DAW preferred by mastering engineers worldwide.</p>
+  <p>LINpro OEM incorporates a newly developed engine based on the current understanding of psychoacoustics, information theory and audio production best practices. As with other members of MAAT’s product family, extensive research and its double precision DSP (Digital Signal Processing) architecture contribute to its uncompromising quality. The technology can be integrated into applications and utilities for macOS, Linux and Windows operating systems. To ensure a competitive advantage, the LINpro OEM Developer Kit, including DSP library and C++ source code, is available for licensing now exclusively from MAAT.</p>
+  <p>For a complete PDF version, click <a href="https://maat-digital-downloads.s3.us-west-1.amazonaws.com/public/PR/019MAAT_Lands_Dithering_Design_Win.pdf" target="_blank">here</a>.</p>
+tags: ["DSP","plugin","dither","OEM","noise shaping","development kit","digital audio"]
+products: []
+links:
