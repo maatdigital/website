@@ -11,8 +11,9 @@ After it has checked your licenses, it also checks with the server on what are t
   - topic: "What are the privileges License Central has, and also what kind of information does it share over the network through it's dedicated port?"
     reply: "• No special privileges as the directories it’s working in are not hidden or protected. Network communication is the same license info it uses when you open an app or instantiate a plug-in — it sends our “standard” query to the license server and first asks for a match with the Product Key(s) it found. The server replies with our standard response, which is what type of license and what is its duration."
 
-  - topic: "When did MAAT discontinue using Wibu licenses and dongles?"
-    reply: "• We shut down all Wibu licensing back on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Installer section</a> of the Support page above, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys. We e–mailed your Product Keys to you when you purchased."
+  - topic: "When did MAAT discontinue using Wibu/iLok licenses and dongles?"
+    reply: "• We shut down all Wibu licensing back on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Installer section</a> of the Support page above, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys. We e–mailed your Product Keys to you when you purchased.<br>
+    By the way, w’ve tried Wibu and we’ve tried PACE (iLok) but decided to create a modern, cloud–based license system for our products."
 
   - topic: "How many machines or activations is my license good for?"
     reply: "• So long as it’s not at the same time, you can jump between several workstations. Whenever the last MAAT instance is removed or closed on your computer, your license is returned automatically to the license server. So, another computer can open or instantiate your MAAT product and receive a new licensing lease without interruption.<br>
@@ -58,3 +59,10 @@ After it has checked your licenses, it also checks with the server on what are t
           <li>Once your product is licensed, click the Activate/Deactivate Offline button to deactivate your license, then repeat on another host to reactivate.</li>
         </ul>"
 
+  - topic: "Can I sell my MAAT purchase to someone else?"
+    reply: "• We charge a $30 service fee. In addition, we require that:<br>
+	•	you and the person purchasing both supply <em>complete</em> contact information
+	•	you and the person purchasing both supply the Product Key of the license being sold<br>
+Once we have received both the above information plus the service fee, we can move the license and re–associate the (new) license owner in our databases. If you would like to initiate that, you can pay via Paypal to:<br>
+accounting@maat.digital<br>
+As part of your PayPal payment, please indicate the reason for the purchase and the Product Key so we can link the two."
