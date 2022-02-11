@@ -61,8 +61,10 @@ After it has checked your licenses, it also checks with the server on what are t
 
   - topic: "Can I sell my MAAT purchase to someone else?"
     reply: "• We charge a $30 service fee. In addition, we require that:<br>
-	•	you and the person purchasing both supply <em>complete</em> contact information
-	•	you and the person purchasing both supply the Product Key of the license being sold<br>
-Once we have received both the above information plus the service fee, we can move the license and re–associate the (new) license owner in our databases. If you would like to initiate that, you can pay via Paypal to:<br>
-accounting@maat.digital<br>
+        <ul>
+          <li>you and the person purchasing both supply <em>complete</em> contact information</li>
+          <li>you and the person purchasing both supply the Product Key of the license being sold</li>
+        </ul>
+Once we have received both the above information plus the service fee, we can move the license and re–associate the (new) license owner in our databases. If you would like to initiate that, you can pay via Paypal to:<br><br>
+<strong><em>accounting@maat.digital</em></strong><br><br>
 As part of your PayPal payment, please indicate the reason for the purchase and the Product Key so we can link the two."
