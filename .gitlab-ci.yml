@@ -10,46 +10,46 @@ stages:
   - build
   - deploy
 
-cache:
-  paths:
-  - vendor
-  - public
-
 build:
   stage: build
   script:
-  - rm -Rf public
-  - apt-get update -yqqq
-  - apt-get install -y curl
-  - curl -sL https://deb.nodesource.com/setup_11.x | bash -
-  - apt-get install -y nodejs
-  - gem install bundler
-  - bundle install --path vendor
-  - bundle exec middleman build --build-dir=public --clean
+    - rm -Rf public
+    - apt-get update -yqqq
+    - apt-get install -y curl
+    - curl -sL https://deb.nodesource.com/setup_11.x | bash -
+    - apt-get install -y nodejs
+    - gem install bundler
+    - bundle install --path vendor
+    - bundle exec middleman build --build-dir=public --clean
+  artifacts:
+    paths:
+      - public
 
 staging:
   stage: deploy
-  image: python:latest
+  image:
+    name: amazon/aws-cli
+    entrypoint: [""]
   script:
-  - apt-get update -yqqq
-  - pip install awscli
-  - aws s3 sync --sse --delete public s3://$S3_BUCKET_STAGING/ --acl public-read
+    - aws s3 sync --sse --delete public s3://$S3_BUCKET_STAGING/ --acl public-read --only-show-errors
   environment:
     name: staging
   only:
-  - develop
+    - develop
 
 production:
   stage: deploy
-  image: python:latest
+  image:
+    name: amazon/aws-cli
+    entrypoint: [""]
   script:
-  - apt-get update -yqqq
-  - pip install awscli
-  - aws s3 sync --sse --delete public s3://$S3_BUCKET_PRODUCTION/ --acl public-read
-  - aws configure set preview.cloudfront true
-  - aws cloudfront create-invalidation --distribution-id E2SROA59G3YQZ5 --paths '/*'
+    - aws --version
+    - export LC_ALL=en_US.UTF-8
+    - aws s3 sync --sse --delete public s3://$S3_BUCKET_PRODUCTION/ --acl public-read --only-show-errors
+    - aws configure set preview.cloudfront true
+    - aws cloudfront create-invalidation --distribution-id E2SROA59G3YQZ5 --paths '/*'
   environment:
     name: production
   only:
-  - master
+    - master
   when: manual
