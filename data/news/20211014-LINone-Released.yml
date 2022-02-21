@@ -1,0 +1,15 @@
+title: "LINone Released"
+date: "2021/10/14"
+published: true
+author: "masciarotte"
+image: "/media/news/020thumb.jpg"
+abstract: >
+  Company releases a more affordable redithering plug–in with improved accuracy thanks to MAAT’s precision LINpro IP
+content: >
+  <h3>MAAT Ups The Ante For Entry Level Dithering</h3>
+  <p class="lead">Company announces release of a new cross platform plug–in for the redithering of digital audio. Their latest product incorporates MAAT’s reference class LINpro dithering engine.</p>
+  <p>Building on the foundations of MAAT’s next generation LINpro plug–in, LINone incorporates an advanced. state–of–the–art implementation based on the current understanding of psychoacoustics, information theory and audio production best practices. LINone delivers uncompromising quality and exacting fidelity with a simple user interface at an affordable price point.</p>
+  <p>For a complete PDF version, click <a href="https://maat-digital-downloads.s3-us-west-1.amazonaws.com/public/PR/020MAAT_Ups_Ante_For_Entry_Level_Dithering.pdf" target="_blank">here</a>.</p>
+tags: ["DSP","plugin","dither","linearity","noise shaping","Universal Binary 2","redithering"]
+products: []
+links:
