@@ -1,16 +1,16 @@
-title: "thEQblueV3 Released"
+title: "thEQblue V3 Released"
 date: "2021/01/21"
 published: true
 author: "masciarotte"
 image: "/media/news/016thumb.jpg"
 abstract: >
-  Company announces the addition of FiDef® to their benchmark minimum phase EQ
+  Company announces the addition of FiDef® process to their benchmark minimum phase EQ
 content: >
   <h3>MAAT Gets Rad With FiDef</h3>
-  <p class="lead">Company announces the addition of FiDef® to benchmark MP EQ</p>
+  <p class="lead">Company announces the addition of FiDef® to benchmark minimum phase EQ</p>
   <p>MAAT Incorporated, a manufacturer of exceptional performance professional audio solutions, today announced the release of thEQblue version 3.0, a cross–platform plug–in for correction and aesthetic equalization of digital audio. The new version includes a world’s first, the addition of the exclusive FiDef® digital audio process.</p>
   <p>Available for select workstation platforms, thEQblue v3 builds on the proven foundation of MAAT’s celebrated original, while bringing a new layer of subtle refinement to the already reference quality minimum phase equalizer. FiDef is a proprietary psychoacoustic process, developed in cooperation with neuroscientists and DSP experts, that activates a receptive listener subconscious. It makes digital audio content more compelling and brings audiences closer to the emotion of the music.</p>
-  <p>For a complete PDF version, click <a href="https://maat-digital-downloads.s3.us-west-1.amazonaws.com/public/PR/016MAAT_Gets_Rad_With_FiDef.pdf" target="_blank">here</a>.</p>
-tags: ["news","software","FiDef","equalizer","minimum phase","parallel EQ","series EQ","plugin"]
+  <p>For a complete PDF version, click <a href="https://website-maat-digital-downloads.s3.eu-west-1.amazonaws.com/public/PR/016MAAT_Gets_Rad_With_FiDef.pdf" target="_blank">here</a>.</p>
+tags: ["news","software","FiDef","EQ","minimum phase","parallel EQ","series EQ","plugin"]
 products: []
 links:

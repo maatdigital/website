@@ -11,16 +11,9 @@ After it has checked your licenses, it also checks with the server on what are t
   - topic: "What are the privileges License Central has, and also what kind of information does it share over the network through it's dedicated port?"
     reply: "• No special privileges as the directories it’s working in are not hidden or protected. Network communication is the same license info it uses when you open an app or instantiate a plug-in — it sends our “standard” query to the license server and first asks for a match with the Product Key(s) it found. The server replies with our standard response, which is what type of license and what is its duration."
 
-  - topic: "When did MAAT discontinue using Wibu licenses and dongles?"
-    reply: "• We shut down all Wibu licensing back on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Installer section</a> of the Support page above, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys. We e–mailed your Product Keys to you when you purchased."
-
   - topic: "How many machines or activations is my license good for?"
     reply: "• So long as it’s not at the same time, you can jump between several workstations. Whenever the last MAAT instance is removed or closed on your computer, your license is returned automatically to the license server. So, another computer can open or instantiate your MAAT product and receive a new licensing lease without interruption.<br>
         Note that, if anything prevents the license from being returned such as WiFi dropping out, your license will “time out” and nonetheless become available again after an hour."
-
-  - topic: "What kind of dongle does MAAT use? Can’t I use my iLok?"
-    reply: "• We’ve tried Wibu, and we’ve tried PACE (iLok) but decided to create a modern, cloud–based license system for our products.
-    <strong><em>Check this!</em></strong> You don’t need a dongle to use any of our software! MAAT licenses are now cloud–based."
 
   - topic: "I’m having trouble with my MAAT license. Can you help?"
     reply: "• We want to get you back to work as quickly as possible! To aid in troubleshooting any licensing issue, first please run License Central, which is liked above. We also include that utility during installation. Usually, simply opening and closing License Central, then restarting your plug–in host will fix most problems.<br>
@@ -29,13 +22,6 @@ After it has checked your licenses, it also checks with the server on what are t
           <li>For macOS, in the Applications/MAAT folder launch; <code>/Shared/Utilities/DiagnosticsReporter.app</code></li>
           <li>For Windows C drive, in the \\Program Files\\MAAT folder, open <code>\\Shared\\Utilities\\DiagnosticsReporter.exe</code></li>
         </ul>"
-
-  - topic: "I’m running Magix’s Sequoia or Samplitude DAW. Can I use MAAT’s dongle for both?"
-    reply: "• For sure. Our CodeMeter CmStick <a href='https://www.maat.digital/dongle/' target='_blank'>dongles</a> can be used to store your Sequoia or Samplitude license. If you have a very old MAGIX dongle, you will need to work with MAGIX support to move your license.<br>
-        In addition to MAGIX, several other vendors, including BaseHead, Propellerheads, 10bit FX, LightAct and Vengence Sound can use our CmSticks for license storage."
-
-  - topic: "I already have a MAAT CodeMeter dongle. Can I use it with MAAT’s products?"
-    reply: "• Not any more, but we’ll take back your MAAT dongle in exchange for a US$30 in–store coupon! Give us a shout at <a href='mailto:support@maat.digital?Subject=Dongle%20Exchange%20Inquiry'>Support</a> to learn more."
 
   - topic: "How many license activations do I have?"
     reply: "• Technically, you have three activations total, two replacements if you loose an activation. We assume that you backup your computer and can recover your Product Key(s), which are your proof of purchase. Without Product Keys, we cannot re–activate your license.<br>
@@ -58,3 +44,19 @@ After it has checked your licenses, it also checks with the server on what are t
           <li>Once your product is licensed, click the Activate/Deactivate Offline button to deactivate your license, then repeat on another host to reactivate.</li>
         </ul>"
 
+  - topic: "Can I sell my MAAT purchase to someone else?"
+    reply: "• We charge a $30 service fee. In addition, we require that:<br>
+        <ul>
+          <li>you and the person purchasing both supply <em>complete</em> contact information</li>
+          <li>you and the person purchasing both supply the Product Key of the license being sold</li>
+        </ul>
+Once we have received both the above information plus the service fee, we can move the license and re–associate the (new) license owner in our databases. If you would like to initiate that, you can pay via Paypal to:<br><br>
+<strong><em>accounting@maat.digital</em></strong><br><br>
+As part of your PayPal payment, please indicate the reason for the purchase and the Product Key so we can link the two."
+
+  - topic: "When did MAAT discontinue using Wibu/iLok licenses and dongles?"
+    reply: "• We shut down all Wibu licensing back on the 30th of June, 2020. Visit the <a href='https://www.maat.digital/support/#installers' target='_blank'>Installer section</a> of the Support page above, and make sure that you download the latest version of your product. Then, reinstall and reactivate with your existing Product Keys. We e–mailed your Product Keys to you when you purchased.<br>
+    By the way, w’ve tried Wibu and we’ve tried PACE (iLok) but decided to create a modern, cloud–based license system for our products."
+
+  - topic: "I already have a MAAT CodeMeter dongle. Can I use it with MAAT’s products?"
+    reply: "• Not any more, but we’ll take back your MAAT dongle in exchange for a US$30 in–store coupon! Give us a shout at <a href='mailto:support@maat.digital?Subject=Dongle%20Exchange%20Inquiry'>Support</a> to learn more."
