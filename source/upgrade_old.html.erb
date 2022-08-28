@@ -1,0 +1,106 @@
+---
+title: "Upgrade Your Product"
+image: "bg2.jpg"
+# layout: "layout_upgrade" X4MUE+TZ1CD-0VQ74-FTIF7-00584
+fastspring:
+  drm: "maat-drmetermk2-perpetual-license"
+  dro: "maat-drofflinemk2-perpetual-license"
+---
+
+<div class="container">
+  <div id="drm" style="margin-top:45px;">
+    <h1>Move Up to More…</h1>
+    <p>Level up your MAAT license at a nice price…</p>
+    <p>Note that this Upgrade page only works for licenses that cover single products. Many of our licenses unlock multiple products, and cannot be upgraded from this page. If you would like to upgrade your product and receive an “error: No coupon found” message, simply e–mail us at: <%= mail_to 'support@maatinc.zohodesk.com' %> and we can help.</p>
+  </div>
+</div>
+
+<section class="grey-bg mt-5 pt-4 pb-2 border border-top-1 border-bottom-0">
+  <div class="container">
+    <h3>Upgrade DRMeter</h3>
+    <p>Upgrade your basic DRMeter license to the advance DRMeter MkII, the one R128, A/85, DR<em>i</em> and PSR meter for all of us.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div id="drm" class="py-4">
+    <h4>DRMeter to DRMeter MkII</h4>
+    <p>Verify your previous purchase of DRMeter to upgrade at a special price.</p>
+    <div class="form-row align-items-center mb-3 row">
+      <div class="input-group col-lg-9 col-xl-7">
+      <span class="input-group-addon border-secondary d-none d-md-block">Your license code</span>
+      <input type="text" class="form-control border-secondary" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" maxlength="29" style="text-align:center;">
+      <button class="input-group-addon btn btn-primary verify" data-verify="drm">Verify<span class="d-none d-sm-block">&nbsp;Purchase</span></button>
+      </div>
+    </div>
+
+    <div class="lead">Your coupon code is: <code>---</code></div>
+
+    <div class="col-lg-9 col-xl-7 mt-4 pl-0">
+      <p><em>Copy</em> your coupon code, then click the <em>Upgrade Now</em> button below. <em>Paste</em> your coupon code into the Coupon Code field in the shopping cart and click <em>Apply</em> for your discount.</p>
+      <button data-fsc-item-path-value='<%= current_page.data.fastspring.drm %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Upgrade Now! </button>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<section class="grey-bg mt-5 pt-4 pb-2 border border-top-1 border-bottom-0">
+  <div class="container">
+    <h3>Upgrade DROffline</h3>
+    <p>Upgrade your basic DROffline license to the advance R128/A85 measurement app, with FLAC and ALAC file support, over 20 other parameters plus a whole lot more.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div id="dro" class="py-4">
+    <h4>DROffline to DROffline MkII</h4>
+    <p>Verify your previous purchase of DROffline to upgrade at a special price.</p>
+
+    <div class="form-row align-items-center mb-3 row">
+      <div class="input-group col-lg-9 col-xl-7">
+        <span class="input-group-addon border-secondary d-none d-md-block">Your license code</span>
+        <input type="text" class="form-control border-secondary" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" maxlength="29" style="text-align:center;">
+        <button class="input-group-addon btn btn-primary verify" data-verify="dro">Verify<span class="d-none d-sm-block">&nbsp;Purchase</span></button>
+      </div>
+    </div>
+
+    <div class="lead">Your coupon code is: <code>---</code></div>
+
+    <div class="col-lg-9 col-xl-7 mt-4 pl-0">
+      <p><em>Copy</em> your coupon code, then click the <em>Upgrade Now</em> button below. <em>Paste</em> your coupon code into the Coupon Code field in the shopping cart and click <em>Apply</em> for your discount.</p>
+      <button data-fsc-item-path-value='<%= current_page.data.fastspring.dro %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Upgrade Now! </button>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<script type="text/javascript">
+
+  $('button.verify').on('click',function(evt){
+    var product = $(this).attr('data-verify');
+    var license = [];
+
+    $(this).parent().children('input').each(function(idx) {
+      license.push($(this).val());
+    });
+
+    $.ajax({
+    type: "GET",
+      url: "<%= data.site.api.upgradecheck.url %>",
+      data: {
+        "product": product,
+        "key": license.join('-')
+      },
+      success: function (response) {
+        $("div#" + product + " .lead code").text(response);
+      },
+      error: function (error) {
+        $("div#" + product + " .lead code").text(error.statusText + ": " + error.responseText);
+      },
+      dataType: "json"
+    });
+  });
+
+</script>
