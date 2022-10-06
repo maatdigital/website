@@ -80,10 +80,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/GON/MAAT_GON_Installer-1.0.2-Windows.zip"
   },{
     "endpoint": "LC-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LC/MAAT_License_Central_Installer-1.8.0-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LC/MAAT_License_Central_Installer-1.8.1-macOS.zip"
   },{
     "endpoint": "LC-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LC/MAAT_License_Central_Installer-1.8.0-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LC/MAAT_License_Central_Installer-1.8.1-Windows.zip"
   },{
     "endpoint": "LINp-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/LINpro/MAAT_LINpro_Installer-4.1.1-macOS.zip"
@@ -130,4 +130,3 @@
 
   }]
 }
-
