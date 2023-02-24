@@ -6,12 +6,19 @@
           [16% Off DRMeter MkII & DROffline MkII + free MAAT<em>go</em>]
     </p>
 
-    <div class="btn-group">
-          <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy It Now! </button>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase Now</button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                    <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• DRMeter MkII Perpetual License</a>
+                    <a data-fsc-item-path-value='<%= current_page.data.fastspring.dr2 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• DR2 Bundle</a>
+                </div>
         </div>
+        <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try Now</a>
+    </div>
 
         <div class="btn-group">
-          <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now </a>
+          <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border"> Try Now </a>
     </div>
     
   </div>
