@@ -1,15 +1,25 @@
 <div class="cta-skin">
   <div class="container text-center">
     <h2>DRMeter MkII</h2>
-    <p><strong>Price: $129</strong></p>
+    <p><strong>• DRMeter MkII Perpetual License: $129<br>
+          • DR2 Bundle: $149, $53 Total Savings</strong><br>
+          [16% Off DRMeter MkII & DROffline MkII + free MAAT<em>go</em>]
+    </p>
+
 
     <div class="btn-group">
-          <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy It Now! </button>
-        </div>
-
-        <div class="btn-group">
-          <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now </a>
+      <button id="btnGroupDrop1" type="button" class="btn btn-xl btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Purchase Now <i class="ion-play"></i></button>
+      <div class="dropdown-menu dropdown-hack" aria-labelledby="btnGroupDrop1">
+        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• DRMeter MkII Perpetual License</a>
+        <a data-fsc-item-path-value='<%= current_page.data.fastspring.dr2 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• DR2 Bundle</a>
+      </div>
     </div>
+
+    <div class="btn-group">
+      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try Now</a>
+    </div>
+
+
     
   </div>
 </div>

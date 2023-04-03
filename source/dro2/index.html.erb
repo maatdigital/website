@@ -1,12 +1,10 @@
 ---
 title: "MAAT DROffline MkII"
 layout: "data-spy"
-fastspring: "maat-drofflinemk2-perpetual-license"
-avangate:
-  buy: "https://secure.2checkout.com/order/checkout.php?PRODS=4734803&QTY=1&CART=1&CARD=1"
-  trial:
-    mac: "https://www.maat.digital/dl/DRO2-macos.zip"
-    win: "https://www.maat.digital/dl/DRO2-windows.zip"
+fastspring:
+  buy: "maat-drofflinemk2-perpetual-license"
+  dr2: "bundle-dr2-dynamic-range"
+
 ---
 
 <section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
@@ -24,9 +22,15 @@ avangate:
                   <h1>DROffline MkII — Background Batch Measurement & Logging</h1>
                   <p class="lead">The official DR<em>i</em> (integrated Dynamic Range) and R 128/A85 measurement app, companion to DRMeter MkII, plus a whole lot more!</p>
 
-                  <div class="buttons">
-                    <button data-fsc-item-path-value='<%= current_page.data.fastspring %>' data-fsc-action="Add, Checkout" class="btn btn-xl btn-primary"> Buy Now <i class="ion-play"></i></button>
-                    <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border"> Try It Now! </a>
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase Now</button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• DROffline MkII Perpetual License</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.dr2 %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• DR2 Bundle</a>
+                      </div>
+                    </div>
+                      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try Now</a>
                   </div>
 
                 </div>
