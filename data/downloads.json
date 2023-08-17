@@ -50,10 +50,10 @@
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/DRO2/MAAT_DROffline_MkII_Installer-2.2.3-Windows.zip"
   },{
     "endpoint": "fidef-macos.zip",
-    "redirect": "https://maat-digital-downloads.s3-us-west-1.amazonaws.com/release/current/FDJ2/MAAT_FiDef_JENtwo_Installer-2.0.0-macOS.zip"
+    "redirect": "https://maat-digital-downloads.s3-us-west-1.amazonaws.com/release/current/FDJ2/MAAT_FiDef_JENtwo_Installer-2.0.1-macOS.zip"
   },{
     "endpoint": "fidef-windows.zip",
-    "redirect": "https://maat-digital-downloads.s3-us-west-1.amazonaws.com/release/current/FDJ2/MAAT_FiDef_JENtwo_Installer-2.0.0-Windows.zip"
+    "redirect": "https://maat-digital-downloads.s3-us-west-1.amazonaws.com/release/current/FDJ2/MAAT_FiDef_JENtwo_Installer-2.0.1-Windows.zip"
   },{
     "endpoint": "thEQb-macos.zip",
     "redirect": "https://maat-digital-downloads.s3.us-west-1.amazonaws.com/release/current/EQb/MAAT_thEQblue_Installer-3.1.0-macOS.zip"
