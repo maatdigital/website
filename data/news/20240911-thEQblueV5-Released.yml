@@ -1,0 +1,15 @@
+title: "thEQblue V5 Released"
+date: "2024/09/11"
+published: true
+author: "masciarotte"
+image: "/media/news/023thumb.jpg"
+abstract: >
+  Company debuts renowned EQ optimized for x86 & ARM-based DAWs
+content: >
+  <h3> MAAT Launches Apple Silicon Version of Sought–After EQ</h3>
+  <p class="lead">Company announces the release of their fifth generation thEQblue professional audio software. This update marks the debut of MAAT’s renowned equalizers optimized for both x86 and ARM-based digital audio workstations, bringing native speed and stability improvements.</p>
+  <p>The latest version includes enhanced licensing security, improved graphics performance and instantiation speed, along with numerous reliability reinforcements and global optimizations. For visually oriented engineers, a new PicturePerfect™ mode optionally conceals numeric Section controls, highlighting only the frequency versus amplitude curves of the active bands. Also, a new universal Profile for the innovative FiDef™ feature has been added.</p>
+  <p>For a complete PDF version, click <a href="https://maat-digital-downloads.s3-us-west-1.amazonaws.com/public/PR/023MAAT_Launches_UB_Version_of_Sought–After_EQ.pdf" target="_blank">here</a>.</p>
+tags: ["DSP","plugin","Universal Binary 2","HRA","equalizer","EQ","minimum phase","effects"]
+products: []
+links:
