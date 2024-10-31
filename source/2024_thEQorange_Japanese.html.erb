@@ -1,6 +1,6 @@
 ---
 title: "Promotional campaign for Japanese friends"
-layout: "minimal"
+layout: "data-spy"
 ---
 
 
@@ -16,6 +16,47 @@ layout: "minimal"
                   <h1 style="font-weight:600">Promotional campaign for Japanese friends</h1>
                   <p class="lead"></p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="home" class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading"
+    style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
+
+  <div class="divimage dzsparallaxer--target " data-src="<%= url_for 'assets/images/bg1.jpg' %>"
+      style="width: 100%; height: 130%; background-image: url()">
+    <div class="hero-parallax">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="container text-left">
+            <div class="row">
+              <div class="col-md-5 ml-auto mr-auto align-self-center">
+                <div class="hero-static">
+                  <h1>thEQorange — Supreme Remedial Linear Phase Equalizer</h1>
+                  <p class="lead">Linear Phase Without Compromise</p>
+                  
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop0" type="button" class="btn btn-primary btn-xl dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase Now</button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop0">
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.buy %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• thEQorange Perpetual License</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.subscribe %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• thEQlp Annual Subscription</a>
+                        <a data-fsc-item-path-value='<%= current_page.data.fastspring.allEQ %>' data-fsc-action="Add, Checkout" class="dropdown-item" style="cursor:pointer">• All EQ Big Bundle</a>
+                      </div>
+                    </div>
+                      <a href="https://www.maat.digital/support/#installers" class="btn btn-xl btn-white-omas-special-style-border">Try It Now</a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-md-7">
+                <%= image_tag "product-theqorange.png", alt: "thEQorange", class: "img-fluid center-img" %>
               </div>
             </div>
           </div>
@@ -45,7 +86,7 @@ layout: "minimal"
            <p><strong style="font-size:200%; vertical-align: middle;">☞</strong>&nbsp;<a href="http://sites.fastspring.com/sonicstudiopro/product/snmssnn?action=adds&amp;sessionOption=new&amp;member=new&amp;country=US&amp;coupon=NN350OFF" target="_blank">Buy Now: NoNOISE 3</a><br>
            <strong style="font-size:200%; vertical-align: middle;">☞</strong>&nbsp;<a href="https://www.gobbler.com/subscription-plan/sonic-studio-nonoise-3/" target="_blank">Subscribe Now: NoNOISE 3</a></p>
           <h4>MAAT Digital は無償提供のプラグインも配布しています。</h4><p>私たちの 2 つの無償配布製品でさえ、あなたにとって所持する価値のあるものです。<br></p><p><strong style="font-size:200%; vertical-align: middle;">☞</strong>&nbsp;2BUSControl: ステレオバスマスター用のユニバーサル・メータープラグイン<br>
-          <strong style="font-size:200%; vertical-align: middle;">☞</strong>&nbsp;GŌN: ステレオバスマスター用の無料のユニバーサル視覚化プラグイン</p></div>
+          <strong style="font-size:200%; vertical-align: middle;">☞</strong>&nbsp;GŌN: ステレオバスマスター用の無料のユニバーサル視覚化プラグイン</p>
         </div>
       </div>
     </div>
@@ -63,7 +104,7 @@ layout: "minimal"
           <p>また、内部処理には高精度な80bitが採用されており、IIRフィルター特有のフィードバックループによる計算誤差の蓄積やノイズを極限まで抑えています。これにより、他のEQでは得られない透明な音質を実現しています。</p>
           <h5>使用感</h5><p>私はまず、DCコンタミネーション(DCオフセットや低域アーティファクト)対策として、ローエンドにハイパスフィルターを入れる際にthEQorangeを使用します。この目的では、他のプラグインは使用しません。thEQorangeの効果は他のEQと比較すると一聴瞭然で、あたかも「元からそのような音源であった」かのように自然に処理を行います。DCコンタミネーション問題をthEQorangeで適切に対処すると、それまで濁っていた音が驚くほどクリアーになります。</p>
           <p>他のEQでは、処理後に「輪郭」のようなものが感じられ、EQをかけたことが明確に分かってしまうことがあります。しかし、thEQorangeではそのような問題がなく、処理が非常に自然です。</p>
-          <p>さらに、多数のポイントを使用して複雑なEQカーブを描いた場合、その差は一層明確です。複雑なカーブを用いた際、他のEQでは位相の乱れやリンギング、トランジェントスムージング、IMDの発生、累積スペクトル減衰の遅延、レゾナンスの強調といった副作用が顕著に現れます(特にピアノやドラムでは顕著です)。しかし、thEQorangeではそうした副作用が極めて少なく、他のEQとは比較にならないほど自然な処理を行います。もちろん、完全に副作用がゼロというわけではありません が、その影響は非常に小さく、私にとってクリニカルな処理には欠かせないEQです。</p></div>
+          <p>さらに、多数のポイントを使用して複雑なEQカーブを描いた場合、その差は一層明確です。複雑なカーブを用いた際、他のEQでは位相の乱れやリンギング、トランジェントスムージング、IMDの発生、累積スペクトル減衰の遅延、レゾナンスの強調といった副作用が顕著に現れます(特にピアノやドラムでは顕著です)。しかし、thEQorangeではそうした副作用が極めて少なく、他のEQとは比較にならないほど自然な処理を行います。もちろん、完全に副作用がゼロというわけではありません が、その影響は非常に小さく、私にとってクリニカルな処理には欠かせないEQです。</p>
         </div>
       </div>
     </div>
@@ -78,7 +119,7 @@ layout: "minimal"
           <h4>Producer/Engineer for Recording and Mixing</h4>
           <p>正直なところ、数年前では、私にとって Digital EQ というものは見た目や内部処理の設計が違うだけで全て同じようなものに見えていました。また、いくつかの有名な Digital EQ の違いについても基本設計が同じであり、音の違いを聞くことすら躊躇っていました。もちろん、各 EQ の色のようなものは感じていましたし、知っていました。もちろん、Linear Phase EQ (FIR) についても数学的に理解し、そして理解すればするほどに、EQ の差を数学的には感じられなくなりました。</p>
           <p>thEQorange の PHF (Low-Cut) を試したとき、笑いが止まりませんでした。それくらい、この EQ の実力に驚かされたのです。通常、PHF を利用すると低域が引っ込み、少しでもやりすぎると Low-end が滲み、不明瞭に処理されますが、thEQorange は全く違います。極端な極超低域 (10Hz~20Hz) を処理するだけで新しい極地が見えてきます。必ず、低域がよく確認できる視聴環境で試してください。</p>
-          <p>この EQ は単なる Linear Phase EQ (FIR) ではありません。再起フィルター (IIR) と Forward-Backforward フィルターを駆使した、極限までアーティファクトを排除した特別な EQ なのです。</p></div>
+          <p>この EQ は単なる Linear Phase EQ (FIR) ではありません。再起フィルター (IIR) と Forward-Backforward フィルターを駆使した、極限までアーティファクトを排除した特別な EQ なのです。</p>
         </div>
       </div>
     </div>
