@@ -93,7 +93,7 @@ configure :build do
   set :relative_links, true
 
   activate :minify_css
-  activate :minify_javascript
+  # activate :minify_javascript
   activate :gzip
 
   # Append a hash to asset urls (make sure to use the url helpers)
