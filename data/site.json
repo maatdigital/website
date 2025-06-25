@@ -1,0 +1,29 @@
+{
+  "title": "MAAT - Sound ...Simply Better",
+  "rights": "©2017-2025 MAAT GmbH – All rights reserved.",
+  "meta": {
+    "author": "MAAT GmbH",
+    "description": "MAAT - Sound ...Simply Better",
+    "keywords": "MAAT, digital, audio, mastering, pro audio, music, plugins, DSP"
+  },
+  "api": {
+    "avangate": {
+      "merchant_code": "MAATINCM",
+      "secret_key": ""
+    },
+    "google": "",
+    "analytics": "",
+    "fastspring": {
+      "src": "https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.3/fastspring-builder.min.js",
+      "storefront": "maatdigital.onfastspring.com/popup-maatdigital"
+    },
+    "nalpeiron": {
+      "url": "https://my.nalpeiron.com/shaferws.asmx/UpdateLicenseCode",
+      "user": "MAATWebServices",
+      "pass": ""
+    },
+    "upgradecheck": {
+      "url": "https://bicpqu3prb.execute-api.us-west-1.amazonaws.com/default/checkForUpgrade"
+    }
+  }
+}
