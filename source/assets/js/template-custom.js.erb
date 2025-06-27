@@ -117,13 +117,13 @@ $(function () {
       'email': js_email,
       'phone': js_phone,
       'message': js_message,
-      'identity': <%= "'#{data.contact.identity}'" %>,
-      'recipient': <%= "'#{data.contact.recipient}'" %>,
+      'identity': 'MAAT_WEBSITE',
+      'recipient': 'contact@maat.digital',
     };
 
     jQuery.ajax({
       type: 'POST',
-      url: <%= "'#{data.contact.url}'" %>,
+      url: 'https://laej65lgib.execute-api.eu-west-1.amazonaws.com/dev/message/submit',
       dataType: 'json',
       contentType: 'application/json',
       data: JSON.stringify(data),
