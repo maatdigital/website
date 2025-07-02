@@ -36,6 +36,8 @@ rbenv global 2.4.1
 
 # Install bundler as we always need it
 gem install bundler
+
+# And remember to have fun!
 ```
 
 After the development environment is setup, install
