@@ -4,11 +4,12 @@ on:
   workflow_dispatch:     # Allow manual trigger
   push:
     branches: [ "master" ]
+  pull_request:                      # ✅ NEW: build a Preview Deployment for PRs
+    branches: [ "master" ]           #    (PRs targeting master only)
 
-#permissions:
-#  contents: read
-#  pages: write
-#  id-token: write
+# NOTE:
+# - For PR previews to publish, set repo Settings → Actions → General → Workflow permissions = "Read and write".
+# - PR previews are created for branches in this repo. PRs from forks won’t publish (security restriction).
 
 concurrency:
   group: "pages"
