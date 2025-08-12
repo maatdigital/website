@@ -50,7 +50,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'public'
+          # 👇 NEW: give this run's artifact a unique name so there's never a clash
+          name: pages-${{ github.run_id }}
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # 👇 NEW: tell deploy-pages which artifact to publish
+          artifact_name: pages-${{ github.run_id }}
