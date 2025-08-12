@@ -43,19 +43,27 @@ jobs:
           bundle install --jobs 4 --retry 3
           bundle exec middleman build --build-dir=public --clean --environment=production
 
+      # ===================== PR path (build-only, NO deploy) =====================
+      - name: Upload built site for PR review (ZIP artifact)
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ github.run_id }}-${{ github.run_attempt }}   # unique per run
+          path: public
+          retention-days: 14  # keep artifacts 14 days; adjust to taste
+
+      # ===================== Production path (push to master) ====================
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload artifact for Pages deploy
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'public'
-          # 👇 NEW: give this run's artifact a unique name so there's never a clash
-          name: pages-${{ github.run_id }}
+          path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
+        if: github.event_name != 'pull_request'
         uses: actions/deploy-pages@v4
-        with:
-          # 👇 NEW: tell deploy-pages which artifact to publish
-          artifact_name: pages-${{ github.run_id }}
