@@ -202,31 +202,6 @@ $(function () {
     });
   });
 
-  $("form#newsletter-signup button").on("click", function (event) {
-    event.preventDefault();
-    shortenURLs(
-      $('form#newsletter-signup input[name=OSX]').val(),
-      $('form#newsletter-signup input[name=WIN]').val(), "",
-    function (data) {
-      $('form#newsletter-signup input[name=OSX]').val(data.osx);
-      $('form#newsletter-signup input[name=WIN]').val(data.win);
-      $("form#newsletter-signup").submit();
-    });
-  });
-
-  $("form#modal-signup button").on("click", function (event) {
-    event.preventDefault();
-    shortenURLs(
-      $('form#modal-signup input[name=OSX]').val(),
-      $('form#modal-signup input[name=WIN]').val(), "",
-    function (data) {
-      $('form#modal-signup input[name=OSX]').val(data.osx);
-      $('form#modal-signup input[name=WIN]').val(data.win);
-      $("form#modal-signup").submit();
-      $('#newsletterModal').modal('hide')
-    });
-  });
-
   // Hack for dropdown button
   $('#btnGroupDrop1').click(function(){
     window.setTimeout(function(){
