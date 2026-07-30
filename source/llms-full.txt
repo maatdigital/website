@@ -1,12 +1,14 @@
 # MAAT.digital
 
-> MAAT Digital makes pro-audio DSP plugins for mastering and mixing — EQs, loudness/DR meters, utilities, and free tools.
+> MAAT.digital — Sound…Simply Better. Fidelity-first DSP for mastering and mixing: multi-architecture EQs, official DR/Loudness metering, specialized utilities, and free bus tools.
 
-This file expands [llms.txt](https://www.maat.digital/llms.txt) with short factual summaries so agents can answer product and company questions without scraping HTML. The live marketing site is https://www.maat.digital (English). Promo and campaign landings under `/go/`, `/get/`, and `/lm/` are out of scope. Installers and many downloads are hosted separately from this site; start at `/support/` for current installer and manual links.
+This file expands [llms.txt](https://www.maat.digital/llms.txt) with short product and company summaries so agents can answer questions without scraping HTML. The live marketing site is https://www.maat.digital (English). Promo and campaign landings under `/go/`, `/get/`, and `/lm/` are out of scope. Installers and many downloads are hosted separately from this site; start at `/support/` for current installer and manual links.
 
 ## Company
 
-MAAT (MAAT.digital) is a brand of Mastering Academy Germany UG. The company develops pro-audio plug-ins and utilities for metering, EQ, dynamics, and specialized studio workflows. Roots include the Pleasurize Music Foundation and the Mastering Academy. The team presents itself as working audio engineers focused on fidelity and usability.
+MAAT (MAAT.digital) is a brand of Mastering Academy Germany UG. The company develops pro-audio plug-ins and utilities for metering, EQ, and specialized studio workflows, with roots in the Pleasurize Music Foundation and the Mastering Academy. The team presents itself as working audio engineers focused on fidelity and usability — better sound and simpler workflows, not blingy UIs.
+
+Tagline: Sound…Simply Better.
 
 - [Home](https://www.maat.digital/)
 - [About](https://www.maat.digital/about/)
@@ -26,33 +28,33 @@ OEM licensing and co-development cover DSP/measurement IP and white-label produc
 
 ### thEQblue — https://www.maat.digital/theqblue/
 
-Minimum-phase parametric EQ with up to twelve idealized analog-style Architectures (series classic/proportional/const-Q plus parallel FF-FB and LC). Aimed at recording and mixing when you would reach for analog EQ, without analog noise or distortion. Sections can be stereo or M/S; optional FiDef. Sold as thEQblue6 (6 Architectures) or thEQblue12 (all 12).
+Minimum-phase parametric EQ built as a sandbox of idealized analog-style Architectures (series classic/proportional/const-Q plus parallel FF-FB and LC). Aimed at recording, mixing, and mastering when you would reach for analog EQ — without analog noise or distortion. Sections can be stereo or M/S; optional FiDef. Sold as thEQblue6 (6 Architectures) or thEQblue12 (all 12).
 
 ### thEQred — https://www.maat.digital/theqred/
 
-Frequency-domain linear-phase parametric EQ (Algorithmix LinearPhase PEQ Red lineage). Positioned for aesthetic mastering contouring while preserving time relationships of harmonics. Twelve sections; VariSlope continuous-slope shelves/cuts; sample rates up to 384 kHz. Also available in the thEQlp annual subscription with thEQorange.
+Frequency-domain linear-phase parametric EQ (Algorithmix LinearPhase PEQ Red lineage). Positioned for aesthetic mastering-bus contouring while preserving time relationships of harmonics — not a tracking/mixing workhorse. Twelve sections; VariSlope continuous-slope shelves/cuts; sample rates up to 384 kHz. Also available in the thEQlp annual subscription with thEQorange.
 
 ### thEQorange — https://www.maat.digital/theqorange/
 
-Linear-phase parametric EQ (Algorithmix LinearPhase PEQ Orange lineage). Positioned for surgical mastering work—mostly cuts, resonances, declutter, and low-cut—rather than broad aesthetic lifts. Sections assignable L/R or M/S. Also available in the thEQlp subscription with thEQred.
+Time-domain linear-phase parametric EQ (Algorithmix LinearPhase PEQ Orange lineage). Positioned for surgical and remedial mastering — mostly cuts, resonances, declutter, and preferred LP low-cut — rather than broad aesthetic lifts. Sections assignable L/R or M/S. Also available in the thEQlp subscription with thEQred.
 
 ### SantaCruzEQ — https://www.maat.digital/santacruzeq/
 
-Lower-CPU minimum-phase cousin of thEQblue: the same Architecture set, with up to six Sections (versus twelve on blue). SantaCruzEQ6 covers Architectures 1–6; SantaCruzEQ12 covers all twelve. Idealized analog-style PEQs without inherited analog artifacts.
+Affordable, lower-CPU cousin of thEQblue: the same Architecture set, with up to six Sections (versus twelve on blue). SantaCruzEQ6 covers Architectures 1–6; SantaCruzEQ12 covers all twelve. Idealized analog-style PEQs without inherited analog artifacts; does not include thEQblue’s FiDef option or advanced visualizers.
 
 ## Effects and utilities
 
 ### FiDef JENtwo — https://www.maat.digital/fidef/
 
-Standalone cross-platform plug-in of FideliQuest’s FiDef: a low-amplitude, source-correlated psychoacoustic stimulus, not a conventional EQ or dynamics processor. First used inside thEQblue; available alone as JENtwo.
+Standalone cross-platform plug-in of FideliQuest’s FiDef: a low-amplitude, source-correlated psychoacoustic stimulus with multiple Profiles — often described as “dither for your brain,” not a conventional EQ or dynamics processor. First used inside thEQblue; available alone as JENtwo.
 
 ### RSPhaseShifter — https://www.maat.digital/rsphaseshifter/
 
-Official digital recreation of the Roger Schult / German Audio Lab Phase Shifter W2324. Creates a phase-shifted version of the input for alignment, comb/timbre control, subwoofer and fold-down issues, and multi-mic blend.
+Official digital recreation of the Roger Schult / German Audio Lab Phase Shifter W2324. Creates a phase-shifted version of the input for multi-mic and stem alignment, comb/timbre control, subwoofer and fold-down issues, and creative phase tone.
 
 ### MAATgo — https://www.maat.digital/maatgo/
 
-Monitor-controller and goniometer plug-in (and standalone): L/R solo, mono, L−R, swap, polarity invert, balance, and phase-scope display. Aimed at DAW and computer high-resolution listening; sample rates up to 384 kHz.
+Monitor-controller and analog-style goniometer (plugin and standalone): L/R solo, mono, L−R, swap, polarity invert, balance, and phase-scope display. Aimed at DAW and computer high-resolution listening; sample rates up to 384 kHz.
 
 ### MtG — https://www.maat.digital/mtg/
 
@@ -74,11 +76,11 @@ Batch file analyzer companion to DRMeter MkII. Measures mandated R 128 parameter
 
 ### 2BC multiCORR — https://www.maat.digital/2bcmulticorr/
 
-Third-octave multiband correlation meter (31 bands) plus L/R balance, broadband correlation, and five monitor modes (L/R, mono, difference, flip)—extends free 2BusControl. Extra low-band detail for vinyl and LF mono safety; includes standalone.
+Third-octave multiband correlation meter (31 bands) plus L/R balance, broadband correlation, and five monitor modes (L/R, mono, difference, flip) — extends free 2BusControl. Extra low-band detail for vinyl and LF mono safety; includes standalone.
 
 ### DRMeter — https://www.maat.digital/drmeter/
 
-Entry real-time DR estimator (TT Dynamic Range Meter lineage): graphical/numeric DR estimate, SPPM, RMS, overs, and digital black. Not a full R 128 Loudness meter; correlation/mono monitoring moved to free 2BusControl. MkII is the full Loudness successor.
+Entry real-time DR estimator (TT Dynamic Range Meter lineage): graphical/numeric DR estimate, SPPM, RMS, overs, and digital black. Not a full R 128 Loudness meter; correlation/mono monitoring moved to free 2BusControl. Official integrated DRi needs DROffline; MkII is the full Loudness successor.
 
 ### DROffline — https://www.maat.digital/droffline/
 
