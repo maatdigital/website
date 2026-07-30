@@ -1,0 +1,57 @@
+# MAAT.digital
+
+> MAAT Digital makes pro-audio DSP plugins for mastering and mixing — EQs, loudness/DR meters, utilities, and free tools.
+
+This is the English marketing and product site for MAAT (a brand of Mastering Academy Germany UG), at https://www.maat.digital. Product pages live under short path slugs (for example `/theqorange/`). Support, installers, and manuals are centralized on `/support/`. Promo and campaign landings under `/go/`, `/get/`, and `/lm/` are out of scope for this index. For longer product and company summaries, see [llms-full.txt](https://www.maat.digital/llms-full.txt).
+
+## Company
+
+- [Home](https://www.maat.digital/): MAAT.digital site home and product overview
+- [About](https://www.maat.digital/about/): Company story, mission, team, and advisory board
+- [News](https://www.maat.digital/news/): Product and company news
+- [Contact](https://www.maat.digital/contact/): General contact
+
+## Equalizers
+
+- [thEQblue](https://www.maat.digital/theqblue/): Minimum-phase parametric EQ with up to twelve idealized analog-style Architectures
+- [thEQred](https://www.maat.digital/theqred/): Linear-phase parametric EQ for aesthetic mastering contouring
+- [thEQorange](https://www.maat.digital/theqorange/): Linear-phase parametric EQ for surgical mastering cuts and cleanup
+- [SantaCruzEQ](https://www.maat.digital/santacruzeq/): Lower-CPU minimum-phase EQ sharing thEQblue’s Architecture set
+
+## Effects and utilities
+
+- [FiDef JENtwo](https://www.maat.digital/fidef/): Standalone FiDef psychoacoustic stimulus plugin
+- [RSPhaseShifter](https://www.maat.digital/rsphaseshifter/): Digital recreation of the Roger Schult / German Audio Lab Phase Shifter W2324
+- [MAATgo](https://www.maat.digital/maatgo/): Monitor controller and goniometer for DAW and computer listening
+- [MtG](https://www.maat.digital/mtg/): Gap-fill / loop plugin for dialog, foley, beds, and broadcast
+- [LIN Family](https://www.maat.digital/lin/): Redither and word-length-reduction plugins (LINone, LINpro, LINSurround)
+
+## Measurement
+
+- [DRMeter MkII](https://www.maat.digital/drm2/): Real-time Loudness and official DRi metering
+- [DROffline MkII](https://www.maat.digital/dro2/): Batch file analyzer companion to DRMeter MkII
+- [2BC multiCORR](https://www.maat.digital/2bcmulticorr/): Third-octave multiband correlation meter with monitor modes
+- [DRMeter](https://www.maat.digital/drmeter/): Entry real-time DR estimator (TT Dynamic Range lineage)
+- [DROffline](https://www.maat.digital/droffline/): Entry batch utility for official integrated DRi
+
+## Free tools
+
+- [2BusControl](https://www.maat.digital/2buscontrol/): Free stereo-bus monitor controller with balance and correlation meters
+- [GŌN](https://www.maat.digital/gon/): Free goniometer / phase-scope plugin
+
+## Support and services
+
+- [Support](https://www.maat.digital/support/): Installation, activation, troubleshooting, FAQs, installers, and manuals
+- [OEM and Co-Dev](https://www.maat.digital/OEM/): OEM licensing and co-development for DSP and measurement IP
+
+## Optional
+
+- [llms-full.txt](https://www.maat.digital/llms-full.txt): Longer company and product summaries for deeper ingestion
+- [Edu pricing](https://www.maat.digital/edu-pricing/): Educational pricing policy
+- [Money-back](https://www.maat.digital/money-back/): Money-back / satisfaction policy
+- [Copy protection](https://www.maat.digital/copy-protection/): Licensing and copy-protection overview
+- [Upgrade](https://www.maat.digital/upgrade/): Upgrade paths between products
+- [Dongle](https://www.maat.digital/dongle/): Hardware dongle information
+- [Privacy](https://www.maat.digital/privacy/): Privacy policy
+- [Terms](https://www.maat.digital/terms/): Terms of use
+- [Imprint](https://www.maat.digital/imprint/): Legal imprint
